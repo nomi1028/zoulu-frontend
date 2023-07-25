@@ -1,0 +1,931 @@
+.MainText1 {
+  font-family: "PlusJakartaSans-bold";
+  font-size: 53px;
+  line-height: 130%;
+  width: 90%;
+}
+
+.ImageSpaceClass {
+  padding-right: 1% !important;
+  padding-bottom: 1% !important;
+}
+.breakExel {
+  display: block;
+}
+.ProfSliderContainer {
+  position: relative;
+  padding-bottom: 40px !important;
+}
+.LineBr {
+  display: block;
+}
+.border1class {
+  position: absolute;
+}
+.Sliderfooter {
+  border-bottom: 5px solid black;
+}
+.HomeSalon {
+  padding: 15px 22px;
+  margin-bottom: 31px;
+  margin-top: -30px;
+  color: #007fff;
+  background-color: rgba(0, 127, 255, 0.02);
+  font-family: PlusJakartaSans-Regular;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 415px;
+  border-radius: 30px;
+}
+.CommonPeragraphHead {
+  font-family: "PlusJakartaSans-Regular";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  font-style: normal;
+  width: 80% !important;
+  letter-spacing: -0.01em;
+  color: #666666;
+}
+.RightPic {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px !important;
+  width: 39rem;
+  height: 36rem;
+  margin-left: 130px !important;
+}
+.BoldTextContainer {
+  width: 85%;
+  margin: auto;
+}
+.SmallComtainer {
+  width: 88%;
+  margin: auto;
+}
+.PaddingimgLeft {
+  padding: 125px 0px 70px 0px;
+}
+.FavoriteTreat {
+  font-family: PlusJakartaSans-Bold;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 101px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.bgImageContainer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 28px;
+  color: white;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+.bgImageContainer2 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 28px;
+  color: white;
+  font-family: PlusJakartaSans-regular;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+.PhysioBg {
+  background-image: url("../public/Images/image2.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.MassageBg {
+  background-image: url("../public/Images/image1.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.WimpernBg {
+  background-image: url("../public/Images/image3.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.WaxingBg {
+  background-image: url("../public/Images/image4.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.KosmetikBg {
+  background-image: url("../public/Images/image5.png");
+  background-size: 100% 100%;
+  /* z-index: 10000; */
+  border-radius: 5px !important;
+}
+.NagelBg {
+  background-image: url("../public/Images/image6.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.HairBg {
+  background-image: url("../public/Images/image7.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.MakeupBg {
+  background-image: url("../public/Images/image8.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 5px !important;
+}
+.BrowsBg {
+  background-image: url("../public/Images/brows.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 10px !important;
+}
+.HealthBg {
+  background-image: url("../public/Images/health.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  border-radius: 10px !important;
+}
+.JoinText {
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #007fff;
+  text-align: center;
+}
+.AustText {
+  font-family: PlusJakartaSans-bold;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.TrustContainer {
+  background-color: #fafafa;
+  width: 100%;
+  padding-top: 80px;
+}
+.LearnDivClass {
+  padding-left: 20px;
+  padding-bottom: 2px;
+  margin-left: 30px;
+  color: #1a1a1a;
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  background: #fafafa;
+  border-radius: 100px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  min-height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.TikImage {
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+  margin-right: 13px;
+}
+.RatingBlue {
+  color: #007fff !important;
+  font-size: 28px !important;
+  margin-top: 7px !important;
+  margin-left: 60px !important;
+}
+.reviewsMargin {
+  text-align: center;
+  /* margin-left: 36px; */
+}
+.TrustpilotMargin {
+  margin-left: 62px !important;
+}
+.SwiperTrust {
+  height: fit-content;
+  width: 87%;
+}
+.trustswipercont .swiper {
+  width: 60% !important;
+}
+.ExcellentText {
+  font-family: "PlusJakartaSans-bold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 7px;
+  letter-spacing: 0em;
+}
+.TrustHeading {
+  /* font-family: Playfair Display; */
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0.1em;
+  color: #0a0425;
+}
+.DisplayCol {
+  display: flex;
+  justify-content: center;
+}
+.CardRating {
+  color: #007fff !important;
+  font-size: 28px !important;
+}
+.sliderContent {
+  font-family: Roboto;
+  font-size: 18px;
+  margin-top: 40px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #2d2744;
+}
+.sliderCardContainer {
+  width: 500px;
+  height: 365px !important;
+  border-radius: 8px;
+  background-color: white;
+  padding: 39px 33px 30px 37px;
+  margin-bottom: 22px;
+}
+.SliderVerifiedIcon {
+  width: 14.76px;
+  height: 14.76px;
+  color: #30d5c8;
+  background-color: #fff6f6;
+  border-radius: 20px;
+}
+.SliderFooter {
+  display: flex;
+  margin-top: 60px;
+}
+.ClientName {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.NameContainer {
+  margin-left: 20px;
+}
+.ClientDesignation {
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3b3651;
+}
+.HeadHomeButton {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  color: #ffffff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  min-height: 46px !important;
+  box-shadow: 0px 14px 40px rgba(0, 91, 188, 0.3) !important;
+  background: #007fff !important;
+}
+.sliderCardImg {
+  width: 80px;
+  height: 80px;
+}
+@media (min-width: 1800px) {
+  .bgImageContainer {
+    height: 250px !important;
+  }
+  .bgImageContainer2 {
+    height: 320px !important;
+  }
+}
+@media (max-width: 2500px) and (min-width: 2200px) {
+  .AustText {
+    font-size: 70px;
+  }
+  .SwiperTrust {
+    height: fit-content;
+    width: 82%;
+  }
+  .bgImageContainer {
+    height: 290px !important;
+    width: 102%;
+  }
+  .bgImageContainer2 {
+    height: 320px !important;
+    width: 101%;
+  }
+  .MainText1 {
+    font-size: 90px;
+    line-height: 130%;
+    width: 90%;
+  }
+  .RightPic {
+    margin-top: 50px !important;
+    width: 57rem;
+    height: auto;
+  }
+}
+@media (max-width: 2200px) and (min-width: 1900px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 88%;
+  }
+  .bgImageContainer {
+    width: 102%;
+  }
+  .bgImageContainer2 {
+    width: 101%;
+  }
+  .MainText1 {
+    font-size: 85px;
+    line-height: 130%;
+    width: 100%;
+  }
+  .RightPic {
+    margin-top: 50px !important;
+    width: 45rem;
+    height: auto;
+  }
+}
+@media (max-width: 1900px) and (min-width: 1600px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 87%;
+  }
+  .MainText1 {
+    font-size: 70px;
+    line-height: 130%;
+    width: 96%;
+  }
+  .RightPic {
+    margin-top: 49px !important;
+    width: 100%;
+    height: auto;
+    margin-right: -30px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 1250px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 92%;
+  }
+  .MainText1 {
+    font-size: 50px;
+    line-height: 130%;
+    width: 96%;
+  }
+  .RightPic {
+    margin-top: 49px !important;
+    width: 35rem;
+    height: auto;
+  }
+}
+@media (max-width: 1250px) and (min-width: 1150px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 93%;
+  }
+  .MainText1 {
+    font-size: 50px;
+    line-height: 130%;
+    width: 97%;
+  }
+  .RightPic {
+    margin-top: 49px !important;
+    width: 29rem;
+    height: auto;
+    margin-right: -35px;
+  }
+}
+@media (max-width: 1150px) and (min-width: 992px) {
+  .sliderCardContainer {
+    margin-bottom: 45px !important;
+    width: 440px;
+  }
+  .SwiperTrust {
+    height: fit-content;
+    width: 92%;
+  }
+  .AustText {
+    font-size: 38px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .JoinText {
+    font-size: 36px;
+  }
+  .MainText1 {
+    font-size: 46px;
+    line-height: 130%;
+    width: 93%;
+  }
+  .RightPic {
+    margin-top: 49px !important;
+    width: 27rem;
+    height: auto;
+    margin-right: -37px;
+  }
+  .FavoriteTreat {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .MainText1 {
+    font-size: 45px;
+    line-height: 130%;
+    width: 93%;
+  }
+  .RightPic {
+    margin-top: 49px !important;
+    width: 29rem;
+    height: auto;
+    margin-right: -70px;
+  }
+}
+@media (max-width: 992px) {
+  .TrustContainer {
+    padding-top: 20px;
+  }
+  .DisplayCol {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .BoldTextContainer {
+    width: 100%;
+  }
+  .SmallComtainer {
+    width: 100%;
+  }
+  .BreakFavorite {
+    display: none;
+  }
+  .FavoriteTreat {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  .PaddingimgLeft {
+    padding-top: 20px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .RightPic {
+    margin-top: 0px !important;
+    width: 98%;
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .marginSmall {
+    margin-top: -15px;
+    margin-bottom: -15px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 650px) {
+  .RatingBlue {
+    margin-left: 10px !important;
+  }
+  .reviewsMargin {
+    text-align: center !important;
+  }
+  .TrustpilotMargin {
+    margin-left: 12px !important;
+  }
+  .DisplayCol {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -30px;
+  }
+}
+@media (max-width: 992px) and (min-width: 500px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 82%;
+  }
+  .CommonPeragraphHead {
+    font-size: 18px;
+    line-height: 150%;
+    width: 100% !important;
+    letter-spacing: -0.01em;
+    color: #666666;
+  }
+  .AustText {
+    font-size: 28px;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .JoinText {
+    font-size: 27px;
+  }
+  .MainText1 {
+    font-size: 40px;
+    line-height: 130%;
+    width: 80%;
+  }
+}
+@media (max-width: 500px) and (min-width: 426px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 95%;
+    margin: auto;
+  }
+  .AustText {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .JoinText {
+    font-size: 18px;
+  }
+  .MainText1 {
+    font-size: 54px;
+    line-height: 130%;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) and (min-width: 426px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 95%;
+    margin: auto;
+  }
+  .sliderCardContainer {
+    width: 396px;
+    height: 404px !important;
+    border-radius: 8px;
+    background-color: white;
+    padding: 39px 33px 30px 30px;
+    margin-bottom: 90px;
+  }
+  .MainText1 {
+    font-size: 30px;
+    line-height: 130%;
+    width: 70%;
+  }
+}
+@media (max-width: 426px) and (min-width: 370px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 97%;
+    margin: auto;
+  }
+  .sliderCardContainer {
+    width: 350px;
+    height: 423px !important;
+    border-radius: 8px;
+    background-color: white;
+    padding: 39px 33px 30px 30px;
+    margin-bottom: 45px;
+  }
+  .CommonPeragraphHead {
+    font-size: 18px;
+    line-height: 150%;
+    width: 100% !important;
+    letter-spacing: -0.01em;
+    color: #666666;
+  }
+  .AustText {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 30 px;
+  }
+  .JoinText {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .MainText1 {
+    font-size: 30px;
+    line-height: 130%;
+    width: 94%;
+  }
+}
+@media (max-width: 500px) and (min-width: 431px) {
+  .HomeSalon {
+    display: none !important;
+    padding: 11px 21px;
+    background-color: #f2f6fd;
+    font-size: 13px;
+    text-align: center;
+    width: 380px;
+  }
+}
+@media (max-width: 430px) and (min-width: 371px) {
+  .HomeSalon {
+    padding: 11px 21px;
+    background-color: #f2f6fd;
+    font-size: 13px;
+    text-align: center;
+    width: 317px;
+    display: none !important;
+  }
+}
+@media (max-width: 370px) and (min-width: 310px) {
+  .sliderContent {
+    width: 89%;
+  }
+  .SwiperTrust {
+    height: fit-content;
+    width: 97%;
+    margin: auto;
+    margin-left: 0%;
+  }
+  .sliderCardContainer {
+    width: 300px;
+    height: 450px !important;
+    border-radius: 8px;
+    background-color: white;
+    padding: 39px 15px 30px 22px;
+    margin-bottom: 45px;
+  }
+  .HeadHomeButton {
+    margin-left: 7px !important;
+    font-size: 17px !important;
+    font-weight: 300 !important;
+    color: #ffffff !important;
+    padding-left: 57px !important;
+    padding-right: 58px !important;
+  }
+  .LearnDivClass {
+    padding-bottom: 2px;
+    margin-left: 12px;
+    color: #1a1a1a;
+    font-family: "PlusJakartaSans-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    background: #fafafa;
+    border-radius: 100px !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    min-height: 47px;
+  }
+  .TrustHeading {
+    font-size: 21px;
+  }
+  .ExcellentText {
+    font-size: 18px;
+  }
+  .AustText {
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 36px;
+  }
+  .JoinText {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .HomeSalon {
+    padding: 11px 21px;
+    background-color: #f2f6fd;
+    font-size: 13px;
+    text-align: center;
+    width: 260px;
+    display: none !important;
+  }
+  .MainText1 {
+    font-size: 23px;
+    line-height: 130%;
+    width: 98%;
+  }
+  .CommonPeragraphHead {
+    font-size: 18px;
+    line-height: 150%;
+    height: auto;
+    width: 100% !important;
+    letter-spacing: -0.01em;
+    color: #666666;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 990px) {
+  .HomeSalon {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 371px) {
+  .RightPic {
+    margin-top: -79px !important;
+    width: 110%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -17px !important;
+    margin-bottom: -50px;
+  }
+  .HeadHomeButton {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    padding-left: 83px !important;
+    padding-right: 83px !important;
+    min-height: 60px !important;
+  }
+  .LearnDivClass {
+    padding-bottom: 2px;
+    margin-left: 20px;
+    color: #1a1a1a;
+    font-family: "PlusJakartaSans-Regular";
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+    background: #fafafa;
+    border-radius: 100px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    min-height: 47px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 370px) {
+  .RightPic {
+    margin-top: -79px !important;
+    width: 110%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -12px !important;
+    margin-bottom: -50px;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 450px) {
+  .RightPic {
+    margin-top: -79px !important;
+    width: 110%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -19px !important;
+    margin-bottom: -50px;
+  }
+}
+@media (max-width: 310px) and (min-width: 270px) {
+  .SwiperTrust {
+    height: fit-content;
+    width: 95%;
+    margin: auto;
+  }
+  .sliderCardContainer {
+    width: 240px;
+    height: 536px !important;
+    border-radius: 8px;
+    background-color: white;
+    padding: 39px 15px 30px 17px;
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 767px) {
+  .mrginBigScreen {
+    margin-top: 10px;
+  }
+  .LineBr {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .breakExel {
+    display: none;
+  }
+  .FavoriteTreat {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  .MtSmall {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1439px) and (max-width: 1700px) {
+  .SmallComtainer {
+    width: 79%;
+  }
+}
+@media (min-width: 1700px) and (max-width: 2500px) {
+  .AustText {
+    font-size: 70px;
+  }
+  .SmallComtainer {
+    width: 79%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .HomeSalon {
+    margin: auto;
+    background: transparent;
+  }
+  .MainText1 {
+    font-size: 38px;
+    text-align: center;
+    width: 100% !important;
+  }
+  .CommonPeragraphHead {
+    margin: auto;
+    text-align: center;
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+  .bgImageContainer {
+    height: 135px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    line-height: 23px;
+  }
+  .WimpernBg {
+    margin-top: 20px;
+  }
+  .WaxingBg {
+    margin-top: 20px;
+  }
+  .HairBg {
+    margin-top: 20px;
+  }
+  .MakeupBg {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .bgImageContainer {
+    height: 125px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 23px;
+    letter-spacing: 0em;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 890px) {
+  .bgImageContainer {
+    height: 150px;
+    padding-bottom: 13px;
+    font-family: "PlusJakartaSans-medium";
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1560px) {
+  .bgImageContainer {
+    height: 240px;
+    padding-bottom: 25px;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1561px) and (max-width: 2550px) {
+  .bgImageContainer {
+    width: 100%;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 25px;
+    color: white;
+    font-family: "PlusJakartaSans-Medium";
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0em;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .MainText1 {
+    font-size: 28px;
+    text-align: center;
+    width: 100% !important;
+  }
+}

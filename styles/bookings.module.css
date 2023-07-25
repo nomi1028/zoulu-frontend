@@ -1,0 +1,283 @@
+.DashboardCard {
+  background-color: white !important;
+  border-radius: 12px !important;
+}
+.BookingPadding {
+  padding: 50px 25px 35px 30px;
+}
+.BookingHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.tabZIndexTop {
+  /* position: fixed !important; */
+  /* top: 40px !important; */
+  z-index: 9999 !important;
+}
+.containerBuchungen {
+  height: 70px !important;
+  background-color: #ffffff;
+  border-radius: 4px;
+  color: #007fff;
+  padding-left: 15px;
+  padding-top: 18px;
+  box-shadow: rgba(175, 175, 175, 0.35) 0px 5px 15px;
+}
+.TabsBuchungen {
+  height: 57px;
+  background-color: #f8eef8;
+  padding-left: 15px;
+  padding-bottom: -6px;
+  padding-top: 8px;
+}
+@media only screen and (min-width: 600px) and (max-width: 901px) {
+  .tabZIndexTop {
+    /* position: fixed !important; */
+    /* top: 80px !important; */
+    z-index: 9999 !important;
+  }
+  .marginTopBookingTiitle {
+    padding-top: 20px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 599px) {
+  .tabZIndexTop {
+    /* position: fixed !important; */
+    /* top: 80px !important; */
+    z-index: 0 !important;
+  }
+  .marginTopBookingTiitle {
+    padding-top: 30px !important;
+    padding-left: 12px !important;
+  }
+}
+.DisplaySpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BtnTransparent {
+  margin-left: 5px;
+  background-color: transparent !important;
+  color: #868e96 !important;
+  padding: 9px 15px 10px 15px;
+  font-family: "PlusJakartaSans-Medium";
+  text-transform: none;
+  font-size: 11px;
+  font-weight: 400;
+  margin-right: 5px;
+  line-height: 13px;
+  border-radius: 10px;
+  letter-spacing: 0em;
+  border: 1px solid #868e96 !important;
+}
+.NewButtonsActive {
+  background-color: #30d5c8 !important;
+  color: white !important;
+  padding: 10px 15px 10px 15px;
+  font-family: "PlusJakartaSans-Medium";
+  text-transform: none;
+  font-size: 11px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+.CommonBgcolor {
+  background-color: #faf7f3;
+  padding: 10px;
+  border-radius: 12px;
+}
+.OfferText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #0a0425 !important;
+  margin-top: 7px !important;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+.OfferButton {
+  background-color: #f96e01 !important;
+  color: white;
+  font-weight: 500;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+}
+.OfferRate {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-right: 10px;
+}
+.BookingsPadding {
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  height: 86px;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.BookingsDetailContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.BookingsDay {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #868e96;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.BookingsDay1 {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #868e96;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 2px;
+}
+.BookingsDate {
+  color: #30d5c8;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.OnWayCompleted {
+  background-color: #007fff !important;
+  color: #ffffff !important;
+  margin-right: 10px;
+  padding: 7px 15px 7px 15px;
+  margin-right: 6px !important;
+  text-transform: capitalize;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.OnWay {
+  background-color: #ffdfc7 !important;
+  color: #f96e01 !important;
+  margin-right: 10px;
+  padding: 7px 15px 7px 15px;
+  margin-right: 6px !important;
+  text-transform: capitalize;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.OnWayBLue {
+  background-color: #007fff !important;
+  color: #fff !important;
+  margin-right: 10px;
+  padding: 7px 15px 7px 15px;
+  margin-right: 6px !important;
+  text-transform: capitalize;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.SmallProfiles {
+  width: 25px;
+  height: 25px;
+  margin-top: 10px;
+}
+.MarginRight {
+  margin-left: -5px;
+}
+.FloatLeft {
+  text-align: end;
+  margin-right: 10px;
+}
+@media (max-width: 680px) {
+  .BookingPadding {
+    padding: 20px 10px 20px 10px;
+  }
+  .NewButtonsActive {
+    padding: 5px 7px 5px 7px;
+    font-size: 8px;
+    margin-right: 5px;
+  }
+  .BtnTransparent {
+    margin-left: 5px;
+    padding: 5px 7px 5px 7px;
+    font-size: 8px;
+    margin-right: 5px;
+  }
+  .OfferButton {
+    padding: 3px 5px 3px 5px;
+  }
+  .OfferText {
+    font-size: 12px;
+    margin-left: 2px;
+  }
+  .OfferRate {
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .BookingsPadding {
+    padding: 4px 23px 4px 23px;
+  }
+  .BookingsDate {
+    font-size: 20px;
+  }
+  .BookingsDay {
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .ClassForLEftPAdding {
+    padding-left: 12px;
+  }
+  .OnWay {
+    margin-right: 10px;
+    padding: 4px 4px 4px 4px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 330px) {
+  .BtnTransparent {
+    border-radius: 7px;
+  }
+  .NewButtonsActive {
+    border-radius: 7px;
+  }
+  .CommonBgcolor {
+    padding-top: 0px;
+  }
+  .OfferText {
+    font-size: 9px;
+  }
+  .BookingsDay1 {
+    font-size: 10px;
+    margin-top: -5px;
+  }
+}

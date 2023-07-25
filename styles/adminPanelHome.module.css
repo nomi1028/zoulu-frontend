@@ -1,0 +1,225 @@
+.OverText {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.CommonDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.WeekDropDown {
+  border: none !important;
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.IncomeCard {
+  display: flex;
+  padding: 22px 0px 18px 15px;
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.IncomeArrow {
+  width: 38px;
+  height: 40px;
+}
+.IncomeAmountPadding {
+  padding-left: 20px;
+}
+.IncomeAmount {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.IncomePercent {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding-left: 15px;
+  letter-spacing: 0em;
+  color: #6d78ee;
+}
+.IncomeTime {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: rgba(10, 4, 37, 0.6);
+  padding-top: 15px;
+  text-align: left;
+}
+.InviteCard {
+  padding: 22px 20px 30px 20px;
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.PlusButton {
+  color: #30d5c8;
+  text-transform: capitalize;
+  border: 1px solid #30d5c8;
+  padding: 5px 12px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PlusIcon {
+  font-size: 14px;
+}
+.InviteHeading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0a0425;
+}
+.InviteText {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6c697c;
+}
+.InviteScroller {
+  max-height: 300px;
+  overflow: scroll;
+}
+.DayContainer {
+  padding: 8px 15px;
+  border: 1px solid #cbcad0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.DayHeading {
+  color: #0a0425;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.ToText {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #0a0425;
+  margin-right: 10px;
+}
+.DelClass {
+  width: 15px;
+}
+.TimeContainer {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #0a0425;
+  padding: 9px 0px 8px 8px;
+  border: 1px solid #cbcad0;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.RecentCusCard {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+.ExpertCard {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ExpHeading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.ExpName {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0a0425;
+}
+.ExpProfile {
+  display: flex;
+  margin-top: 20px;
+}
+.ExpDesignation {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6c697c;
+}
+.ProfilePic {
+  width: 30px;
+  margin-left: -36%;
+}
+.RecentCustomerHeading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0a0425;
+}
+@media screen and (max-width: 1200px) {
+  .IncomeCard {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .InviteCard {
+    padding: 22px 10px 30px 10px;
+    font-size: 12px;
+  }
+  .InviteText {
+    font-size: 12px;
+    width: 60%;
+  }
+  .DayHeading {
+    font-size: 13px;
+  }
+  .TimeContainer {
+    font-size: 12px;
+  }
+  .ToText {
+    font-size: 12px;
+  }
+}

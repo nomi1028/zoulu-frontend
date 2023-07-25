@@ -1,0 +1,304 @@
+.ActiveHeading {
+  font-family: "Plus Jakarta Sans";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.075em;
+  border: none !important;
+  color: #007fff !important;
+}
+
+.DisplaySpace {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.UnActiveHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.075em;
+  color: #8c949f !important;
+}
+.borderBottomDivider {
+  width: 100%;
+  border-bottom: 1px solid #d7d7d8;
+}
+.HeadingBar {
+  background-color: white;
+  height: 55px;
+  border: none !important;
+  border-radius: 12px !important;
+}
+.customerName {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-left: 10px !important;
+  letter-spacing: 0.075em;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.TableHeadingName {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  padding-right: 60px !important;
+  padding-left: 10px !important;
+  padding-bottom: 18px !important;
+}
+.TableHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 18px !important;
+  letter-spacing: 0.075em;
+  padding-right: 60px !important;
+}
+.overflowTable {
+  max-height: 500px !important;
+  overflow: auto;
+  margin-top: 20px !important;
+}
+.Xoverflowtable {
+  overflow: auto !important;
+}
+.TableHeadingGender {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding-bottom: 18px !important;
+  letter-spacing: 0.075em;
+}
+.TableContentWidth {
+  border: none !important;
+}
+.number {
+  margin-left: 5px !important;
+}
+.TableContentWidth1 {
+  border: none !important;
+  border-top-style: none !important;
+  border-bottom-style: none !important ;
+}
+.TableContentbodyWidth {
+  width: 24% !important;
+  border: none !important;
+}
+.TableContentWidthborder1 {
+  border: none !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.TableContentWidthborder2 {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border: none !important;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+.CustomerContainer {
+  background-color: white;
+  height: 42px;
+  border: none;
+  border-radius: 12px !important;
+}
+.ScrolData {
+  max-width: 60rem;
+}
+.CustomerDetailsborder {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.CustomerDetailsRightborder {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.customedetails {
+  padding-top: 10px !important;
+}
+.clientImg {
+  padding-top: 3px;
+}
+.CustomerDetail {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.CustomerEmailDetails {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  color: #0a0425;
+}
+.PaddingRight {
+  padding-right: 40px;
+  justify-content: space-between !important;
+}
+/* right side */
+.ContactInfo {
+  background-color: white;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  border-radius: 12px;
+}
+.Profile {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.CustomerDesignation {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 13px !important;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.075em;
+  color: #8c949f;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.CustomerPic {
+  width: 80px;
+}
+.Devider {
+  height: 2px;
+  border-bottom: 2px solid #ebeff2;
+  width: 100%;
+}
+.ContactDiv {
+  padding: 30px 0px 5px 12px;
+}
+.ContactDiv1 {
+  padding: 10px 0px 0px 12px;
+}
+.IconContainer {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #ecfbfa;
+}
+.FontSize {
+  font-size: 13px;
+  padding-left: 20px;
+  margin-top: -3px;
+}
+.ContactText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #0a0425;
+  padding-bottom: 13px;
+}
+.PerformandeCard {
+  padding: 15px 15px 10px 20px;
+}
+.DisplaySpaceBeetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BoldHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.MoreHorizIcon {
+  color: #0a0425 !important;
+  margin-left: 20px;
+  padding-top: 4px;
+  height: 35px;
+  width: 50px;
+}
+@media only screen and (min-width: 260px) and (max-width: 550px) {
+  .TableContainerBackground {
+    background-color: #efeeee;
+    min-height: 21rem !important;
+    border-radius: 10px;
+    padding: 30px 15px 20px 20px;
+  }
+}
+@media (min-width: 555px) {
+  .TableContainerBackground {
+    background-color: #f7f7f7;
+    height: 39.5rem;
+    border-radius: 10px;
+    padding: 30px 15px 20px 35px;
+  }
+}
+@media (max-width: 1199px) {
+  .ContactInfo {
+    margin-top: 20px;
+  }
+}
+/* portfolio */
+.portfolioImageHeader {
+  /* background-color: #f7f7f7; */
+  /* height: 12rem; */
+  border-radius: 10px;
+  position: relative;
+  /* padding: 30px 15px 20px 35px; */
+}
+.addIconContainer {
+  background-color: #f7f7f7;
+  height: 14.9rem !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.CrossIconContainer {
+  background-color: #f7f7f7;
+  margin-top: 2px;
+  height: 3rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom-left-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+  height: 100%;
+}
+.IoIosAddCircleIcon {
+  height: 40px !important;
+  width: 50px !important;
+  color: #007fff;
+}

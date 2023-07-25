@@ -1,0 +1,1213 @@
+.DashboardSideBar {
+  font-family: "PlusJakartaSans-Medium";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.TableButtons {
+  display: flex;
+  float: right;
+}
+.DashboardSideBarIcons {
+  width: 25px;
+  height: 25px;
+  color: #868e96;
+}
+.DashboardSideBarIconsActive {
+  width: 25px;
+  height: 25px;
+  color: #007fff;
+}
+.activeBorderColorDashboard {
+  height: 32px !important;
+  border: 2px solid #007fff !important;
+  margin-right: -16px;
+}
+.DashboardSideBarIconsAdmin {
+  width: 28px;
+  height: 25px;
+  color: #868e96;
+}
+.DashboardSideBarIconsAdminActive {
+  width: 28px;
+  height: 25px;
+  color: #007fff;
+}
+.DashboardActiveSideBarIcons {
+  width: 25px;
+  height: 25px;
+  color: #6ad6cb;
+}
+.FromDateDiv {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c1c4c6;
+  color: #868e96;
+  margin-right: 10px;
+  padding-left: 2px;
+  width: 5.5rem;
+  height: 33px;
+}
+.ToDateDiv {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c1c4c6;
+  color: #868e96;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding-left: 2px;
+  width: 4.5rem;
+  height: 33px;
+}
+.DashHeadSearchBar {
+  border: none !important;
+  outline: none !important;
+  height: 55px;
+  padding-left: 50px !important;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-top: 12px;
+  text-align: left;
+  margin-right: 17px;
+  color: #969da4 !important;
+  background-color: #faf7f3 !important;
+}
+.DashHeadSearchIcon {
+  position: absolute;
+  top: 30px !important;
+  left: 14px;
+}
+.DashHeadSearchBarColoredHeader {
+  border: none;
+  height: 55px;
+  padding-left: 50px !important;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-bottom: -12px;
+  text-align: left;
+  margin-right: 17px;
+  color: #969da4;
+  background-color: #faf7f3 !important;
+}
+.DashHeadSearchIconColoredHeader {
+  position: absolute;
+  top: 16px !important;
+  left: 14px;
+}
+.EditProfileBtn {
+  position: absolute !important;
+  background-color: #30d5c8 !important;
+  padding-left: 9px !important;
+  color: white !important;
+  font-size: 11px !important;
+  height: 45px !important;
+  font-family: Playfair Display;
+  width: 8rem !important;
+  margin-left: -7rem !important;
+  margin-top: -33px !important;
+  border-radius: 10px !important;
+}
+.ZouluText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: black;
+  padding-left: 10px;
+}
+.DashboardProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.DashboardProfile {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+}
+.DashboardProfileBorder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #007fff;
+}
+.BackgroundDiv {
+  background-color: #f8f6f2 !important;
+}
+.WhiteBackgroundDiv {
+  background-color: white !important;
+}
+.ColorBackgroundHead {
+  background: #ffffff !important;
+  position: fixed !important;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06) !important;
+}
+.WhiteBackgroundHead {
+  background-color: white !important;
+  position: fixed;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06) !important;
+}
+@media screen and (max-width: 600px) {
+  .DisplaySpaceHide {
+    display: none !important;
+  }
+  .CompleteHeader {
+    background-color: #f8f6f2 !important;
+  }
+}
+.SideBarContentActive {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #007fff !important;
+}
+.SideBarContent {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  text-transform: capitalize;
+  color: #637381 !important;
+}
+.ProfileName {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 14px;
+  text-transform: capitalize;
+}
+.ProfileRank {
+  padding-left: 20px;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -8px !important;
+  padding-top: -8px !important;
+}
+.StarIcon {
+  color: aqua;
+}
+.DashboardCard {
+  background-color: white !important;
+  border-radius: 11px;
+  box-shadow: 0px 7px 39px -15px #b6b4cc !important;
+}
+.DashboardCardPadding {
+  padding: 25px 30px 30px 30px;
+  height: 21rem;
+}
+.TotalText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  color: #868e96;
+}
+.DisplaySpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DisplayClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.DisplaySpaceHide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.GraphDropDown {
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 3.67145px 2.93088px 15.778px rgba(162, 150, 187, 0.25);
+  border: none !important;
+}
+.GraphDropDownBtn {
+  border: none !important;
+  color: #007fff !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 11px;
+  text-align: left;
+}
+.GraphRate {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: black;
+}
+.detailscardGraph {
+  background-color: white;
+  margin-top: 18px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 39px -15px #b6b4cc !important;
+  width: 100%;
+  min-height: 120px;
+  overflow: auto;
+}
+.DetailCardRank {
+  float: right;
+  color: #0a0425;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 9px;
+  padding-top: -10px !important;
+  letter-spacing: 0em;
+  margin-top: 15px;
+  margin-right: 18px;
+  font-style: normal;
+}
+.UpArrow {
+  color: aqua !important;
+  height: 20px;
+  margin-top: -1px;
+}
+.UpArroworange {
+  color: #fa8020 !important;
+  height: 20px;
+  margin-top: -1px;
+}
+.UpArrowred {
+  color: #fe7474 !important;
+  height: 20px;
+  margin-top: -1px;
+}
+.GraphContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .marginleftHeading {
+    margin-top: -15px;
+    margin: 0 auto;
+  }
+  .ApexChart {
+    margin-left: calc(50% + 5px);
+    transform: translateX(-50%);
+  }
+}
+.marginleftHeading {
+  margin-top: -55px;
+}
+@media screen and (max-width: 450px) {
+  .GraphContainer {
+    gap: 30px;
+  }
+}
+.GraphHeight {
+  width: 180px !important;
+}
+.GraphMessage {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #868e96;
+}
+.GraphValue {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 21px !important;
+  margin-top: 10px;
+  font-weight: 600 !important;
+  line-height: 23px;
+  text-align: center;
+  color: #0a0425;
+}
+.DonutCardHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  color: #0a0425;
+}
+.DonutCardPadding {
+  padding-top: 20px;
+  height: 21rem !important;
+  position: relative;
+}
+.DonutChartParent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.DonutChartPosition {
+  position: absolute;
+}
+.GraphContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+}
+.DonutChart {
+  margin-top: 20px !important;
+  color: #ffc029 !important;
+  transform: rotate(-50deg) !important;
+  margin-bottom: 20px !important;
+}
+.DonutChartMonth {
+  margin-top: 20px !important;
+  color: #fe7474 !important;
+  transform: rotate(-50deg) !important;
+  margin-bottom: 20px !important;
+}
+.GraphImage {
+  padding: 9px;
+  background-color: #fff6f0;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 6px;
+  color: #ff8c3f;
+  border-radius: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .DonutCardPadding {
+    margin-bottom: 15px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .TimePeriod {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1199px) and (max-width: 1450px) {
+  .DonutChart {
+    width: 9rem !important;
+    height: 10rem !important;
+  }
+  .TimePeriod {
+    margin-top: 15px;
+  }
+  .DonutChartMonth {
+    width: 9rem !important;
+    height: 10rem !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .GraphImage {
+    width: 25px;
+    height: 25px;
+  }
+  .PercentText {
+    font-size: 25px !important;
+  }
+  .PercentTextMonth {
+    font-size: 25px !important;
+  }
+}
+.PercentText {
+  color: #ffc029;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.PercentTextMonth {
+  color: #fe7474;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.SpanPercent {
+  text-align: left;
+  font-size: 18px;
+  color: black;
+}
+.TimePeriod {
+  padding-top: 14px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  font-style: normal;
+  color: #0a0425;
+  padding-left: 20px;
+}
+.GraphPercent {
+  color: #868e96;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: absolute;
+  bottom: 18px;
+  margin-left: 20px;
+}
+.WaverContainer {
+  margin-top: 22px;
+  float: right;
+  width: 40%;
+  border-bottom-right-radius: 10px !important;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.TotalHeading {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  font-style: normal;
+  color: #868e96;
+}
+.TotalAmount {
+  padding-top: 10px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+  color: #0a0425;
+  padding-bottom: 10px;
+}
+.CustomerCardPadding {
+  padding: 15px 20px 10px 15px;
+}
+.TotalCardIconUp {
+  color: #30d5c8;
+  background-color: #e6fcfa;
+  padding: 3px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.ColorCard {
+  margin-top: 15px;
+  padding: 15px 15px 20px 15px;
+  background-color: #007fff !important;
+  color: white;
+  border-radius: 12px;
+  min-height: 155px;
+  text-transform: capitalize;
+  font-family: "PlusJakartaSans-Medium";
+}
+.TimeTableDetail {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+}
+.ColorCardHeading {
+  padding-top: 10px;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.TimeFontSize {
+  padding-top: 1px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.TimeFontSizeTime {
+  padding-top: 1px;
+  font-size: 12px;
+  font-weight: 400;
+}
+@media only screen and (min-width: 992px) and (max-width: 2500px) {
+  .TimeFontSizeTime {
+    width: 84px;
+  }
+}
+.CalenderPadding {
+  padding: 5px !important;
+  height: 20rem;
+}
+@media screen and (max-width: 768px) {
+  .CalenderPadding {
+    margin-top: 15px;
+  }
+  .DisplayClass {
+    flex-wrap: wrap !important;
+  }
+  .CalenderPadding {
+    margin-top: 15px;
+  }
+}
+.BestCardPadding {
+  padding: 30px 20px 30px 20px;
+  min-height: 235px;
+}
+.BestCardPaddingIconsCard {
+  padding: 25px 20px 30px 20px;
+}
+.BestCardPaddingReal {
+  padding: 30px 15px 10px 15px;
+}
+.ToTheBestForYouCard {
+  height: 400px !important;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+.PlusIcon {
+  color: white;
+  font-size: 38px !important;
+  background-color: #30d5c8;
+  padding: 8px 3px 8px 3px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+.PlusIconServices {
+  color: white;
+  font-weight: 800 !important;
+  font-size: 46px !important;
+  background-color: #30d5c8;
+  margin-top: 10px;
+  padding: 12px 10px 8px 10px;
+  border-radius: 5px;
+}
+.BestCardOptions {
+  width: 94%;
+  margin-top: 16px;
+  margin-left: 3%;
+  border-radius: 11px;
+  box-shadow: 0px 0px 9px 1px #b6b4cc;
+  background-color: white;
+  padding: 15px 10px 15px 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.OptionImage {
+  background-color: #f4fbfa;
+  width: 50px;
+  height: 58px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.OptionHeading {
+  font-family: Playfair Display;
+  font-size: 12px;
+  font-weight: 600;
+  padding-left: 10px;
+  line-height: 14px;
+  letter-spacing: -0.03em;
+  text-align: left !important;
+  color: #0a0425;
+}
+@media screen and (max-width: 500px) {
+  .BestCardOptions {
+    padding: 10px 20px 10px 10px;
+  }
+  .OptionHeading {
+    font-size: 9px !important;
+  }
+  .OptionBoldText {
+    font-size: 10px !important;
+    padding-top: 4px !important;
+  }
+  .OptionText {
+    font-size: 9px !important;
+    padding-top: 2px !important;
+  }
+  .OptionImage {
+    margin-top: 5px;
+    width: 30px;
+    height: 40px;
+  }
+}
+.OptionBoldText {
+  font-family: Roboto;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 12px;
+  font-weight: 500 !important;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+.OptionText {
+  padding-left: 10px;
+  padding-top: 12px !important;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400 !important;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+.OptionRate {
+  padding-right: 10px;
+}
+.StatsText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+.ProgressBarWomen {
+  color: #ffc029 !important;
+  background-color: #d9dee4 !important;
+  height: 14px !important ;
+  border-radius: 10px !important;
+}
+.ProgressBarMan {
+  color: #ff6b6b !important;
+  background-color: #d9dee4 !important;
+  height: 14px !important ;
+  border-radius: 10px !important;
+}
+.Gender {
+  font-family: "PlusJakartaSans-Medium";
+  color: #868e96;
+  padding-top: 15px !important;
+  font-size: 12px;
+}
+.Scale {
+  margin-top: 8px;
+  color: #868e96;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CardImages {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #f4fbfa;
+  padding: 10px;
+  border-radius: 10px;
+}
+.TableHeader {
+  background-color: #f5f6fa;
+  font-family: Roboto !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+  border: none !important;
+  border-radius: 15px !important;
+}
+.Order {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0em;
+  color: #0a0425;
+  padding-bottom: 20px;
+}
+.TablePading {
+  padding: 36px 20px 30px 28px;
+}
+.NewButtonsActive {
+  background-color: #30d5c8 !important;
+  color: white !important;
+  padding: 8px 6px 8px 6px !important;
+  font-family: Roboto;
+  font-size: 9px !important;
+  font-weight: 400;
+  margin-right: 6px !important;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+.NewButtons {
+  margin-right: 6px;
+  background-color: #f5f6fa !important;
+  color: #868e96 !important;
+  padding: 8px 6px 8px 6px;
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+}
+.WidthDatePiker {
+  position: relative;
+  width: 200%;
+}
+.WidthBox {
+  width: 80px !important;
+}
+.ArrowIcon {
+  position: absolute;
+  left: 5.5rem;
+  color: #868e96;
+}
+.InputStyle {
+  width: 113px;
+  padding: 5px;
+}
+.DashboardSearch {
+  background-color: white;
+  color: #868e96;
+  height: 30px !important;
+}
+.DashSearch {
+  margin-top: 15px !important;
+  width: 250px;
+  border: none !important;
+  background-color: white !important;
+}
+.HeaderSearch {
+  margin-top: 10px;
+  width: 150px;
+  background-color: white !important;
+}
+.DashSearch1 {
+  margin-top: 30px !important;
+  width: 40rem;
+  border: none !important;
+  background-color: white !important;
+}
+.MoreICon {
+  color: #747482;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.DisplayRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.BellIcon {
+  color: #969696;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 16px;
+}
+.Position {
+  position: relative;
+}
+.GreenDot {
+  background-color: #30d5c8;
+  width: 9px;
+  height: 9px;
+  border-radius: 5px;
+  position: absolute;
+  right: 13px;
+  top: 23px;
+}
+.OverviewText {
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  margin-left: 7px;
+  margin-top: 25px;
+  text-align: left;
+  color: #0a0425;
+}
+.OverviewTextHidden {
+  display: none;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425;
+}
+.OrderTableHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: 0.01em !important;
+  text-align: left;
+}
+.OrderTableHeadingCenterDatum {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: 0.01em !important;
+  text-align: left;
+}
+.TableDataDiv {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  color: #868e96;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.TableDataDivCenter {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 15px;
+  font-weight: 400;
+  color: #868e96;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.OrderTableHeadingCenter {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: 0.01em !important;
+  text-align: center;
+}
+.OrderTableHeadingRight {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  letter-spacing: 0.01em !important;
+  text-align: right !important;
+  padding-right: 51px;
+}
+.TableRightDiv {
+  float: right !important;
+  padding-left: 18px;
+}
+.EditProfileHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #0a0425;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+.bookingExpertDashoard {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #0a0425;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -6px;
+  padding-left: 250px;
+}
+@media (max-width: 900px) {
+  .bookingExpertDashoard {
+    display: none;
+  }
+}
+.ChartContainer {
+  height: 12rem;
+}
+.EditProfilePicReal {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 3rem;
+}
+@media screen and (max-width: 1440px) {
+  .TimePeriod {
+    font-size: 14px;
+  }
+  .GraphPercent {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 20px;
+  }
+  .WaverContainer {
+    margin-top: 18px;
+  }
+  .svgStyling {
+    border-radius: 0px 10px 8px 0px !important;
+  }
+  .DashboardCardPadding {
+    padding: 25px 30px 30px 30px;
+  }
+  .TotalText {
+    font-size: 16px;
+  }
+  .GraphRate {
+    font-size: 26px;
+  }
+  .GraphDropDown {
+    padding: 2px;
+  }
+  .GraphDropDownBtn {
+    font-size: 13px;
+  }
+  .UpArrow {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .GraphValue {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0a0425;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .DetailCards {
+    padding: 20px 10px 10px 1px;
+    margin-top: 10px;
+    width: 222px;
+    height: 120px;
+  }
+  .TimePeriod {
+    font-size: 14px;
+  }
+  .GraphPercent {
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 20px;
+  }
+  .WaverContainer {
+    margin-top: 16px;
+  }
+  .DashboardCardPadding {
+    padding: 25px 30px 30px 30px;
+  }
+  .TotalText {
+    font-size: 16px;
+  }
+  .GraphRate {
+    font-size: 26px;
+  }
+  .GraphDropDown {
+    padding: 2px;
+  }
+  .GraphDropDownBtn {
+    font-size: 13px;
+  }
+  .UpArrow {
+    font-size: 16px;
+    margin-top: 0px;
+  }
+  .GraphValue {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0a0425;
+  }
+}
+@media screen and (max-width: 810px) {
+  .OverviewText {
+    display: none;
+  }
+  .OverviewTextHidden {
+    display: contents;
+    margin-top: 21px !important;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .DashSearch {
+    margin-top: 20px !important;
+    width: 150px;
+    border: none !important;
+    background-color: white !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .DetailCards {
+    padding: 20px 6px 15px 1px;
+    margin-top: 10px;
+    width: 136px;
+    height: 100px;
+  }
+  .TimePeriod {
+    font-size: 14px;
+  }
+  .TotalText {
+    font-size: 13px;
+  }
+  .GraphRate {
+    font-size: 20px;
+  }
+  .GraphDropDown {
+    padding: 0px;
+  }
+  .GraphDropDownBtn {
+    font-size: 10px;
+  }
+  .ColorCard {
+    padding-top: 35px;
+  }
+  .Order {
+    font-size: 16px;
+    line-height: 2px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 612px) {
+  .GraphDropDownBtn {
+    border: none !important;
+    color: #30d5c8 !important;
+    font-family: "Roboto";
+    font-size: 12px !important;
+  }
+  .GraphLeft {
+    width: 50%;
+    margin-left: -5px !important;
+    margin-top: -px !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .DetailCards {
+    padding: 20px 3px 15px 0px;
+    margin-top: 10px;
+    width: 100px;
+    height: 92px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .GraphValue {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ColorCard {
+    padding-top: 35px;
+  }
+  .CustomerCardPadding {
+    margin-top: 16px !important;
+  }
+  .TimeTableDetail {
+    font-family: "PlusJakartaSans-Medium";
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 6px;
+    letter-spacing: 0em;
+    margin-top: -8px;
+  }
+  .ColorCardHeading {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .TimeFontSize {
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .TimeFontSizeTime {
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 1069px) {
+  .DashSearch1 {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 910px) {
+  .DashSearch1 {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 710px) {
+  .TablePading {
+    padding: 30px 10px 30px 15px;
+  }
+  .DashSearch1 {
+    width: 10rem;
+  }
+  .DashHeadSearchBar {
+    width: 160px;
+  }
+  .DashHeadSearchBarColoredHeader {
+    width: 160px;
+  }
+}
+.drawerWidth {
+  width: 200;
+}
+@media screen and (min-width: 1300px) and (max-width: 1540px) {
+}
+@media only screen and (min-width: 1540px) and (max-width: 2500px) {
+  .GraphMessage {
+    margin-top: 20px !important;
+  }
+}
+.ApexChart {
+  margin-top: -40px;
+}
+@media (max-width: 350px) {
+  .TableButtons {
+    flex-wrap: wrap;
+    display: flex;
+    float: right;
+  }
+}
+.ChartWrapper .chartjs-render-monitor .chartjs-dataset-bar {
+  /* Adjust the width value as per your requirement */
+  width: 8px !important;
+}

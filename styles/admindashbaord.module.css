@@ -1,0 +1,71 @@
+.CustomerCardProfile {
+  background: #dffffc;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.CustomerCardProfile img {
+  height: 50%;
+  width: 50%;
+}
+.CustomerCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 10px;
+}
+.CustomerCardContent p:nth-child(1) {
+  font-family: PlusJakartaSans-Medium;
+  font-weight: 400;
+  font-size: 12px;
+  color: #6c697c;
+}
+.CustomerCardContent h4 {
+  font-family: PlusJakartaSans-Medium;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  color: #0a0425;
+}
+.CustomerCardContent p:last-child {
+  font-family: PlusJakartaSans-Medium;
+  font-weight: 500;
+  font-size: 12px;
+  color: black;
+}
+.ChartSide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ChartSide h4 {
+  font-family: PlusJakartaSans-Medium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #15223c;
+}
+.CustomerTable h5 {
+  font-family: PlusJakartaSans-Medium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.CustomerTable p {
+  font-family: PlusJakartaSans-Medium;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: -0.01em;
+  color: #30d5c8;
+}

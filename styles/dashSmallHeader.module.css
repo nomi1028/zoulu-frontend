@@ -1,0 +1,67 @@
+.DisplaySpaceposition {
+  display: none;
+}
+.Contain {
+  display: none;
+}
+@media (max-width: 599px) {
+  .Contain {
+    display: block;
+    display: flex;
+    /* margin-left: -20px !important; */
+    justify-content: center;
+    align-items: center;
+  }
+  .SmallDashHeader {
+    color: black;
+    position: relative;
+    padding-right: 20px;
+    margin-left: -44px;
+    border: none !important;
+    outline: none !important;
+  }
+  .DisplaySpaceposition {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 11rem;
+  }
+  .DashHeadSmallSearch {
+    border: none;
+    height: 35px;
+    padding-left: 40px !important;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-top: 22px;
+    text-align: left;
+    color: #969da4;
+    transition: width 1s ease;
+  }
+  .ManageTransition {
+    width: 20px;
+    transition: width 1s;
+  }
+  .ManageTransitionAfter {
+    width: 150px;
+    transition: width 1s;
+  }
+  .DashHeadSmallIcon {
+    position: absolute;
+    top: 31px !important;
+    left: 8px !important;
+    width: 15px;
+  }
+  .EditProfilePic {
+    width: 33px;
+    height: 33px;
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+}

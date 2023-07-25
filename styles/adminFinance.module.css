@@ -1,0 +1,216 @@
+.cardTotalBalance {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 14px !important;
+  min-height: 140px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.flexBetweenVolitToggle {
+  display: flex;
+  justify-content: space-between;
+}
+.VolitFinancePng {
+  width: 44px;
+  height: 44px;
+}
+.ToggleIconPng {
+  height: 23px !important;
+  width: 24px !important;
+  margin-top: 9px;
+}
+.TotalBalanceTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #001733;
+  opacity: 0.5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 13px;
+}
+.TotalBalanceAmount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #25282c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.TotalBalanceBox {
+  width: 73px;
+  height: 28px;
+  background: #e5fff1;
+  border-radius: 1234.72px !important;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #00ae4e;
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.TotalBalanceBoxPink {
+  width: 73px;
+  height: 28px;
+  background: #ffeeee;
+  border-radius: 1234.72px !important;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #f83c3f;
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.TotalBalanceBoxBlue {
+  width: 73px;
+  height: 28px;
+  background: #eefffe;
+  border-radius: 1234.72px !important;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #30d5c8;
+  margin-left: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.graphCard {
+  background: #ffffff;
+  box-shadow: 4.88674px 6.10842px 30.5421px rgba(179, 191, 202, 0.25);
+  border-radius: 9.16263px !important;
+  height: 443px;
+  border: none !important;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.AnalyticsTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #25282c;
+  margin-bottom: 50px;
+}
+.dotCalender {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #30d5c8 !important;
+  border-radius: 50% !important;
+  margin-right: 6px;
+  margin-top: 2px;
+}
+.dotWomanCal {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #25282c;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.dotCalenderMan {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #a6f7f0 !important;
+  border-radius: 50% !important;
+  margin-right: 6px;
+  margin-left: 18px;
+  margin-top: 2px;
+}
+.TimeBox {
+  width: 70px;
+  height: 30px;
+  border: 1.23472px solid #dddddd;
+  border-radius: 6px !important;
+  margin-left: 25px;
+  margin-right: 7px;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(37, 40, 44, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ArrowVector {
+  height: 5px !important;
+  width: 9px !important;
+  margin-left: 8px;
+}
+.centerFlexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .centerFlexBetween {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .AnalyticsTitle {
+    margin-bottom: 15px;
+  }
+  .graphCard {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 25px;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 800px) {
+  .TotalBalanceTitle {
+    font-size: 12px;
+  }
+  .TotalBalanceAmount {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+  .TotalBalanceTitle {
+    font-size: 13px;
+  }
+  .TotalBalanceAmount {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

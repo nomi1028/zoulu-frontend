@@ -1,0 +1,615 @@
+.PaddingContainer {
+  padding: 0px 60px 40px 75px !important;
+}
+.PaymentCardsShadow {
+  box-shadow: 1px 3px 20px 13px #efefefd6;
+}
+
+.paymentLeftContainer {
+  padding-left: 0px !important;
+  padding-right: 30px !important;
+  padding-top: 40px;
+}
+.payment_CardHeading {
+  margin-top: 6px;
+  color: #007fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "PlusJakartaSans-Medium" !important;
+}
+.CardTop {
+  margin-top: 33px !important;
+}
+.inputNumber {
+  width: 100% !important;
+
+  /* margin-left: 10px; */
+}
+.leftInput {
+  width: 100% !important;
+}
+.payment_ProfileHeading {
+  width: 77% !important;
+  color: #007fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium" !important;
+}
+@media (max-width: 1200px) {
+  /* .ReverseClass {
+    flex-direction: column-reverse;
+  } */
+  .PaddingContainer {
+    padding: 0px 15px 40px 20px !important;
+  }
+}
+@media (max-width: 420px) {
+  .payment_ProfileHeading {
+    width: 100%;
+    color: #007fff;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: "PlusJakartaSans-Medium" !important;
+  }
+}
+@media (max-width: 303px) {
+  .PaddingContainer {
+    padding: 35px 1px 40px 3px !important;
+  }
+}
+.CardContainer {
+  background-color: white;
+  padding: 15px 25px 1px 25px;
+  border-radius: 10px;
+  margin-top: 38px;
+}
+.paymentCardContainer {
+  border-radius: 10px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.CardContainerfirst {
+  background-color: white;
+  padding: 15px 25px 1px 25px;
+  border-radius: 10px;
+}
+.CenterDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CardHeading {
+  font-family: "plusJakartaSans-medium";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.CardHeadingOrder {
+  font-family: "plusJakartaSans-medium";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.CardSmallHeading {
+  font-family: "plusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1e;
+  /* margin-left: 15px; */
+}
+.CardSmallHeadingService {
+  font-family: "plusJakartaSans-medium";
+  font-size: 18px;
+  font-weight: 600 !important;
+  line-height: 24px;
+  text-transform: capitalize !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1e;
+}
+.CardSmallHeadingName {
+  font-family: "plusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: semi-bold;
+  line-height: 24px;
+  text-transform: capitalize !important;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1e;
+  /* margin-left: 7px; */
+}
+.NotMergeCardSmallHeading {
+  font-family: "plusJakartaSans-medium";
+  font-size: 18px;
+  font-weight: 500;
+  /* line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1e1e1e;
+  margin-left: 4px; */
+}
+.CardText {
+  font-family: "plusJakartaSans-medium";
+  font-size: 13px;
+  /* margin-bottom: 10px; */
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #534d61;
+  /* width: 70%; */
+}
+.PaymentCardText {
+  font-family: "plusJakartaSans-medium";
+  font-size: 12px;
+  /* margin-bottom: 10px; */
+  font-weight: 400;
+  /* margin-top: -25px; */
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #007fff;
+  width: 70%;
+}
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .paymentLeftContainer {
+    padding-right: 2px !important;
+    padding-top: 0px;
+  }
+  .payment_CardHeading {
+    color: #007fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "PlusJakartaSans-Medium" !important;
+  }
+  .inputNumber {
+    /* width: 100%; */
+  }
+  .cardNumber-text {
+    display: none !important;
+  }
+  .PaymentCardText {
+    /* margin-top: -25px; */
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 370px) {
+  .payment_CardHeading {
+    color: #007fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "PlusJakartaSans-Medium" !important;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 992px) {
+  .alert_msg1 {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 2800px) {
+  .alert_msg2 {
+    display: none !important;
+  }
+}
+.EditText {
+  color: #007fff;
+  font-family: "plusJakartaSans-medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  width: 70% !important;
+}
+.TextPlayfairFamily {
+  font-family: "plusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: end;
+  color: #007fff;
+  margin: 0 !important;
+}
+.TextPlayfairFamily1 {
+  font-family: "plusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: end;
+  letter-spacing: 0px;
+
+  color: #007fff;
+}
+.CalenderIc img {
+  width: 37px;
+  height: 37px;
+}
+.CardImage {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+}
+.CardImage1 {
+  background-color: #f7f7fa;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  margin-right: 15px;
+}
+.CalenderIcon {
+  margin-right: 15px;
+  font-size: 30px;
+  padding: 5px;
+  color: #007fff;
+  background-color: #f7f7fa;
+  border-radius: 20px;
+}
+.ProfileImage {
+  width: 40px;
+  height: 40px;
+}
+.MinutesText {
+  font-family: "plusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #534d61;
+  margin-top: 10px;
+}
+.CalenderIconThird {
+  font-size: 36px;
+  color: white;
+  background-color: #007fff;
+  border-radius: 20px;
+  padding: 6px;
+}
+.DateText {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #534d61;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+.DisplayDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.WorkType {
+  font-family: "plusJakartaSans-medium";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: darkgray;
+}
+.WorkAmount {
+  font-family: "plusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: darkgray;
+}
+.paymentCart {
+  background-color: #f9f9f9;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 17px;
+  margin-top: 14px;
+}
+.totalWorkAmount {
+  font-family: "plusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #007fff;
+}
+.BorderBottom {
+  margin-top: 20px;
+  /* background-color: #e5e8eb; */
+  border: 1px solid #e5e8eb;
+  margin-bottom: 13px !important;
+}
+.SignUpOR {
+  padding-left: 5px !important;
+  padding-right: 5px !important ;
+  font-size: 12px;
+  color: #5e6470;
+}
+.PaymentInput {
+  height: 50px;
+  border: 2px solid #007fff !important;
+  font-family: "plusJakartaSans-medium";
+}
+.InputRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 120px;
+  color: white !important;
+  background-color: #007fff !important;
+  font-family: "plusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #007fff !important;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.PaymentButton {
+  margin-top: 70px !important;
+  margin-bottom: 30px !important;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+}
+.BorderDoted {
+  border-left: 2px dashed #797979;
+  width: 1px;
+  height: 90%;
+  margin-left: 50%;
+  margin-bottom: 100%;
+}
+.MethodsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PaymentOptions {
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #f1f5f9;
+  width: 100%;
+}
+.PaymentOptionsActive {
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #070f22;
+  color: white;
+  width: 100%;
+}
+.PayText {
+  font-family: "plusJakartaSans-medium";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.AppleIcon {
+  margin-right: 20px;
+  font-size: 30px;
+  margin-top: -7px;
+}
+.InputLabel {
+  font-size: 18px;
+  font-family: "plusJakartaSans-medium";
+  height: 16px;
+  left: 810px;
+  top: 1008px;
+  border-radius: nullpx;
+  color: #050606;
+  font-weight: 500 !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px;
+}
+.profile_InputLabel {
+  font-family: "plusJakartaSans-medium";
+  height: 16px;
+  font-size: 16px;
+  border-radius: nullpx;
+  color: #050606;
+  /* margin-left: 5px !important; */
+  margin-bottom: 20px !important;
+}
+.profile_InputLabel1 {
+  font-family: "plusJakartaSans-medium";
+  height: 16px;
+  font-size: 16px;
+  border-radius: nullpx;
+  color: #050606;
+  /* margin-left: 10px !important; */
+  margin-bottom: 20px !important;
+}
+.CraditCardInput {
+  font-family: "plusJakartaSans-medium" !important;
+  width: 100%;
+  height: 56px;
+  border-radius: 10px !important;
+  background-color: white;
+  color: #534d61;
+  border: 2px solid white !important;
+  font-size: 14px !important;
+  /* box-shadow: 0px 1px 7px 0px #b6b4cc; */
+  box-shadow: 0px 5px 22px 0px #0000000d;
+}
+.ProfileCraditCardInput {
+  padding-left: 4px !important;
+  padding-top: -2px !important;
+  font-family: "plusJakartaSans-medium" !important;
+  width: 100%;
+  height: 37px !important;
+  border-radius: 6px !important;
+  background-color: white !important;
+  color: #534d61;
+  border: none;
+  font-size: 13px !important;
+  box-shadow: 0px 5px 22px 0px #0000000d;
+}
+
+@media screen and (max-width: 1200px) {
+  .CenterDiv {
+    height: 15px !important;
+  }
+}
+.DebitCardsDiv {
+  border: 10px solid #007fff;
+  font-family: "plusJakartaSans-medium" !important;
+}
+@media (max-width: 800px) {
+  .CardContainer {
+    background-color: white;
+    /* padding: 25px 10px 17px 25px; */
+    border-radius: 20px;
+    padding-left: 18px !important;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+  .paymentLeftContainer {
+    padding-right: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .inputNumber {
+    /* width: 50% !important; */
+
+    /* margin-left: 0px; */
+  }
+  .leftInput {
+    /* width: 50% !important; */
+  }
+  .CardContainer {
+    margin-top: 25px;
+  }
+  .CardTop {
+    margin-top: 20px !important;
+  }
+  .PaymentButton {
+    width: 80%;
+    padding: 16px, 38px, 16px, 38px;
+    font-size: 18px;
+    margin: 0 auto !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+@media (max-width: 500px) {
+  .CalenderIc {
+    margin-right: 15px;
+  }
+  .TextPlayfairFamily1 {
+    font-size: 13px;
+    text-align: end;
+    /* padding-right: 24px; */
+  }
+  .TextPlayfairFamily {
+    font-size: 12px;
+    margin-left: -4px;
+  }
+  .EditText {
+    font-size: 14px;
+  }
+  .PaddingContainer {
+    padding: 40px 5px 40px 5px !important;
+  }
+  .CardText {
+    font-size: 12px;
+  }
+  .NotMergeCardSmallHeading {
+    /* font-size: 15px;
+    margin-left: -4px; */
+  }
+  .CardSmallHeading {
+    font-size: 15px;
+    margin-left: 0px;
+    text-transform: capitalize !important;
+  }
+}
+@media (max-width: 350px) and (min-width: 330px) {
+  .CardImage1 {
+    width: 44px;
+    height: 37px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 330px) and (min-width: 300px) {
+  .CardImage1 {
+    width: 48px;
+    height: 37px;
+    margin-right: 10px;
+  }
+}
+.tooltipDiv {
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "plusJakartaSans-medium";
+  background-color: #ef483f;
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.triangleup {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #ef483f;
+  margin-top: -30px;
+  margin-bottom: -9px;
+}
+@media (max-width: 550px) {
+  .tooltipDiv {
+    height: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "plusJakartaSans-medium";
+    background-color: #ef483f;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+  }
+}
+.ProfileCraditCardInput:disabled {
+  background-color: white !important;
+}

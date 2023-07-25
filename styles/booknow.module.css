@@ -1,0 +1,1561 @@
+.treatmentContainer {
+  height: 335px;
+  margin-left: 6%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.PaymentButton {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+}
+.SimpleInputDesign {
+  margin-top: 10px;
+  height: 44px;
+  width: 99%;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  border: none !important;
+  background-color: white;
+  border-radius: 6px;
+  font-family: "Playfair Display" !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 5px 10px 5px 20px;
+}
+.treatmentContainerMargin {
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+.RowSmallScreen {
+  display: none !important;
+}
+.bookingIconText {
+  padding: 0 7px 7px 7px;
+}
+.bookingText {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: "PlusJakartaSans-Medium";
+  color: #06152d;
+  text-transform: capitalize !important;
+}
+
+.packageText {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-family: "PlusJakartaSans-Medium";
+  color: gray;
+  text-transform: capitalize !important;
+}
+.bookingAdress {
+  color: #737b87;
+  font-size: 12px;
+  font-family: "PlusJakartaSans-Medium";
+}
+.bookingEditText {
+  padding: 7px;
+  color: #007fff;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 13px;
+  font-weight: 600;
+}
+.BookingTreatment {
+  font-size: 14px;
+  font-family: "PlusJakartaSans-Medium";
+  color: "#06152D";
+}
+.Bookingprofessional {
+  font-size: 12px;
+  color: #737b87;
+}
+.bookingRate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "PlusJakartaSans-Bold";
+}
+.bookingRateprice {
+  color: #007fff;
+  font-size: 18px;
+  font-family: "PlusJakartaSans-Medium";
+  font-weight: 600;
+}
+.bookingButton {
+  background-color: #007fff;
+  padding-left: 13px !important;
+  padding-top: 6px !important;
+  padding-right: 13px !important;
+  padding-bottom: 6px !important;
+}
+.bookingProfileName {
+  font-size: 12px;
+  font-family: "PlusJakartaSans-Medium";
+  color: #06152d;
+  padding: 5px;
+}
+.bookingTotalRate {
+  font-size: 12px;
+  color: #737b87;
+  font-family: "PlusJakartaSans-Regular";
+}
+.BookingCompoent {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "PlusJakartaSans-Medium";
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.BookingCompoentrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ActiveButtonBooking {
+  background-color: #06152d !important;
+  font-family: PlusJakartaSans-regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  width: 90px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.UnActiveButtonBooking {
+  border: 2px solid #dedede !important;
+  font-family: PlusJakartaSans-regular;
+  margin-left: 10px;
+  font-size: 14px;
+  border: 2px solid;
+  width: 90px !important;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  padding: 12px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.SubTypeNail {
+  background-image: url("../public/Images/brows.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+}
+.TypeCards {
+  margin-bottom: 30px;
+  width: 100%;
+  color: white;
+  height: 136px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PlusJakartaSans-regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.treatmentTime {
+  font-family: PlusJakartaSans-Medium;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: rgb(239, 239, 239);
+  margin-top: 18px;
+  text-align: left;
+}
+.BorderClass1 {
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+}
+.BorderClass2 {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.DownArrow {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}
+.HideDataBG {
+  background-color: #fafafa;
+  margin-left: 6% !important;
+  padding-bottom: 20px;
+}
+.CommonHidenCard {
+  min-height: 220px;
+  background: #ffffff;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 20px 15px 10px 18px !important;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.DisplayCardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.MarginTopClass {
+  margin-top: 23px;
+}
+.HideContent {
+  height: 0px;
+  overflow: hidden;
+}
+.TransitionClass {
+  transition: all 1s ease;
+  min-height: 2px;
+}
+.HeightButton {
+  margin-top: 100px;
+}
+.wrappe {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.FromText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(114, 129, 151, 1);
+  font-family: "PlusJakartaSans-regular";
+}
+.TimeModalBodyClass {
+  width: 96%;
+  margin: auto;
+}
+.TimeModalHeadClass {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+}
+.DeepTissueModalBody {
+  padding-left: 25px !important;
+  height: 550px !important;
+  overflow: auto !important;
+}
+.DeepTissueModalHeader {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  padding-left: 38px !important;
+  padding-right: 35px !important;
+}
+.AddressModalBoddyPadding {
+  background: #f8f7f7;
+  padding-left: 28px;
+  box-shadow: 4px 4px 23px rgba(109, 106, 140, 0.18);
+}
+.ShadowMoidalHEad {
+  box-shadow: 5px 4px 46px rgba(144, 130, 184, 0.18) !important;
+}
+.AddressModallClass {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.DetailPadLeftTypes {
+  width: 100%;
+  padding-left: 1.1%;
+  height: fit-content;
+}
+.DelayClass {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.ClassForDetailMargin {
+  padding-top: 40px !important;
+}
+.ClassForDetailMarginOftypes {
+  margin-top: 40px !important;
+}
+.CenterTextBookImage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.treatmentText {
+  font-family: "PlusJakartaSans-Medium";
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 110px;
+  line-height: 58px;
+  letter-spacing: 0em;
+}
+.ShowContent {
+  min-height: 400px !important;
+}
+@media screen and (min-width: 550px) and (max-width: 993px) {
+  .AdressModalDropDown {
+    padding-left: 4.5% !important;
+    padding-right: 4.5% !important;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2700px) {
+  .ShowContent {
+    min-height: 403px !important;
+  }
+  .ShowContentPhysio {
+    height: 1250px !important;
+  }
+  .ShowContentNails {
+    height: 850px !important;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1900px) {
+  .ShowContent {
+    min-height: 400px !important;
+  }
+  .ShowContentPhysio {
+    height: 1250px !important;
+  }
+  .ShowContentNails {
+    height: 880px !important;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  .ShowContent {
+    min-height: 403px !important;
+  }
+  .ShowContentPhysio {
+    height: 1300px !important;
+  }
+  .ShowContentNails {
+    height: 950px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .ShowContentPhysio {
+    height: 1400px !important;
+  }
+  .ShowContentNails {
+    height: 1080px !important;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 992px) {
+  .ShowContentPhysio {
+    height: 2580px !important;
+  }
+  .ShowContentNails {
+    height: 1550px !important;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+  .ShowContentPhysio {
+    height: 2500px !important;
+  }
+  .ShowContentNails {
+    height: 1650px !important;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 650px) {
+  .ShowContentPhysio {
+    height: 2520px !important;
+  }
+  .ShowContentNails {
+    height: 1750px !important;
+  }
+}
+@media only screen and (min-width: 510px) and (max-width: 540px) {
+  .ShowContentPhysio {
+    height: 2810px !important;
+  }
+  .ShowContentNails {
+    height: 1850px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 510px) {
+  .ShowContentPhysio {
+    height: 2900px !important;
+  }
+  .ShowContentNails {
+    height: 2070px !important;
+  }
+}
+@media only screen and (min-width: 410px) and (max-width: 440px) {
+  .ShowContentPhysio {
+    height: 3000px !important;
+  }
+  .ShowContentNails {
+    height: 2015px !important;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 410px) {
+  .ShowContentPhysio {
+    height: 2850px !important;
+  }
+  .ShowContentNails {
+    height: 2110px !important;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 370px) {
+  .ShowContentPhysio {
+    height: 3100px !important;
+  }
+  .ShowContentNails {
+    height: 2140px !important;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 360px) {
+  .ShowContentPhysio {
+    height: 3200px !important;
+  }
+  .ShowContentNails {
+    height: 2190px !important;
+  }
+}
+@media only screen and (min-width: 340px) and (max-width: 350px) {
+  .ShowContentPhysio {
+    height: 3250px !important;
+  }
+  .ShowContentNails {
+    height: 2230px !important;
+  }
+}
+@media only screen and (min-width: 332px) and (max-width: 340px) {
+  .ShowContentPhysio {
+    height: 3150px !important;
+  }
+  .ShowContentNails {
+    height: 2280px !important;
+  }
+}
+@media only screen and (min-width: 317px) and (max-width: 332px) {
+  .ShowContentPhysio {
+    height: 3150px !important;
+  }
+  .ShowContentNails {
+    height: 2340px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 316px) {
+  .ShowContentPhysio {
+    height: 3180px !important;
+  }
+  .ShowContentNails {
+    height: 2390px !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .ShowContentPhysio {
+    height: 3200px !important;
+  }
+  .ShowContentNails {
+    height: 2480px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .treatmentText {
+    padding-top: 100px;
+  }
+  .treatmentTime {
+    margin-top: 0px;
+  }
+  .treatmentContainer {
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 13px;
+  }
+  .treatmentContainerMargin {
+    margin-left: 20px;
+    margin-right: 13px;
+  }
+  .HideDataBG {
+    margin-left: 20px !important;
+    margin-right: 13px !important;
+  }
+  .ClassForDetailMarginOftypes {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 800px) and (min-width: 400px) {
+  .AddressTextArea {
+    width: 94.5% !important;
+  }
+  .DetailPadLeftTypes {
+    padding-left: 0.3% !important;
+  }
+  .treatmentContainer {
+    height: 130px;
+  }
+  .treatmentText {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .CenterTextBookImage {
+    height: 100%;
+  }
+  .ClassForDetailMargin {
+    padding-top: 20px !important;
+  }
+  .ClassForDetailMarginOftypes {
+    margin-top: 20px !important;
+  }
+}
+.treatmentImage1 {
+  background-image: url("../public/Images/treatment1.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.treatmentImage2 {
+  background-image: url("../public/Images/treatment2.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.treatmentImage3 {
+  background-image: url("../public/Images/treatment3.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  align-items: center;
+  display: flex;
+  margin-bottom: -3px;
+  justify-content: center;
+}
+.treatmentImage4 {
+  background-image: url("../public/Images/treatment4.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Nail {
+  background-image: url("../public/Images/nails.png");
+  background-size: 100% 100%;
+  z-index: 10000;
+}
+.Card {
+  background-color: white;
+  margin-top: 9px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  font-family: "Playfair Display";
+  align-items: center;
+  box-shadow: 4px 6px 44px rgba(200, 171, 171, 0.25);
+}
+.ManageCard {
+  background-color: white;
+  margin-top: 9px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px 10px 10px;
+  font-family: "Playfair Display";
+  align-items: center;
+}
+.TotalBookingCard {
+  background-color: white;
+  margin-top: 9px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 17px 10px 58px;
+  font-family: "Playfair Display";
+  align-items: center;
+}
+.CardHomeIcon {
+  background-color: white;
+  margin-top: 9px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 6px 20px 6px 10px;
+  font-family: "Playfair Display";
+  align-items: center;
+}
+.LeftIcon {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 20px;
+}
+.LeftPic {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+.LeftPicBooking {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 4px;
+}
+.FlexDiv {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.FlexDivCol {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-direction: column;
+  float: left;
+}
+.DisplayCard {
+  display: flex;
+  align-items: center;
+}
+.HeadingRight {
+  font-family: plusJakartaSans-regular;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 9px;
+  letter-spacing: 0em;
+  margin-top: 20px;
+  padding-bottom: 12px;
+  text-align: left;
+  text-align: center;
+}
+.HeadingRightBooking {
+  font-family: Playfair Display;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 9px;
+  letter-spacing: 0em;
+  margin-top: 14px;
+  padding-bottom: 30px;
+  text-align: left;
+  text-align: center;
+}
+.CardHeading {
+  font-family: "Playfair Display";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+}
+.BookRightCardHeading {
+  font-family: "Playfair Display";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  margin-top: -1px;
+}
+.Amount {
+  font-family: Playfair Display;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 13px;
+  margin-top: -40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #666277;
+}
+.ShortName {
+  color: #979797;
+  font-family: Playfair Display;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  padding-left: 5px;
+}
+.DetailPadLeft {
+  width: 100%;
+  padding-left: 20px;
+  height: fit-content;
+  transition: height 2s;
+}
+.Time {
+  color: #666277;
+  font-family: Playfair Display;
+  font-size: 11px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.EditWord {
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 9px;
+  letter-spacing: 0em;
+  color: #30d5c8 !important;
+}
+.Remove {
+  color: #30d5c8;
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  margin-top: 5px;
+}
+.Totall {
+  width: 90%;
+  text-align: end !important;
+  float: right;
+}
+.Total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: plusJakartaSans-regular;
+}
+.CenterButton {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TimeButton {
+  text-transform: capitalize;
+  padding-left: 10px !important;
+  width: 81% !important;
+  font-weight: 500 !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-family: "playfair Display" !important;
+  border-radius: 20px !important;
+  height: 33px !important;
+  background-color: #30d5c8 !important;
+  margin-left: -16% !important;
+}
+.DetailCard {
+  background-color: white !important;
+  width: 100%;
+  margin-top: 35px;
+  padding: 20px 20px 20px 20px;
+  font-family: "Playfair Display";
+  align-items: center;
+  box-shadow: 4px 20px 60px rgba(0, 33, 68, 0.15);
+}
+.ShadowClass {
+  box-shadow: 4px 4px 23px rgba(109, 106, 140, 0.18) !important;
+}
+.ShowHeading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1a1a1b;
+  text-transform: capitalize !important;
+  font-family: "PlusJakartaSans-bold";
+}
+.ShowAmount {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #007fff;
+  font-family: "PlusJakartaSans-regular";
+}
+.PText {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+  color: #728197;
+  font-family: "PlusJakartaSans-regular";
+}
+.ShowBtn {
+  padding: 7px 22px 7px 22px !important;
+  background: #ebf4ff !important;
+  border: 1px solid #007fff !important;
+  color: #007fff !important;
+  font-size: 14px !important;
+  font-family: "PlusJakartaSans-regular";
+}
+.ModalHeading {
+  font-family: PlusJakartaSans-Bold;
+  font-size: 30px;
+  font-weight: 400;
+  color: #0a0425;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+.ModalHeadingCreateProfile {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 22px;
+  font-weight: 600;
+  color: #0a0425;
+  line-height: 38px;
+  letter-spacing: 0em;
+}
+.GooglePlacesAutocomplete {
+  box-shadow: 1px 3px 17px 0px #b6b4cc !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  width: 97% !important;
+  font-family: "PlusJakartaSans-Medium";
+  margin-left: 12px !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.lineHight {
+  line-height: 38px;
+}
+.DeepTissueModalHeading {
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.InputLabel {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  color: #0a0425;
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.AddressInput {
+  background-color: white;
+  width: 97.6% !important;
+  height: 52px !important;
+  margin-top: 10px;
+  color: #0a0425 60%;
+  font-family: "Playfair Display";
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  border-radius: 5px !important;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.InputHeight {
+  height: 43px !important;
+  width: 100%;
+  border: none !important;
+  padding-left: 7px;
+}
+@media (max-width: 767px) {
+  .AddressModallClass {
+    padding-left: 15px !important;
+    padding-right: 10px !important;
+  }
+  .InputHeight {
+    height: 43px !important;
+    width: 100% !important;
+    border: none !important;
+    padding-left: 7px;
+  }
+  .NumberInput {
+    width: 60% !important;
+  }
+}
+@media only screen and (min-width: 250px) and (max-width: 550px) {
+  .AddressModallClass {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 10px !important;
+    background-color: #ffffff !important;
+    position: fixed;
+    z-index: 99999;
+    width: 95%;
+    margin-top: -2px;
+  }
+}
+.NumberInput {
+  width: 300px;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  margin-top: 30px;
+  height: 40px !important;
+}
+.AddressInputText {
+  background-color: white;
+  width: 97.6% !important;
+  height: 52px !important;
+  border: 1px solid #d2d2d2 !important;
+  border: none;
+  border-radius: 5px !important;
+  margin-top: 10px;
+  color: #0a0425 60%;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 10px;
+}
+.TextAddress {
+  color: #0a0425 !important;
+  font-family: "Playfair Display" !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 19px !important;
+  letter-spacing: 0px !important;
+  text-align: left !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-family: "Playfair Display" !important;
+}
+.AddressTextArea {
+  background-color: white;
+  width: 97%;
+  height: 83px !important;
+  padding: 10px 5px 5px 13px !important;
+  border: 1px solid #d2d2d2 !important;
+  border-radius: 5px !important;
+  border: none;
+  margin-top: 10px;
+  color: #0a0425 60%;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.AddressButtonCreate {
+  width: 93% !important;
+  margin: auto;
+}
+.AddressButton {
+  width: 93%;
+  margin: auto !important;
+  height: 40px;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  box-shadow: 0px 12px 20px 2px rgba(0, 0, 0, 0.18) !important;
+}
+.AddressButton1 {
+  width: 100%;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+.ModalHead {
+  background: linear-gradient(195.03deg, #fafafa 10.58%, #f8f7f7 250.34%, #f8f7f7 251.83%);
+  /* padding-top: 4% !important; */
+  /* padding-bottom: 4% !important; */
+  box-shadow: 12px 4px 40px rgba(0, 0, 0, 0.08) !important;
+  border-bottom: none !important;
+}
+.ModalHeadd {
+  background: linear-gradient(195.03deg, #fafafa 10.58%, #f8f7f7 250.34%, #f8f7f7 251.83%);
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+  box-shadow: 12px 4px 40px rgba(0, 0, 0, 0.08) !important;
+  border-bottom: none !important;
+}
+/* deep tissue modal css */
+.DeepModalText {
+  font-size: 15px !important;
+  font-family: "PlusJakartaSans-Regular";
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #728197;
+}
+.PilotDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.DoneTextDiv {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  width: fit-content;
+  background: #fafafa;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-left: 13px;
+  font-family: "PlusJakartaSans-medium";
+}
+.DoneIcon {
+  margin-right: 10px;
+  padding: 3px;
+  background-color: #007fff;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.DeepModalHeading {
+  font-family: "PlusJakartaSans-bold";
+  font-size: 18px;
+  font-weight: 600;
+  color: #0a0425;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .AddressButtonCreate {
+    width: 97% !important;
+    margin: auto;
+    margin-top: 0 !important;
+    border-radius: 8px !important;
+  }
+  .treatmentTime {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .CenterTextBookImage {
+    height: 100%;
+  }
+  .treatmentText {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 5px;
+    padding-top: 30px;
+  }
+  .DownArrow {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+  }
+  .RowBigScreen {
+    display: none !important;
+  }
+  .RowSmallScreen {
+    display: flex !important;
+    height: 52px;
+    flex-flow: nowrap !important;
+    overflow-x: auto !important;
+  }
+  .ModalHeader {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 575px) {
+  .PilotDiv {
+    padding-right: 50px !important;
+  }
+  .Timetime {
+    font-size: 12px !important;
+    margin-top: 0px !important;
+    margin-right: 15px !important;
+  }
+  .AddressButton1 {
+    padding: 3px 30px 3px 30px !important ;
+    border-radius: 8px !important;
+    width: 100%;
+    font-size: 16px !important;
+  }
+  .TimeAmount {
+    font-size: 16px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color: #007fff !important;
+    font-family: "PlusJakartaSans-Bold" !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 399px) {
+  .ModalHeader {
+    margin-left: 9px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 540px) {
+  .ModalHeader {
+    margin-left: 9px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 550px) {
+  .treatmentContainerMargin {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .DisplayCardBottom {
+    margin-top: 15px;
+  }
+  .PText {
+    height: auto;
+  }
+  .CommonHidenCard {
+    padding: 20px 15px 17px 18px !important;
+    width: 107%;
+    margin-left: -3%;
+  }
+  .treatmentTime {
+    font-size: 12px;
+    margin-top: 9px;
+  }
+  .TimeModalBodyClass {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .TimeModalHeadClass {
+    padding-left: 10px !important;
+
+    padding-right: 5px !important;
+  }
+  .DeepTissueModalBody {
+    padding-left: 10px !important;
+  }
+  .DeepTissueModalHeader {
+    padding-left: 10px !important;
+  }
+  .AddressModalBoddyPadding {
+    padding-left: 1px !important;
+    margin-top: -10px !important;
+  }
+  .DeepTissueModalHeading {
+    font-size: 22px;
+    font-family: "PlusJakartaSans-Medium";
+  }
+  .AddressTextArea {
+    width: 94%;
+  }
+  .DetailPadLeftTypes {
+    padding-left: 2px !important;
+  }
+  .ClassForDetailMargin {
+    padding-top: 20px !important;
+  }
+  .ClassForDetailMarginOftypes {
+    margin-top: 20px !important;
+  }
+  .MarginForAll {
+    padding-left: 5% !important;
+  }
+  .ModalHeader {
+    font-size: 22px !important;
+  }
+  .ModalDetailText {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+  .treatmentContainer {
+    width: 97% !important;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .HideDataBG {
+    margin-left: 4px !important;
+    margin-right: 5px !important;
+  }
+}
+@media screen and (min-width: 2100px) and (max-width: 2600px) {
+  .CommonHidenCard {
+    min-height: 320px !important;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 550px) {
+  .DeepTissueModalBody {
+    padding-left: 25px !important;
+    /* height: 512px !important; */
+    overflow: auto !important;
+    height: 100vh !important;
+    margin-top: 30px !important;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .DeepTissueModalBody {
+    padding-left: 25px !important;
+    height: 470px !important;
+    overflow: auto !important;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 420px) {
+  .SelecteddivHardCoded {
+    box-shadow: none !important;
+  }
+  .FooterTime {
+    margin-top: 0px !important;
+  }
+  .AdressModalDropDown {
+    position: relative !important;
+    width: 88% !important;
+  }
+  .AdressModalDropDownItem {
+    height: 300px;
+    position: absolute !important;
+    z-index: 1;
+    left: 50%;
+    overflow-y: scroll;
+    transform: translate(-50%);
+    width: 100%;
+  }
+}
+@media screen and (min-width: 419px) and (max-width: 550px) {
+  .AdressModalDropDown {
+    position: relative !important;
+    width: 89% !important;
+  }
+  .AdressModalDropDownItem {
+    height: 300px;
+    position: absolute !important;
+    z-index: 1;
+    left: 50%;
+    overflow-y: scroll;
+    transform: translate(-50%);
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 550px) {
+  .SelecteddivHardCoded {
+    box-shadow: none !important;
+  }
+  .wrappe {
+    display: flex;
+    flex-direction: column-reverse !important;
+    justify-content: center;
+    align-items: none !important;
+  }
+  .TimeHeading {
+    font-size: 14px !important;
+  }
+  .HeightButton {
+    margin-top: 0px;
+  }
+  .ModalHead {
+    background: linear-gradient(195.03deg, #fafafa 10.58%, #f8f7f7 250.34%, #f8f7f7 251.83%);
+    box-shadow: 12px 4px 40px rgba(0, 0, 0, 0.08) !important;
+    height: 56px !important;
+    border-bottom: none !important;
+    background: none;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ebebeb !important;
+  }
+  .DeepTissueModalHeading {
+    font-size: 18px !important;
+    font-family: "PlusJakartaSans-Medium";
+  }
+  .DeepModalHeading {
+    font-size: 18px !important;
+    font-family: "PlusJakartaSans-Medium";
+  }
+  .ModalHeader {
+    font-size: 17px !important;
+  }
+  .DeepModalText {
+    font-size: 12px !important;
+  }
+  .SearchIcon {
+    display: none;
+  }
+  .AddressButton {
+    width: 88%;
+    margin: auto !important;
+    height: 56px;
+    box-shadow: 0px 12px 20px 2px rgba(0, 0, 0, 0.18) !important;
+    border-radius: 50px !important;
+  }
+  .AdressModalDropDown {
+    position: relative !important;
+  }
+  .AdressModalDropDownItem {
+    height: 300px;
+    position: absolute !important;
+    z-index: 1;
+    left: 50%;
+    overflow-y: scroll;
+    transform: translate(-50%);
+    width: 88%;
+  }
+  .AdressModalHeight {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+  }
+  .FooterTime {
+    margin-top: 0px !important;
+  }
+  .SelecteddivHardCoded {
+    background-color: #f5f6f8 !important;
+  }
+}
+@media (max-width: 330px) {
+  .ModalHeader {
+    font-size: 15px !important;
+  }
+  .ModalDetailText {
+    font-size: 10px !important;
+    font-weight: 500 !important;
+  }
+  .Timetime {
+    font-size: 13px !important;
+  }
+  .TimeText {
+    font-size: 11px !important;
+  }
+}
+.ModalDetailText {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.ModalHeader {
+  font-family: "PlusJakartaSans-bold";
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #0a0425;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 10px;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  text-transform: capitalize !important;
+  padding-right: 10px;
+}
+.DurationClass {
+  font-size: 18px;
+  margin: 22px 0px 0px 40px;
+  color: #727173;
+}
+@media (max-width: 376px) {
+  .DurationClass {
+    font-size: 18px;
+    margin: 22px 0px 0px 20px;
+    color: #727173;
+  }
+}
+@media (max-width: 450px) and (min-width: 376px) {
+  .DurationClass {
+    font-size: 18px;
+    margin: 22px 0px 0px 27px;
+    color: #727173;
+  }
+}
+/* Time modal  */
+.TimeHeading {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #727173;
+}
+.Selecteddiv {
+  width: 97%;
+  margin-left: 1%;
+  margin-top: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  box-shadow: 1px 3px 20px 13px #efefefd6;
+  max-height: 100px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.SelecteddivHardCoded {
+  width: 97%;
+  margin: auto;
+  margin-top: 15px !important;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  box-shadow: 6px 8px 50px rgba(182, 180, 204, 0.25);
+  max-height: 100px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.TimeText {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425 !important;
+}
+.TimeTexts {
+  font-family: "PlusJakartaSans-Medium";
+}
+.FooterTime {
+  box-shadow: 5px 4px 0px rgba(144, 130, 184, 0.25) !important;
+  /* margin-top: 500px; */
+  border-top: none !important;
+}
+.TimeAddBtn {
+  background-color: white !important;
+  height: 32px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-right: 10px;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  margin-right: 10px !important;
+  color: black !important;
+  font-family: "PlusJakartaSans-Medium";
+  box-shadow: 4px 6px 30px rgba(149, 158, 184, 0.25);
+}
+.FooterContaoner {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 96% !important;
+  margin: auto !important;
+}
+.TimeAmount {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Timetime {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #919096;
+  margin-bottom: 5px;
+}
+.RowManageClass {
+  margin-left: 2px !important;
+  padding-bottom: 280px !important;
+}
+.modalfooter {
+  background: linear-gradient(195.03deg, #fbf7f2 10.58%, #f8f7f7 250.34%, #f8f7f7 251.83%) !important;
+  border: none !important;
+}
+.BorderRadiusClass {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.BorderRadiusThreeCorners {
+  border-bottom-right-radius: 15px;
+}
+.BorderAllRadius {
+  border-radius: 15px;
+}
+.BookButtonNew {
+  height: 50px;
+  width: 155px !important;
+  background-color: #30d5c8 !important;
+  color: white !important;
+  border-radius: 50px !important;
+  font-family: Playfair Display;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.DropWordClass {
+  word-break: break-all !important;
+}
+@media (max-width: 992px) {
+  .Totall {
+    width: 97%;
+    float: none !important;
+    margin: auto;
+  }
+  .MarginTopSmallClass {
+    margin-top: 25px;
+  }
+  .ModalHeadingCreateProfile {
+    font-family: "PlusJakartaSans-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    color: #0a0425;
+    line-height: 38px;
+    letter-spacing: 0em;
+  }
+  .Profilehead {
+    border-bottom: 1px solid #ebebeb;
+  }
+}
+.buttonLocationTreatment {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: #007fff;
+  color: white;
+  box-shadow: 4.16667px 5px 30px rgba(177, 203, 197, 0.25);
+  position: fixed;
+  bottom: 15px;
+  right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9;
+}
+.GoLocationIcon {
+  height: 24px;
+  width: 24px;
+}
+.treatmentLengthContainer {
+  height: 25px !important;
+  min-width: 25px;
+  /* padding: 5px 10px 5px 10px; */
+  border-radius: 50%;
+  border-color: #007fff !important;
+  background-color: #ffffff;
+  position: absolute;
+  top: -1px;
+  right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  color: #007fff;
+  font-size: 11px;
+  font-family: "PlusJakartaSans-medium";
+  font-weight: 400;
+}
+@media (min-width: 601px) {
+  .buttonLocationTreatment {
+    display: none;
+  }
+}

@@ -1,0 +1,1289 @@
+.Container {
+  padding: 30px 0px 30px 50px;
+  padding-left: 50px;
+  padding-right: 25px;
+  background-color: #f5f5f5;
+  padding-bottom: 60px;
+}
+@media (min-width: 1400px) {
+  .Container {
+    padding: 30px 0px 30px 50px;
+    padding-left: 85px;
+    padding-right: 25px;
+    background-color: #f5f5f5;
+    padding-bottom: 60px;
+  }
+}
+.ratingIcon {
+  margin-top: -1px;
+  height: 18px;
+  width: 18px;
+  color: #b1b1b1 !important;
+}
+.ratingIconActive {
+  margin-top: -1px;
+  height: 18px;
+  width: 18px;
+  color: #007fff !important;
+}
+.MrClassSign {
+  margin-top: 150px;
+}
+.TimeSliderContainer {
+  padding-right: 4.8% !important;
+  width: 101.5% !important;
+}
+.ProfileSliderContain {
+  padding-right: 1.2%;
+  padding-left: 4.2%;
+}
+.TimeSliderContainerClass {
+  padding-right: 1.5%;
+  position: relative;
+  margin-right: -2.1% !important;
+  margin-left: 0.6% !important;
+}
+.SelectedTime {
+  width: 50%;
+  margin: auto;
+  font-size: 15px !important;
+}
+.bookingButton {
+  width: 65%;
+  margin: auto;
+  font-size: 15px !important;
+}
+.bookingButtonReturn {
+  width: 75%;
+  margin: auto;
+  font-size: 13px !important;
+  background: transparent !important;
+  border: 1px solid #007fff !important;
+  color: #007fff !important;
+}
+.RowManageClass {
+  width: 96% !important;
+  margin-left: 2.9% !important;
+  position: relative !important;
+  padding-right: 1% !important;
+}
+.ReservedText {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: #3a354f;
+}
+.SignUpProfilePicP {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.SignUpProfilePic {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: -5px !important;
+}
+.RightFooter {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 4.5rem;
+  width: 225px;
+}
+.ContainerDash {
+  padding: 30px 0px 30px 50px !important;
+}
+.TreatmentHeading {
+  font-family: "PlusJakartaSans-medium" !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425 !important;
+}
+.TreatmentHeadingOtherSerivces {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425 !important;
+}
+.myServicesHeading {
+  font-family: "PlusJakartaSans-medium" !important;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425 !important;
+}
+.uploadbtn {
+  background: #30d5c8 !important;
+  border-radius: 13px !important;
+  height: 41px !important;
+}
+.Display {
+  height: 100%;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+.SignUpPic {
+  width: 100%;
+  height: 460px;
+  margin-top: -10px;
+}
+.TreatmentDotOne {
+  background-color: #f96e01;
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50%;
+  margin-top: 5px !important;
+  margin-right: 10px;
+}
+.TreatmentDotColor {
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50%;
+  margin-top: 5px !important;
+  margin-right: 10px;
+}
+.TreatmentDotTwo {
+  background-color: #dcd6cd;
+  width: 13px !important;
+  height: 13px !important;
+  margin-top: 5px !important;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.TreatmentDotThree {
+  background-color: #30d5c8;
+  width: 13px !important;
+  margin-top: 5px !important;
+  height: 13px !important;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.WidthLeft {
+  margin-right: 2px;
+  width: 13% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.WidthRight {
+  width: 82% !important;
+}
+.CardWidth {
+  border-radius: 12px;
+  width: 92% !important;
+  margin: auto;
+}
+.AppointmentButton {
+  margin-right: 0px !important;
+  margin-top: 150px !important;
+  margin-bottom: 150px !important;
+}
+.TreatmentText {
+  font-family: "PlusJakartaSans-medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-break: auto !important;
+  line-height: 10px !important;
+  line-break: anywhere;
+  text-transform: capitalize;
+}
+@media (max-width: 800px) {
+  .SelectIcon {
+    width: 10px !important;
+  }
+  .SelectText {
+    font-size: 19px !important;
+  }
+  .SelectTextSecond {
+    margin-top: 20px !important;
+    font-size: 19px !important;
+  }
+  .TreatmentText {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+  .Container {
+    padding: 30px 0px 30px 17px !important;
+    background-color: #f5f5f5;
+  }
+}
+@media (min-width: 430px) and (max-width: 540px) {
+  .ManageForSmall {
+    margin-left: 10px !important;
+  }
+}
+@media (min-width: 350px) and (max-width: 430px) {
+  .ManageForSmall {
+    margin-left: 6px !important;
+  }
+  .AllDotsContainer {
+    width: 2rem !important;
+  }
+}
+.OrTextContainer {
+  width: 100%;
+}
+@media (max-width: 390px) {
+  .SelectedTime {
+    width: 100%;
+    font-size: 12px !important;
+  }
+  .bookingButton {
+    width: 100%;
+    font-size: 12px !important;
+  }
+  .bookingButtonReturn {
+    width: 100%;
+    font-size: 12px !important;
+  }
+
+  .SignUpProfilePicP {
+    margin-top: 10px !important;
+  }
+  .SignUpProfilePic {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .ReservedText {
+    font-size: 9px !important;
+    line-height: 17px !important;
+    margin-top: 4px !important;
+  }
+}
+@media (max-width: 350px) {
+  .WidthLeft {
+    width: 16% !important;
+  }
+  .TreatmentText {
+    font-size: 10px !important;
+  }
+  .AllDotsContainer {
+    width: 1rem !important;
+  }
+  .TreatmentDotOne {
+    background-color: #f96e01;
+    width: 6px !important;
+    height: 6px !important;
+    margin-top: 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .TreatmentDotTwo {
+    background-color: #dcd6cd;
+    width: 6px !important;
+    height: 6px !important;
+    margin-top: 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .TreatmentDotThree {
+    background-color: #30d5c8;
+    width: 6px !important;
+    height: 6px !important;
+    margin-top: 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 310px) {
+  .AccessAccount {
+    font-size: 15px !important;
+  }
+}
+.BokingButton {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.AllDotsContainer {
+  width: 1.5rem;
+}
+.DoneIconDiv {
+  margin-right: 15px;
+}
+.DoneIconDiv1 {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #007fff;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.CircleClass {
+  margin-right: 20px;
+  width: 31px;
+  height: auto;
+  margin-top: 10px;
+}
+.SliderBackColorHide {
+  background-color: #f8f7f7;
+  width: 100%;
+  padding-right: 2%;
+  padding-bottom: 30px;
+}
+@media (max-width: 769px) {
+  .CardWidth {
+    width: 100% !important;
+  }
+  .SignUpModalHeader {
+    font-size: 16px !important;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .SignupText {
+    display: none !important;
+  }
+  .MrClassSign {
+    margin-top: 20px;
+  }
+  .ContinueBooking {
+    margin-bottom: 15px;
+    width: 97%;
+    margin-top: 15px;
+    background-color: #f5f6f8 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 17px 0px #b6b4cc;
+    max-height: 100px;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .SignUpButton {
+    height: 48px;
+    font-size: 16px;
+    font-family: "PlusJakartaSans-Regular";
+    border-radius: 8px !important;
+    margin-bottom: 0 !important;
+  }
+  .SignUpButtonn {
+    width: 100% !important;
+    height: 48px;
+    font-size: 16px;
+    font-family: "PlusJakartaSans-Regular";
+    border-radius: 8px !important;
+    margin-bottom: 0 !important;
+  }
+  .LoginText {
+    font-family: "PlusJakartaSans-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center !important;
+    margin-bottom: 1rem;
+    border-bottom: none !important;
+  }
+}
+@media (min-width: 769px) {
+  .SignUpModalHeader {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .RowManageClass {
+    margin-left: 2.5% !important;
+  }
+  .ProfileSmallManageContainer {
+    padding-right: 1% !important;
+    padding-left: 0% !important;
+  }
+  .SignUpPic {
+    height: auto;
+  }
+  .TimeProfile {
+    padding: 10px 25px 10px 25px !important;
+    font-size: 15px !important;
+  }
+  .AcountDetail {
+    font-size: 10px !important;
+  }
+  .DoneIconSignUp {
+    margin-right: 10px !important;
+    font-size: 17px !important;
+    margin-top: 0px !important;
+  }
+  .SignupText {
+    font-size: 14px !important;
+    padding-left: 3px !important;
+  }
+  .ModalHeader {
+    font-size: 26px !important;
+    padding-left: 0px !important;
+  }
+  .SignUpModalHeaders {
+    display: none;
+  }
+  .HelpContainer {
+    display: none !important;
+  }
+  .SignUpRightPic {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .ProfileSliderContain {
+    padding-right: 2%;
+    padding-left: 3%;
+  }
+  .TimeSliderContainerClass {
+    padding-right: 0%;
+    position: relative;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+  }
+  .TimeSliderContainer {
+    padding-right: 0.9% !important;
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+  .RowManageClass {
+    width: 100% !important;
+    margin-left: 0% !important;
+    position: relative !important;
+    padding-right: 1% !important;
+  }
+  .RightFooter {
+    margin-left: 4rem !important;
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 350px) {
+  .RightFooter {
+    margin-left: 18% !important;
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 400px) {
+  .ProfileSmallManageContainer {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+  }
+  .TimeProfile {
+    padding: 1px 10px 2px 10px !important;
+    font-size: 12px !important;
+  }
+}
+.RattingsDiv {
+  color: #007fff !important;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+.MarginClass {
+  margin-top: 4rem !important;
+}
+.Headpadding {
+  padding-top: 40px !important;
+}
+.SelectText {
+  display: flex;
+  font-family: "plusJakartaSans-medium";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.LeftPic {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: -8px;
+  object-fit: fill;
+}
+.DisplayCard {
+  display: flex;
+  align-items: center;
+}
+.ClassicCard {
+  margin-top: 8px !important;
+  border-radius: 10px !important;
+  background-color: white;
+  margin-top: 9px;
+  padding: 5px 20px 1px 20px;
+  font-family: "Playfair Display";
+  align-items: center;
+  box-shadow: 4px 20px 60px rgba(0, 33, 68, 0.15);
+}
+.CardMargin {
+  margin-top: 6rem !important;
+}
+.SelectTextSecond {
+  display: flex;
+  font-family: "plusJakartaSans-regular";
+  font-size: 17px !important;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  line-height: 29px;
+  padding: 10px;
+  letter-spacing: -0.03em;
+}
+.BorderLine {
+  background-color: #fdf6ed;
+  padding: 10px 13px 10px 13px !important;
+  border-radius: 10px;
+}
+.SelectIcon {
+  color: #a4a8b7;
+  cursor: pointer;
+  margin-top: 3px;
+  width: 13px;
+  margin-right: 20px;
+}
+.SwiperSlider {
+  font-family: "plusJakartaSans-medium";
+  font-size: 18px;
+  height: 96% !important;
+  font-weight: 500;
+  line-height: 18px;
+  padding-top: 10px;
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px !important;
+  flex-direction: column;
+  background-color: #fcfcfe;
+  box-shadow: 0 8px 6px -6px #d6d6d6 !important;
+}
+.ForCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.CenterAllData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Card {
+  background-color: white;
+  width: 100%;
+  margin-top: 35px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Playfair Display";
+  align-items: center;
+  box-shadow: 4px 20px 60px rgba(0, 33, 68, 0.15);
+}
+.DetailCard {
+  background-color: white !important;
+  width: 100%;
+  margin-top: 35px;
+  padding: 15px 20px 15px 55px;
+  font-family: "Playfair Display";
+  align-items: center;
+}
+.SliderStar {
+  margin-left: 10px;
+  margin-top: 12px;
+  font-family: "plusJakartaSans-regular";
+}
+.SliderStar img {
+  width: 20px;
+  margin-top: -8px;
+}
+.TimeContainer {
+  height: 40px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: "plusJakartaSans-medium";
+}
+.SwiperSliderDate {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  height: 56% !important;
+  font-weight: 500;
+  line-height: 18px;
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+  border-radius: 20px !important;
+  flex-direction: column;
+  background-color: white;
+}
+.SwiperSliderProfile {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  height: 11rem !important;
+  font-weight: 500;
+  line-height: 18px;
+  color: #a3a3a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ecebeb;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.ProfileImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 50% !important;
+  border: 3px solid #cdc4ba;
+  object-fit: cover;
+}
+.FooterText {
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #534d61;
+}
+.DetailFooterText {
+  font-family: "plusJakartaSans-regular";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #534d61;
+}
+.TreatmentFooterButton {
+  font-size: 14px;
+  padding: 10px 30px 10px 30px !important;
+}
+/* Signup Modal */
+.SignupText {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #0d0629;
+  padding-left: 21px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.DoneIcon {
+  margin-right: 10px;
+  color: #30d5c8;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.DoneIconSignUp {
+  margin-right: 10px;
+  color: #007fff;
+  border-radius: 20px;
+  font-size: 25px;
+  margin-top: -4px;
+  font-weight: 800;
+}
+.DoneTextDiv1 {
+  margin-top: 2rem;
+  display: flex;
+  padding: 10px;
+  width: fit-content;
+  align-items: center;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-left: 13px;
+}
+.DoneTextDiv {
+  display: flex;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: 13px;
+}
+.TickText {
+  align-items: center;
+  padding: 10px;
+  width: fit-content;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.textAreaHeightWidth {
+  resize: none !important;
+  overflow: auto !important;
+  min-height: 120px !important;
+  max-height: 350px !important;
+  padding: 5px 10px 5px 10px !important;
+}
+.textAreaHeightWidth:focus {
+  border: 1px solid #007fff !important;
+}
+.ModalHeaderDivParent > .ModalHeaderDiv {
+  width: 97%;
+  margin-top: 20px;
+  border-bottom: none !important;
+}
+.ModalHeaderDivParent {
+  border-bottom: 1px solid #ebebeb;
+}
+.ModalHeaderr {
+  font-size: 32px;
+  font-family: "PlusJakartaSans-Bold";
+}
+.ModalHeader {
+  padding-top: 0px;
+  margin-top: 0px;
+
+  font-family: "plusJakartaSans-Bold";
+
+  font-size: 29px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ModayBody {
+  padding-top: 0px;
+  padding-top: 0px !important;
+  background: #ffffff;
+}
+.AcountDetail {
+  font-family: "PlusJakartaSans-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.SignUpButtonn {
+  width: 100% !important;
+  height: 48px;
+  font-size: 16px;
+  font-family: "PlusJakartaSans-Regular";
+  border-radius: 8px !important;
+  margin-bottom: 0 !important;
+}
+.SignUpButtonn {
+  width: 100% !important;
+  height: 48px;
+  font-size: 16px;
+  font-family: "PlusJakartaSans-Regular";
+  border-radius: 8px !important;
+  margin-bottom: 0 !important;
+  background-color: #30d5c8 !important;
+}
+
+.SignUpButton {
+  margin-bottom: 70px;
+  width: 98.5%;
+  margin-left: 0.8%;
+  height: 50px;
+  font-size: 25px;
+  font-family: "PlusJakartaSans-Regular";
+}
+.TimeProfile {
+  padding: 6px 23px 6px 23px;
+  background-color: #007fff;
+  color: white;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "PlusJakartaSans-Regular";
+}
+.LoginText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-top: 3rem !important;
+  margin-bottom: 1rem;
+  border-bottom: 0.1 solid black;
+}
+.ProfileIcon {
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 5px;
+  color: #007fff !important;
+}
+.CardHeading1 {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* Create Profile  */
+.CenterText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #0a0425;
+}
+.NumberInput {
+  width: 300px;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  margin-top: 30px;
+}
+.DisplayNumber {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.NumberCode {
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  margin-top: 30px;
+  margin-right: 20px;
+  padding: -1px !important;
+}
+.NumberCodeDropDown {
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: 1px solid transparent !important;
+  height: 43px;
+  width: 70px;
+  border-radius: 5px;
+  margin-bottom: -1px;
+}
+.QuestionDiv {
+  width: 100%;
+  margin-top: 70px;
+  box-shadow: 4px 4px 23px rgba(194, 193, 211, 0.25);
+  padding: 28px 28px 28px 50px;
+}
+.Question {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+}
+.Answer {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #3a354f;
+}
+.Amount {
+  font-family: "plusJakartaSans-medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: -50px;
+  margin-top: -50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #666277;
+}
+
+.ShortName {
+  color: #979797;
+  font-family: "plusJakartaSans-medium";
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-transform: capitalize;
+  padding-top: 17px;
+  padding-left: 0px;
+}
+.CardHeading2 {
+  font-family: "PlusJakartaSans-regular";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 12px;
+  margin-top: 10px;
+  letter-spacing: 0em;
+  text-transform: uppercase !important;
+}
+@media only screen and (min-width: 260px) and (max-width: 550px) {
+  .Amount {
+    font-size: 12px;
+  }
+  .CardHeading2 {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
+.Remove {
+  color: #007fff;
+  font-family: "plusJakartaSans-regular";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  margin-top: 10px;
+}
+.Time {
+  color: #666277;
+  font-family: "plusJakartaSans-regular";
+  font-size: 12px;
+  margin-top: 15px;
+}
+.EditWord1 {
+  font-family: "plusJakartaSans-regular";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 9px;
+  letter-spacing: 0em;
+  color: #007fff !important;
+}
+.HelpContainer {
+  width: 104%;
+  margin-left: -2% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa !important;
+  height: 260px;
+  max-height: 400px;
+}
+.AccessAccount {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #0a0425;
+}
+.HelpText {
+  color: #007fff;
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  margin-top: 10px;
+}
+.Selecteddiv {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 100px;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 93%;
+  margin: auto !important;
+}
+.ContinueBooking {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 15px;
+  width: 97%;
+  margin-top: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  max-height: 100px;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: auto !important;
+}
+.ThanksDoneIcon {
+  margin-right: 10px !important;
+  padding: 24px;
+  background-color: #007fff;
+  color: white;
+  border-radius: 64px !important;
+  font-size: 7rem !important;
+  font-weight: 900 !important;
+  margin-top: 30px !important;
+}
+.cancelIcon {
+  margin-right: 10px;
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  height: 100px !important;
+  width: 100px !important;
+}
+.ThanksText {
+  font-family: "plusJakartaSans-medium";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0a0425;
+  margin-top: 30px;
+}
+.CompleteText {
+  font-family: "plusJakartaSans-regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3a354f;
+  margin-top: 20px;
+}
+.goBack {
+  display: flex !important;
+  font-family: "PlusJakartaSans-Regular";
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  width: 20% !important;
+  margin: auto !important;
+}
+/* signup second modal  */
+.SocialMediaText {
+  font-size: 14px;
+  font-family: "PlusJakartaSans-Medium";
+  font-weight: 500;
+}
+.OrText {
+  font-family: "Playfair Display" !important;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0em;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.SignupMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "playfair Display";
+}
+.SignupGoogleImg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.FaceookContainer {
+  width: 280px;
+  height: 55px;
+  padding: 5px 5px 5px 40px;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white !important;
+}
+.swiper {
+  width: 94%;
+  height: 198px;
+  margin-right: 0px !important;
+  margin-right: 3% !important;
+}
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: white;
+  color: #007fff;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+.prevButton {
+  left: -1px;
+}
+.nextButton {
+  right: 1px;
+}
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .prevButton {
+    left: -20px;
+  }
+}
+.SignUpRightPic {
+  width: 90% !important;
+  height: auto !important;
+  margin-top: 20px !important;
+}
+@media (min-width: 769px) {
+  .ModalHeaderDivParent > .ModalHeaderDiv {
+    border-bottom: none !important;
+  }
+  .ModalHeaderDivParent {
+    border-bottom: none !important;
+  }
+}
+@media (max-width: 992px) {
+  .goBack {
+    width: 40% !important;
+  }
+  .SignUpProfilePic {
+  }
+  .ReservedText {
+    font-size: 13px;
+    line-height: 15px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .OrTextContainer {
+    width: 165%;
+  }
+}
+@media (min-width: 501px) and (max-width: 576px) {
+  .OrTextContainer {
+    width: 270px;
+  }
+}
+@media (min-width: 200px) and (max-width: 501px) {
+  .TickText {
+    padding-right: 0px !important;
+    width: 110% !important;
+  }
+  .OrTextContainer {
+    width: 200px;
+  }
+}
+.BottomHeight {
+  margin-bottom: 10rem;
+}
+/* Contact support  */
+.MessageIcon {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.ServiceTime {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #3a354f;
+  margin-top: 5rem !important;
+}
+@media (min-width: 768px) {
+  .SignUpButtonn {
+    display: none !important;
+  }
+  .SignUpModalHeaders {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: "PlusJakartaSans-Bold";
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 23px;
+    /* padding-right: 10px; */
+  }
+}
+@media (max-width: 991px) {
+  .SignUpRightPic {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  .ModayBody {
+    background: #ffffff;
+  }
+}
+@media (max-width: 768px) {
+  .TickText {
+    align-items: center;
+    padding: 2px 10px;
+    width: fit-content;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-left: 0 !important;
+  }
+  .ModalHeaderr {
+    font-size: 18px;
+    font-family: "PlusJakartaSans-Bold";
+  }
+  .CompleteText {
+    font-family: "plusJakartaSans-regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(10, 4, 37, 0.7);
+    margin-top: 5px !important;
+  }
+  .QuestionDiv {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: none !important;
+    padding: 7px 1px 7px 10px;
+  }
+  .Selecteddiv {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 100px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100% !important;
+    margin: auto !important;
+  }
+  .Answer {
+    font-size: 12px !important;
+  }
+  .Question {
+    font-family: "PlusJakartaSans-Bold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+  }
+  .ModayBody {
+    background: #ffffff;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .ManageForSmall {
+    margin-left: 10px;
+  }
+}
+.backgroundCard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+}

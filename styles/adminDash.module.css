@@ -1,0 +1,563 @@
+.overviewTitle {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.BarChartHeight {
+  height: 400px !important;
+}
+.thisWeakDrop {
+  width: 112px;
+  height: 42px;
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.thisWeakText {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.WeakDropArrow {
+  width: 10px;
+  height: 8px;
+  margin-top: 2px;
+  margin-left: 7px;
+}
+.cardIncomePeriod {
+  min-height: 100px;
+  padding-left: 18px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+}
+.arrowBox {
+  width: 30px;
+  height: 30px;
+  background: #e9eafa;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.arrowBoxPink {
+  width: 30px;
+  height: 30px;
+  background: #fce8ef;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.arrowBoxBlue {
+  width: 30px;
+  height: 30px;
+  background: #dffffc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.arrowBoxOrange {
+  width: 30px;
+  height: 30px;
+  background: #fbf4ee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.marginLeft {
+  margin-left: 18px;
+}
+.amountDollar {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.dollarPercent {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #6d78ee;
+  margin-left: 15px;
+}
+.dollarPercentPink {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #fc86ad;
+  margin-left: 15px;
+}
+.dollarPercentBlue {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #30d5c8;
+  margin-left: 15px;
+}
+.dollarPercentOrange {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #f69548;
+  margin-left: 15px;
+}
+.IncomePeriods {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(10, 4, 37, 0.6);
+  margin-top: 7px;
+}
+.ArrowUpwardIcon {
+  height: 11px !important;
+  width: 9px;
+}
+.customersGrowth {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 410px;
+  padding-left: 8px;
+  padding-right: 18px;
+  padding-top: 16px;
+  padding-bottom: 23px;
+}
+.invitesBook {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 350px;
+  padding-left: 22px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 23px;
+}
+.invitesBookTitle {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #0a0425;
+}
+.invitesBookAvailability {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6c697c;
+}
+.AddNewBook {
+  width: 88px;
+  height: 30px;
+  border: 2px solid #30d5c8;
+  border-radius: 5px !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #30d5c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.WeekTimeBox {
+  height: 46px;
+  border: 0.5px solid #cbcad0;
+  border-radius: 6px !important;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 7px;
+}
+.TimeBox {
+  width: 70px;
+  height: 30px;
+  border: 0.5px solid #cbcad0;
+  border-radius: 4px !important;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #0a0425;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.flexBetweenBookAdd {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.FlexWeekTimeSpace {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.RiDeleteBinFill {
+  height: 22px !important;
+  width: 19px !important;
+  margin-left: 5px;
+  margin-top: 4px;
+  color: #30d5c8;
+}
+.weekName {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.overFlowScroll {
+  height: 243px;
+  overflow: auto;
+}
+.NotAvailable {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #877878;
+}
+.zouluexpertsCard {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 410px;
+  padding-left: 30px;
+  padding-right: 26px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.zouluexpertsTitle {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.ToggleIcon {
+  height: 26px !important;
+  width: 26px !important;
+}
+.profilePng {
+  height: 28px;
+  width: 28px;
+  border-radius: 50% !important;
+}
+.RecentprofilePng {
+  height: 31px !important;
+  width: 31px !important;
+  border-radius: 50% !important;
+}
+.profileName {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 8px !important;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.ExpertType {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #6c697c;
+}
+.overFlowScrollExperts {
+  height: 328px;
+  overflow: auto;
+}
+.recentCustomersCard {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 410px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 18px;
+  padding-bottom: 23px;
+}
+.StatusId {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #6c697c;
+}
+.StatusPaid {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #6c697c;
+  margin-left: 10px;
+}
+.StatusType {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #f96e01;
+  margin-left: 10px;
+}
+.TransactionHistoryCard {
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 10px !important;
+  border: none !important;
+  height: 405px;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  font-family: "PlusJakartaSans-Medium";
+}
+.TransactionHistoryTitle {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.tableBodyDeclineBox {
+  width: 110px !important;
+  height: 26px !important;
+  background: #f3e0e2 !important;
+  border-radius: 6px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  letter-spacing: -0.01em !important;
+  text-transform: capitalize !important;
+  color: #f96e01 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  border-bottom: none !important;
+  float: right !important;
+}
+.tableBodyCompleteBox {
+  width: 110px !important;
+  height: 26px !important;
+  background: #30d5c8 !important;
+  border-radius: 6px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  letter-spacing: -0.01em !important;
+  text-transform: capitalize !important;
+  color: #ffffff !important;
+  float: right !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  border-bottom: none !important;
+}
+.BarChartHeight {
+  height: 400px !important;
+}
+.tableHeaderLeft {
+  background: #dcd9f2 !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom: none !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  line-height: 12px !important;
+  text-transform: capitalize !important;
+  color: #0a0425 !important;
+}
+.tableHeader {
+  background: #dcd9f2 !important;
+  border-bottom: none !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  line-height: 12px !important;
+  text-transform: capitalize !important;
+  color: #0a0425 !important;
+}
+.tableHeaderRight {
+  background: #dcd9f2 !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  border-bottom: none !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  line-height: 12px !important;
+  text-transform: capitalize !important;
+  color: #0a0425 !important;
+}
+.tableBody {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 12px !important;
+  text-transform: capitalize !important;
+  color: #6c697c !important;
+  border-bottom: none !important;
+}
+.dotCalender {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #30d5c8 !important;
+  border-radius: 50% !important;
+  margin-right: 9px;
+  margin-top: 2px;
+}
+.dotCalenderMan {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #a6f7f0 !important;
+  border-radius: 50% !important;
+  margin-right: 9px;
+  margin-top: 2px;
+}
+.dotCalenderNew {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #e4f8f6 !important;
+  border-radius: 50% !important;
+  margin-right: 9px;
+  margin-top: 2px;
+}
+.dotCalender {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #30d5c8 !important;
+  border-radius: 50% !important;
+  margin-right: 9px;
+  margin-top: 2px;
+}
+.dotWomanCal {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #6c697c;
+}
+.weeklyDropDown {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 17px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: capitalize;
+  color: #33343d;
+}
+.ArrowVector {
+  height: 5px !important;
+  width: 9px !important;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+@media only screen and (min-width: 300px) and (max-width: 370px) {
+  .weekName {
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .flexBetweenBookAdd {
+    display: block !important;
+  }
+  .invitesBook {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .WeekTimeBox {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .TimeBox {
+    width: 58px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+  }
+}

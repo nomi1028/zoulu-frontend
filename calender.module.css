@@ -1,0 +1,321 @@
+.seven-cols {
+  width: 100%;
+}
+.col-heading {
+  font-size: 12px !important;
+  letter-spacing: 0px;
+  line-height: 60px;
+  color: #06152b !important;
+  font-weight: bold;
+}
+.Boxes {
+  border: 1px solid black;
+  width: 14%;
+}
+
+/* .seven-cols .header_col {
+  width: 14%;
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  border: 1px solid #eeeeee;
+}
+.seven-cols .header_col-detail {
+  width: 14%;
+  display: inline-block;
+  text-align: center;
+  height: 150px;
+  border: 1px solid #eeeeee;
+} */
+
+.firstheader {
+  border-left: none !important;
+}
+.lastheader {
+  border-right: none !important;
+}
+.seven-cols .custom-col {
+  width: 14%;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  overflow: auto;
+}
+.calender_dates {
+  width: 14% !important;
+  display: inline-block !important;
+  border: 1px solid #eeeeee;
+  height: 150px !important;
+  text-align: right !important;
+  padding: 4px !important;
+  font-size: 12px;
+  letter-spacing: 0px;
+  color: #809fb8;
+  font-weight: bold;
+  font-family: "Poppins" !important;
+  padding: 1px;
+}
+.formatted_currentMonth {
+  font-size: 14px;
+  line-height: 29px;
+  color: #06152b;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.calender_title {
+  font-size: 14px;
+  line-height: 23px;
+  color: #06152b;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+.entryContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(219, 90, 238, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.status {
+  font-size: 11px;
+  color: #db5aee;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.status_time {
+  font-size: 11px;
+  color: #809fb8;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+}
+.entry_status_line {
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #db5aee;
+}
+.lateContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(247, 153, 5, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.late_status_line {
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #f79905;
+}
+.late_status {
+  font-size: 11px;
+  color: #f79905;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.exitContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(58, 54, 219, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.exit_status {
+  font-size: 11px;
+  color: #007fff;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.exit_status_line {
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #007fff;
+}
+.absentContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(234, 58, 61, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.absent_status {
+  font-size: 11px;
+  color: #ea3a3d;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.absent_status_line {
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #ea3a3d;
+}
+.paidContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(26, 213, 152, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.paid_status {
+  font-size: 11px;
+  color: #1ad598;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.paid_status_line {
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+  background-color: #1ad598;
+}
+.unPaidContainer {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgba(0, 144, 255, 0.2);
+  padding: 9px 11px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.unPaid_status {
+  font-size: 11px;
+  color: #809fb8;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.unpiad_status_time {
+  font-size: 11px;
+  color: #007fff;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: left;
+}
+.unPaid_status_line {
+  background-color: #007fff;
+  width: 4px;
+  height: 36px;
+  border-radius: 2px;
+}
+.company_calender_effects {
+  position: absolute;
+}
+.company_calender_effects:hover {
+  filter: drop-shadow(0px 10px 15px rgba(203, 232, 254, 0.5));
+  background-image: linear-gradient(0deg, #007bfd 0%, #0050a5 100%);
+}
+.company_calender_effects:hover .calender_date {
+  color: white;
+}
+.company_calender_effects:hover .lateContainer {
+  display: none;
+}
+.company_calender_effects:hover .paidContainer {
+  display: none;
+}
+.company_calender_effects:hover .unPaidContainer {
+  display: none;
+}
+.company_calender_effects:hover .hamburger {
+  display: none;
+}
+.hamburger {
+  position: absolute;
+  left: 5px;
+}
+.active_date {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(0deg, #007bfd 0%, #0050a5 100%);
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Product Sans";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mark_holiday {
+  display: none;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5px 8px rgba(203, 232, 254, 0.5));
+  background-color: #cbe8fe;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: black;
+  font-size: 12px;
+}
+.sandwich {
+  font-size: 12px;
+  cursor: pointer;
+  display: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 5px 8px rgba(203, 232, 254, 0.5));
+  background-color: #cbe8fe;
+  color: black;
+}
+.company_calender_effects:hover .mark_holiday {
+  display: block;
+  position: absolute;
+  left: 8%;
+}
+.company_calender_effects:hover .sandwich {
+  position: absolute;
+  display: block;
+  top: 66px;
+  left: 11%;
+}
+.updateAtt_icon {
+  display: none !important;
+  position: absolute;
+  top: 5;
+  cursor: pointer;
+}
+.calender_dates:hover .updateAtt_icon {
+  display: block !important;
+}

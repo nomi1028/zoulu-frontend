@@ -1,0 +1,125 @@
+.tablestyle {
+  background-color: #f9f9f9;
+  border-radius: 15px !important;
+}
+.updateAvailable {
+  background-color: #30d5c8 !important;
+  border-radius: 10px !important  ;
+}
+.updateAvailablebuton {
+  background-color: #007fff !important;
+  border-radius: 8px !important ;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  height: 41px !important;
+  width: 135px !important;
+}
+
+.tableheader {
+  background-color: #ebe7e7 !important;
+  border-top-left-radius: 14px !important;
+  border-top-right-radius: 14px !important;
+  border-radius: 14px !important;
+}
+.headertitle1 {
+  padding-top: 13px !important;
+  padding-left: 20px !important;
+  padding-bottom: 13px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: #504e4e !important;
+  line-height: 120%;
+  border-top-left-radius: 14px !important;
+  text-transform: capitalize;
+  border: none !important;
+  color: rgba(10, 4, 37, 0.8);
+}
+.headertitle2 {
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  border-bottom: #504e4e !important;
+  border-top-right-radius: 14px !important;
+  font-style: normal;
+  font-weight: 500;
+  border: none !important;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(10, 4, 37, 0.8);
+}
+.headertitleRadius {
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  font-family: "PlusJakartaSans-Medium";
+  border-top-right-radius: 14px !important;
+  border-bottom: #504e4e !important;
+  font-style: normal;
+  font-weight: 500;
+  border: none !important;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(10, 4, 37, 0.8);
+}
+.headertitle {
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  font-family: "PlusJakartaSans-Medium";
+  border-bottom: #504e4e !important;
+  font-style: normal;
+  font-weight: 500;
+  border: none !important;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: rgba(10, 4, 37, 0.8);
+}
+.bodyweektitle {
+  padding-top: 31px !important;
+  padding-bottom: 22px !important;
+  padding-left: 20px !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.bodyweekcheckbox {
+  padding-top: 29px !important;
+  padding-bottom: 22px !important;
+  padding-left: 25px !important;
+}
+.endTime {
+  padding-top: 25px !important;
+  padding-bottom: 20px !important;
+}
+.startTime {
+  padding-top: 25px !important;
+  padding-bottom: 20px !important;
+}
+.appointmentnext {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.appointmenttitle {
+  margin-top: 25px !important;
+  padding-bottom: 10px !important;
+}
+.appointmentcheckbox {
+  margin-top: 18px !important;
+  padding-bottom: 20px !important;
+  padding-left: 72px !important;
+}

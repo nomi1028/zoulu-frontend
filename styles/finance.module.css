@@ -1,0 +1,328 @@
+.CardContainer {
+  background-color: white;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  border-radius: 12px;
+  min-height: 352px;
+}
+.GraphContainerFinance {
+  height: 230px;
+  width: 96%;
+  margin-left: 2%;
+  font-family: playfair Display;
+}
+.GraphFixHeight {
+  height: 337px !important;
+  margin-top: -30px !important;
+}
+.DisplaySpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.RevenueDiv {
+  display: flex;
+  padding: 15px 10px 15px 10px;
+  border: 1px solid #cccccc;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.RevenueText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #007fff;
+}
+.RevenueIcon {
+  color: #a7a9c0;
+}
+.WeeklyDropDown {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.IncomeHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a1a0bd;
+}
+.IncomeAmount {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 00;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  color: #000000;
+}
+.IconTextDiv {
+  background-color: #dffaf8;
+  padding: 10px 15px 10px 21px;
+  color: #30d5c8;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  width: 130px;
+  margin-top: 20px;
+}
+.DetailButton {
+  padding: 10px 15px 10px 15px;
+  font-size: 13px;
+  width: 130px;
+  border: 2px solid #30d5c8;
+  margin-top: 20px;
+  font-family: Playfair Display;
+  font-weight: 600;
+  color: #30d5c8;
+  line-height: 18px;
+  letter-spacing: 0em;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InfoCardPadding {
+  padding: 30px 15px 30px 15px;
+  margin-top: 30px;
+}
+.CardHeading {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425;
+}
+.InfoHeading {
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.ActiveButton {
+  background-color: #30d5c8;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+.InfoText {
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding-right: 10px;
+  color: #0a0425;
+}
+.MoreText {
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #30d5c8;
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+.ProgressDiv {
+  padding: 30px 20px 50px 20px !important;
+}
+.PBar {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 10rem;
+}
+.DonutChart {
+  color: #30d5c8 !important;
+}
+.ValueDiv {
+  position: absolute;
+  color: #30d5c8;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+.ProgressAmont {
+  font-family: Playfair Display;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: black;
+}
+.CardLimit {
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #a1a0bd;
+}
+.LatestHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+}
+.TablePAd {
+  padding: 30px 20px 30px 20px;
+  height: 305px;
+}
+.TableHead {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a0425;
+}
+.TotalWidth {
+  width: 21%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.TotalWidth1 {
+  width: 34%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.TotalWidth2 {
+  width: 21%;
+  text-align: right !important;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.TotalWidth3 {
+  width: 21%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TableDataBelow {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  margin-top: 15px;
+  font-weight: 500;
+  color: #a1a0bd;
+  border: 1px solid transparent;
+}
+.ScrolBody {
+  border: 2px solid #a1a0bd;
+  max-height: 190px;
+  overflow: auto !important;
+}
+.TableProfileName {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #a1a0bd;
+  display: flex;
+  align-items: center;
+}
+.PAddinfLeft {
+  margin-left: 10px !important ;
+}
+.GraphDropDown1 {
+  border: 1px solid #807d9b;
+  border-radius: 15px;
+  font-family: Playfair Display;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 0px 5px 0px 5px;
+  letter-spacing: 0em;
+}
+@media (max-width: 1200px) {
+  .MarginTopControl {
+    margin-top: 20px;
+  }
+  .CardWord {
+    font-size: 24px;
+    margin-top: 35px !important;
+    margin-bottom: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .MarginTopAfterSmall {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 682px) {
+  .IncomCardPadding {
+    padding: 25px 0px 20px 10px;
+  }
+  .IncomeHeading {
+    font-size: 14px;
+  }
+  .IncomeAmount {
+    font-size: 20px;
+  }
+  .IconTextDiv {
+    padding: 9px 6px 6px 10px;
+    width: 110px;
+  }
+  .DetailButton {
+    padding: 8px 10px 8px 10px;
+    font-size: 12px;
+    width: 110px;
+  }
+}
+.IncomCardPadding {
+  padding: 25px 0px 20px 35px;
+  margin-top: -30px !important;
+}
+@media only screen and (min-width: 260px) and (max-width: 1200px) {
+  .IncomCardPadding {
+    padding: 25px 0px 20px 35px;
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .MTForCard {
+    margin-top: 15px;
+  }
+}
+.CardWord {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.075em;
+  color: #0a0425;
+  margin-top: -45px;
+  margin-bottom: 18px;
+}

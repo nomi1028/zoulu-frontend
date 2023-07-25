@@ -1,0 +1,41 @@
+.CardCntainer {
+  background-color: white;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  font-family: "PlusJakartaSans-Medium";
+}
+.CategoryPadding {
+  padding: 30px 15px 15px 15px;
+  margin-bottom: 50px;
+}
+.CategoryHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-left: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.CategoriesContainer {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #0a0425;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.Categoriesbg1 {
+  background-color: #bfc8eb;
+}
+.Categoriesbg2 {
+  background-color: #fcc7c0;
+}
+.Categoriesbg3 {
+  background-color: #a7d08d;
+}

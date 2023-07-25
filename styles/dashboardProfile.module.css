@@ -1,0 +1,362 @@
+.CalDropDown {
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 3.67145px 2.93088px 15.778px rgba(162, 150, 187, 0.25);
+  border: none !important;
+}
+.CalDropDown .dropdown-toggle {
+  width: 200px !important;
+}
+.profileCardContainer {
+  background: #ffffff;
+  box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.profileCustomerContainer {
+  background: #ffffff;
+  box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding-right: 40px;
+  /* padding-top: 40px; */
+  margin-top: 115px !important;
+  padding-bottom: 40px;
+}
+.flexNotificationProfile {
+  display: flex;
+}
+.addressContainer {
+  background: #f7f7f7;
+  min-height: 80px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profileContainerMargin {
+  padding-right: 50px !important;
+  margin-left: 20px !important;
+}
+.addressProfileText {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #007fff;
+  margin-top: 17px;
+  margin-left: 18px;
+}
+.addressProfileTitle {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 14px;
+  margin-right: 18px;
+  text-transform: capitalize;
+  color: #06152d;
+}
+.MaskgroupIcon {
+  height: 30px !important;
+  width: 30px !important;
+  margin-top: 19px;
+}
+.CalDropDownBtn {
+  font-family: Playfair Display;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none !important;
+  color: #0a0425 !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 11px;
+  text-align: left;
+}
+.CalDropDownBtn :nth-child(1) {
+  color: #30d5c8 !important;
+  font-family: playfair display;
+}
+.ContainerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.EditIcon {
+  position: absolute !important;
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 20px !important;
+  left: 53% !important;
+  padding: 7px !important;
+  top: 90px !important;
+  color: white !important;
+  background-color: #30d5c8 !important;
+}
+.SevenCols {
+  width: 100%;
+}
+.ColHeading {
+  font-size: 10px !important;
+  letter-spacing: 0px;
+  line-height: 60px;
+  color: #868e96 !important;
+  font-family: Playfair Display;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.LeftIconCalender {
+  color: #868e96;
+  font-size: 35px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.RightIconCalender {
+  margin-top: -10px;
+  color: #30d5c8;
+  font-size: 35px;
+}
+.SevenCols .HeaderCol {
+  width: 14%;
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  margin-bottom: 12px;
+  font-family: Playfair Display;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  color: #868e96;
+  letter-spacing: 0.1em;
+}
+.ProfileImage {
+  width: 130px;
+}
+.EditContainer {
+  padding-left: 2.5rem;
+}
+.PasswordClassPadding :nth-child(1) {
+  padding-left: 10px;
+}
+.EditInput {
+  width: 100% !important;
+  background-color: white !important;
+  border-radius: 10px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+  letter-spacing: 0.02em !important;
+  text-align: left !important;
+}
+.PasswordInput {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+.SeledtedCity {
+  background-color: transparent !important;
+  padding: 10px 15px 10x 15px !important;
+  color: #30d5c8 !important;
+  border-radius: 20px !important;
+  margin-top: 20px !important;
+  text-transform: initial;
+  margin-bottom: 10px !important;
+  min-width: 120px !important;
+  max-width: 150px !important;
+  margin-right: 10px !important;
+  font-family: Playfair Display;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+  letter-spacing: 0.02em !important;
+  border: 2px solid #30d5c8 !important;
+}
+.EyeIcon {
+  color: #8c949f;
+  font-size: 24px;
+  margin-top: 25px !important;
+  margin-bottom: 24px !important;
+}
+.DisplayContainer {
+  display: flex;
+  padding-right: 3rem;
+}
+.BackButton {
+  border: 2px solid #bfdada !important;
+  background-color: transparent !important;
+  font-family: Playfair Display;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0em;
+  color: #0a0425 !important;
+  text-align: left;
+  padding: 14px 20px 14px 20px !important;
+  border-radius: 10px !important;
+  margin-right: 20px !important;
+  margin-top: 15px !important;
+}
+.BackButtonCustomerProfile {
+  border: 2px solid #007fff !important;
+  background-color: transparent !important;
+  font-family: "Public Sans";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0em;
+  color: #000 !important;
+  text-align: left;
+  padding: 12px 16px 12px 16px !important;
+  border-radius: 30px !important;
+  margin-right: 20px !important;
+  margin-top: 15px !important;
+}
+.SaveButtonCustomerProfile {
+  background-color: #007fff !important;
+  color: white !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  letter-spacing: 0em;
+  text-transform: capitalize !important;
+  padding: 12px 16px 12px 16px !important;
+  border-radius: 30px !important;
+  margin-top: 15px !important;
+  margin-right: 6px !important;
+}
+.SaveButtonExpertsProfile {
+  background-color: #007fff !important;
+  color: white !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  text-transform: capitalize !important;
+  padding: 12px 18px 12px 18px !important;
+  border-radius: 30px !important;
+  margin-top: 15px !important;
+  margin-right: 6px !important;
+}
+.ConnectStripBtn {
+  background-color: #007fff !important;
+  color: white !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 21px !important;
+  text-transform: capitalize !important;
+  padding: 12px 18px 12px 18px !important;
+  border-radius: 10px !important;
+  margin-top: 15px !important;
+  margin-right: 6px !important;
+}
+.SaveButton {
+  background-color: #30d5c8 !important;
+  color: white !important;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  line-height: 21px !important;
+  letter-spacing: 0em;
+  padding: 14px 20px 14px 20px !important;
+  border-radius: 10px !important;
+  margin-top: 15px !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .DisplayContainer {
+    padding-right: 0rem;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .SaveButtonExpertsProfile {
+    font-size: 7px !important;
+  }
+  .SaveButtonCustomerProfile {
+    font-size: 7px !important;
+  }
+  .DisplayContainer {
+    padding-right: 0rem;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .SaveButtonExpertsProfile {
+    font-size: 11px !important;
+  }
+  .SaveButtonCustomerProfile {
+    font-size: 11px !important;
+  }
+  .DisplayContainer {
+    padding-right: 0rem;
+  }
+}
+.RadiusButtons {
+  margin-top: 20px !important;
+  padding: 7px 30px 7px 30px !important;
+  background-color: #30d5c8 !important;
+  font-family: playfair display !important;
+}
+@media (max-width: 900px) {
+  .EditIcon {
+    position: absolute;
+    left: 56% !important;
+  }
+  .EditContainer {
+    padding-left: 23px;
+  }
+  .BackButton {
+    font-size: 14px;
+    padding: 8px 12px 8px 12px;
+  }
+  .SaveButton {
+    font-size: 14px;
+    padding: 8px 12px 8px 12px;
+  }
+}
+@media (max-width: 500px) {
+  .EditInput {
+    width: 100% !important;
+  }
+  .BackButton {
+    font-size: 11px !important;
+    padding: 7px 10px 7px 10px !important;
+  }
+  .SaveButton {
+    font-size: 11px !important;
+    padding: 7px 10px 7px 10px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 450px) {
+  .flexNotificationProfile {
+    display: block;
+  }
+  .addressProfileText {
+    margin-top: 6px;
+    margin-left: 0px;
+    padding-bottom: 7px;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 600px) {
+  .profileContainerMargin {
+    padding-right: 4px !important;
+    margin-left: -4px !important;
+  }
+  .profileCardContainer {
+    padding-right: 25px;
+  }
+  .profileCustomerContainer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}

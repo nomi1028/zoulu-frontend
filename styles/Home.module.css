@@ -1,0 +1,2618 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap");
+.body {
+  font-family: "Plus Jakarta Sans", serif;
+}
+.FlexContainer {
+  display: flex;
+}
+.LEftPad {
+  padding-left: 70px !important;
+  padding-bottom: 17rem !important;
+}
+.LEftPadLogin {
+  padding-left: 50px !important;
+  padding-bottom: 17rem !important;
+}
+.LeftMarginHead {
+  margin-top: 40px;
+}
+.CircleContainer {
+  position: absolute;
+  top: 20rem;
+  z-index: 100000;
+  margin-left: -2% !important;
+}
+.Header {
+  background-color: white !important;
+}
+.CardColor {
+  background-color: white !important;
+}
+.HeadRight {
+  float: right !important;
+}
+.ZouluButton {
+  display: flex !important;
+  font-family: "PlusJakartaSans-medium" !important;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  padding-left: 37px !important;
+  padding-right: 37px !important;
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+.PaddingHomeScreen {
+  padding-left: 93px !important;
+  padding-right: 65px !important;
+}
+.PaddingHomeScreenMain {
+  padding-left: 93px !important;
+  padding-right: 25px !important;
+}
+.PaddingfooterScreen {
+  padding-left: 93px !important;
+  padding-right: 90px !important;
+}
+.PaddingWorkCards {
+  padding-left: 93px !important;
+  padding-right: 90px !important;
+}
+.PaddingHomeSilder {
+  padding-right: 70px !important;
+}
+.ActiveButton {
+  color: white !important;
+  background: #007fff !important;
+}
+.DisabledButton {
+  color: white !important;
+  background-color: #bababa !important;
+}
+.WidthPeragraph {
+  width: 70% !important;
+}
+.CommonPeragraphwidth {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%;
+  font-style: normal;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3px;
+  letter-spacing: -0.01em;
+  color: rgba(19, 27, 56, 0.9);
+}
+.CommonPeragraph {
+  font-family: "PlusJakartaSans-medium";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 150%;
+  font-style: normal;
+  height: 50px;
+  width: 80% !important;
+  letter-spacing: -0.04em;
+  color: rgba(19, 27, 56, 0.9);
+  text-align: center;
+}
+.CommonPeragraphFrequently {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 150%;
+  font-style: normal;
+  height: 50px;
+  width: 80% !important;
+  letter-spacing: -0.01em;
+  color: rgba(19, 27, 56, 0.9);
+}
+.butnmainbookNow {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  height: 30px !important;
+  width: 140px !important;
+}
+.Card {
+  background: #ffffff;
+  box-shadow: 6px 8px 46px rgba(58, 68, 91, 0.25);
+  border-radius: 10px;
+  width: 100% !important;
+  margin-top: 10px;
+  height: 410px;
+}
+.Card1 {
+  background: #ffffff;
+  box-shadow: 6px 8px 46px rgba(58, 68, 91, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  height: 410px;
+}
+.ActiveCard {
+  background: #007fff;
+  box-shadow: 6px 8px 46px rgba(58, 68, 91, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  height: 410px;
+}
+.ModalHeader {
+  border-bottom: none !important;
+}
+.ModalFooter {
+  border-top: none !important;
+}
+.BottomTopMargin {
+  margin-top: 17rem !important;
+  margin-bottom: 5rem;
+}
+.CenterData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* index.css */
+.BookingDiv {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #fafafa;
+}
+.PaddingimgLeft {
+  padding: 125px 0px 70px 0px;
+}
+.MainTextFrequently {
+  font-family: "PlusJakartaSans-bold" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 130%;
+  width: 80%;
+}
+.Main3Text {
+  font-family: "PlusJakartaSans-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  padding-left: 4px;
+  text-transform: capitalize;
+  line-height: 64px;
+}
+.MainSmallText {
+  height: 60px;
+  width: 533px;
+  left: 135px;
+  top: 445px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.CommonClass {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+.LearnIconClass {
+  width: 20px;
+  height: 20px;
+  margin-left: 14px;
+}
+@media (max-width: 430px) and (min-width: 310px) {
+  .LearnIconClass {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+  }
+}
+.LearnDivClass {
+  padding-left: 20px;
+  padding-bottom: 2px;
+  margin-left: 30px;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.ColoredButton {
+  height: 44px !important;
+  padding-top: -6px !important;
+  font-size: 15px !important;
+  width: 125px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.ColoredSignButton {
+  margin-bottom: 37px !important;
+  margin-top: 25px !important;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+.BorderButton {
+  background-color: transparent !important;
+  color: #30d5c8 !important;
+  font-family: "Plus Jakarta Sans" !important;
+  font-style: normal !important;
+  border: 1px solid #30d5c8 !important;
+  height: 43px !important;
+  margin-left: 1.5rem !important;
+  width: 180px !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  padding: 0px !important;
+  letter-spacing: 0rem !important;
+}
+.HowItWorkText {
+  font-family: "PlusJakartaSans-bold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* line-height: 130%; */
+}
+.HowItWorkTextwork {
+  font-family: "PlusJakartaSans-medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 130%;
+}
+.DisplayDiv {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important    ;
+  flex-direction: column;
+  margin-top: 90px;
+}
+.WorkText {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+}
+.WorkBookBtn1 {
+  margin-top: 20px;
+  height: 51px !important;
+  width: 9rem !important;
+}
+.WorkBookBtn {
+  padding: 12px 40px 12px 40px !important;
+}
+.CardHeading {
+  font-size: 24px;
+  font-family: "PlusJakartaSans-bold";
+  font-style: normal;
+  line-height: 32px;
+  padding-top: 16px !important;
+  text-align: left;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.LeftMargin {
+  margin-right: 76px !important;
+  padding-top: 50px !important;
+  padding-bottom: 5rem;
+}
+.CrdImg {
+  width: 74px;
+  height: 74px;
+}
+.CardPaddingDiv {
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-bottom: 5rem;
+  overflow: auto;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BlueCardDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0425;
+  color: white;
+}
+.CircleParantCircleParant {
+  position: absolute !important;
+  top: 26rem;
+  left: 29rem;
+  right: 67rem !important;
+  left: -13rem !important;
+}
+.SliderCircle {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #007fff !important;
+  border-radius: 50% !important;
+  margin: 0 10px !important;
+}
+.SliderCircle1 {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #dbd8d4 !important;
+  border-radius: 50% !important;
+  margin: 0 10px !important;
+}
+.BlueCardHead {
+  font-family: "PlusJakartaSans-Bold";
+  font-style: normal;
+  font-size: 34px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.BlueCardText {
+  font-family: "PlusJakartaSans-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.PaddingLeftPhone {
+  padding: 20px 75px 20px 20px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+}
+.FloatRight {
+  margin-right: -2rem !important;
+}
+.RightPicSecond {
+  margin-top: 40px;
+  height: 364px;
+}
+.GooglePic {
+  float: left;
+  width: 174px;
+  margin-top: 20px;
+  height: 49px;
+}
+.BlueCardAddress {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px !important;
+  padding-bottom: 50px !important;
+  color: white;
+  padding-bottom: 25px;
+}
+.ColorDiv {
+  background-color: #0a0425;
+}
+.HeadLocation {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #faf7f3;
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-family: "PlusJakartaSans-Medium";
+}
+.HeadLocationcall {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: rgba(253, 246, 237, 0.8);
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-family: "Plus Jakarta Sans";
+}
+.FooterInputs {
+  width: 162px !important;
+  margin-left: -17px !important;
+  border-radius: 30px !important;
+  height: 42px !important;
+  border: 1px solid black !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  font-family: "playfair   display" !important;
+  font-size: 18px !important;
+  background-color: transparent !important;
+}
+.AddresText {
+  font-family: "PlusJakartaSans-Medium";
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: rgba(253, 246, 237, 0.8);
+}
+.DisplayDivReady {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  flex-direction: column;
+  width: 100% !important;
+}
+.MarginContact {
+  margin-left: 14px !important;
+}
+@media (max-width: 550px) {
+  .MarginContact {
+    margin-left: 30px !important;
+  }
+}
+.imgmarginleft {
+  margin-left: -19px !important;
+}
+.DisplayDivZoulu {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column;
+  width: 100% !important;
+  text-align: center !important;
+  justify-content: center;
+  height: 18rem;
+  background-color: #faf7f3 !important;
+}
+.QuestionsPadding {
+  padding: 76px 25px 10rem 80px;
+}
+.QuestionsContainer {
+  height: fit-content;
+  width: 50%;
+  border: 1px solid #f9d29e;
+}
+.QuestionHeading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ColorDivSlider {
+  width: 6.2% !important;
+  height: 249px;
+  margin-top: 209px;
+  background-color: #007fff;
+}
+.ActiveQuestion {
+  color: white !important;
+}
+/* Slider css */
+.SlideOneContainer {
+  width: 84.1% !important;
+  position: relative;
+  height: 460px;
+  border-radius: 12px !important;
+  border-radius: 5px;
+  /* background-color: #fafafa; */
+  padding-top: 30px;
+  padding-left: 40px;
+}
+@media only screen and (min-width: 1001px) and (max-width: 2540px) {
+  .SlideOneContainer {
+    width: 84.1% !important;
+    position: relative;
+    height: 460px;
+    border-radius: 12px !important;
+    border-radius: 5px;
+    background-color: #fafafa !important;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
+.DisplayDivWrk {
+  margin-top: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.ClassColor {
+  font-family: "PlusJakartaSans-medium " !important;
+  background-color: #007fff !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+.BackgroundColorSmall {
+  height: 346px;
+  margin-top: -11rem;
+  background-color: #fafafa !important;
+}
+.SliderHeading {
+  font-family: "PlusJakartaSans-Bold";
+  font-size: 48px;
+  font-weight: 600;
+  color: #0a0425;
+  line-height: 130%;
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.SecondHeadin {
+  font-family: "PlusJakartaSans-medium";
+  font-style: normal;
+  font-size: 21px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.SliderDesignation {
+  font-family: "PlusJakartaSans-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  padding-top: 4px;
+  text-transform: capitalize;
+  color: rgba(10, 4, 37, 0.7);
+}
+.SliderText {
+  font-family: "PlusJakartaSans-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 153%;
+  letter-spacing: -0.03em;
+  color: rgba(10, 4, 37, 0.86);
+  width: 69% !important;
+}
+.SliderImage {
+  position: absolute !important;
+  width: 329px !important;
+  height: 387px !important;
+  right: -130px !important;
+  top: 140px !important;
+  object-fit: cover !important;
+}
+@media only screen and (min-width: 1440px) {
+  .SliderImage {
+    height: 380px !important;
+    width: 300px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 329px !important;
+    height: 387px !important;
+    right: -184px !important;
+    top: 140px !important;
+  }
+  .SliderText {
+    font-family: "PlusJakartaSans-regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 153%;
+    letter-spacing: -0.03em;
+    color: rgba(10, 4, 37, 0.86);
+    width: 76% !important;
+  }
+}
+.SliderImageSmall {
+  width: 100%;
+  height: 350px;
+  margin-left: -2.5% !important;
+  margin-top: 10px;
+}
+.Arrows {
+  position: absolute !important;
+  width: 7rem;
+  height: 60px;
+  top: 4.3rem;
+  right: 31rem;
+}
+.ArrowOne {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  color: #30d5c8 !important;
+}
+.IconClassblack {
+  font-size: 32px !important;
+  margin-top: -10px !important;
+  margin-left: 13px !important;
+}
+.disabledArrow {
+  color: #a1a1a1 !important;
+}
+.IconClass {
+  font-size: 32px;
+  margin-top: -10px;
+  margin-left: 12px;
+}
+.IconClass1 {
+  font-size: 35px !important;
+  margin-top: -10px !important;
+  margin-left: -27px !important;
+}
+.LoginRightPic {
+  width: 90%;
+  height: 75%;
+  margin-top: 10px;
+  margin-left: 2%;
+}
+.CrosIcon {
+  display: flex;
+  justify-content: flex-end;
+}
+.ModelForm {
+  margin: auto;
+  width: 75%;
+}
+.ModalHeading {
+  font-family: PlusJakartaSans-Bold !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #0a0425;
+}
+.AddressModalHeading {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+}
+.SearchPlaceholder {
+  color: #0a0425 !important;
+  font-family: "PlusJakartaSans-Medium";
+}
+.paddingLeftLogin {
+  padding-left: 40px !important;
+}
+.ModalSecondHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: rgba(10, 4, 37, 0.7);
+}
+.BorderBottom {
+  border-bottom: 2px solid #3a354f;
+  width: 124px;
+  color: #5e6470;
+}
+.SignUpOR {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px;
+  color: #5e6470;
+}
+.InputFields {
+  width: 280px;
+  height: 55px;
+  font-family: "PlusJakartaSans-Regular";
+  padding: 5px 5px 5px 12px;
+  border: 1px solid #3a354f;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 12px;
+}
+.FaceookContainer {
+  width: 280px;
+  height: 55px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #007fff !important;
+}
+.SliderWidth {
+  width: 98%;
+}
+.SignUpText {
+  color: #007fff;
+  padding-left: 1px;
+  cursor: pointer;
+  font-family: plusJakartaSans-medium;
+}
+.ForgetText {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  width: 85%;
+  letter-spacing: 0em;
+  margin-top: 10px !important;
+  text-align: right;
+}
+.LoginModalBtn {
+  font-size: 18px;
+  padding: 10px 17px 10px 17px;
+  width: 280px;
+  height: 40px;
+  margin-top: 0.5rem !important;
+  font-weight: 500;
+}
+.VerificationModelHeader {
+  border-bottom: none !important;
+  width: 98%;
+  margin: auto;
+  margin-top: 10px !important;
+}
+.VerificationModel {
+  width: 60%;
+  margin: auto;
+}
+.RecoveryModalBtn {
+  margin-top: 10rem !important;
+  width: 100%;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 124%;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+.ResPasModalBtn {
+  margin-top: 12rem !important;
+  width: 96% !important;
+  border-radius: 40px !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 124%;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+.ModalSignupText {
+  font-family: PlusJakartaSans-Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  width: 120%;
+}
+.VerificationAllText {
+  text-align: end;
+  margin-top: 1rem;
+}
+.RecoverySecondHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 150%;
+  color: #3a354f;
+}
+.NewPasswordSecondHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 150%;
+  color: #3a354f;
+  width: 51%;
+}
+.RecoverySmallHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+  line-height: 150%;
+  color: #3a354f;
+  width: 61%;
+}
+.RecoveryCode1 {
+  height: 45px;
+  width: 45px;
+  left: 173px;
+  top: 299px;
+  border-radius: 12px;
+  background-color: #eeeff1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border: 1px solid #bbc1c9;
+  font-family: Plus Jakarta Sans;
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.CodeBoxDicves {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.RecoveryQuestion {
+  margin-top: 36px !important;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-left: 8%;
+}
+.RecoveryUnderlineText {
+  text-decoration-line: underline;
+  font-family: PlusJakartaSans-Bold;
+  color: black !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+.ResPasPadding {
+  padding-left: 125px;
+}
+.InputFieldsResetPassword {
+  width: 40%;
+  height: 50px;
+  padding: 5px 5px 5px 15px;
+  font-family: "Plus Jakarta Sans";
+  border: 1px solid #5e6470;
+  border-radius: 10px;
+}
+.InputLabel {
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.otp {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100% !important;
+  align-items: center;
+}
+.FourInputs {
+  width: 52%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inputStyle {
+  width: 50% !important;
+  height: 45px;
+  border-radius: 7px;
+  border: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: #dddddd;
+  font-size: 20px;
+}
+.inputStyle input {
+  height: 60px !important;
+  width: 60px !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 370px) {
+  .CardHeading {
+    font-size: 17px;
+  }
+  .inputStyle {
+    background: none !important;
+  }
+  .inputStyle input {
+    height: 36px !important;
+    width: 36px !important;
+  }
+  .SliderDesignation {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 371px) and (max-width: 500px) {
+  .CardHeading {
+    font-size: 20px;
+  }
+  .inputStyle {
+    background: none !important;
+  }
+  .inputStyle input {
+    height: 43px !important;
+    width: 43px !important;
+  }
+}
+.SliderCont {
+  height: fit-content !important;
+}
+.FooterHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.FooterHeadingnews {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  padding-bottom: 10px;
+  margin-right: 55px;
+  font-size: 24px;
+  text-align: left !important;
+}
+.FooterText {
+  font-family: "PlusJakartaSans-Medium" !important;
+  height: 26px;
+  width: fit-content;
+  left: 115px;
+  top: 2065px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.FooterText1 {
+  font-family: "PlusJakartaSans-Medium" !important;
+  height: 26px;
+  width: fit-content;
+  left: 115px;
+  top: 2065px;
+}
+.SocialMedia {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AddressButtonbook {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: #007fff !important;
+}
+.AdressButtonHeight {
+  margin-top: 100px !important;
+}
+.HomeButtonbook {
+  background-color: #007fff !important;
+  width: 100%;
+  border-radius: 5px !important;
+  height: 50px;
+}
+.SocialMedia1icon {
+  margin-right: 5px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #30d5c8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexDisplay {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .flexDisplay {
+    display: flex;
+    margin-top: 30px !important;
+    padding-top: 30px !important;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 850px) {
+  .CardHeading {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 768px) {
+  .SocialMedia1icon {
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+  }
+  .FooterButtonsubscribe {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    max-height: 40px !important;
+    max-width: 115px !important;
+  }
+  .FooterInputs {
+    width: 115px !important;
+    height: 40px !important;
+    font-size: 15px !important;
+  }
+  .newslterImageFooter {
+    max-width: 115px !important;
+    max-height: 55px !important;
+    float: left !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .SocialMedia {
+    padding: 10px;
+    width: 32px;
+    height: 32px;
+  }
+  .FooterHeading {
+    font-size: 16px !important;
+    font-family: "Plus Jakarta Sans";
+  }
+  .FooterHeadingnews {
+    font-size: 16px !important;
+    font-family: "Plus Jakarta Sans";
+  }
+  .FooterText {
+    font-family: "Plus Jakarta Sans" !important;
+    font-size: 13px !important;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .FooterText1 {
+    font-family: "Plus Jakarta Sans" !important;
+    font-size: 15px !important;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500 !important;
+  }
+}
+.GoogleImage {
+  width: 160px !important;
+  height: 57px !important;
+  float: left !important;
+}
+.GoogleImageFooter {
+  width: 160px !important;
+  height: 51px !important;
+  margin-left: -13px;
+}
+.newslterImageFooter {
+  width: 160px !important;
+  height: 88px !important;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.FooterImage {
+  width: 200px !important;
+  height: 100px !important;
+  margin-left: 25px;
+}
+.FooterImagegoogle {
+  width: 200px !important;
+  height: 100px !important;
+  margin-left: -10px;
+}
+.FooterButtonsubscribe {
+  height: 46px !important;
+  width: 162px !important;
+  border-radius: 30px !important;
+  font-family: "Plus Jakarta Sans" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 17px;
+}
+.InputName {
+  font-size: 14px;
+  font-family: PlusJakartaSans-Medium;
+  font-weight: 500;
+}
+.PaddingAlignText {
+  padding-left: 30%;
+}
+.ContactSize {
+  width: 23px !important;
+  height: 25px !important;
+  margin-left: -9px;
+}
+.ContactSizephone {
+  width: 18px !important;
+  height: 20px !important;
+  margin-left: -4px;
+}
+.ContactSizeEmail {
+  width: 18px !important;
+  height: 18px !important;
+  padding-top: -10px !important;
+  margin-top: -1px !important;
+  margin-left: -4px;
+}
+.UnActiveClass {
+  font-family: "PlusJakartaSans-medium" !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 31px;
+  letter-spacing: 0em;
+  padding-left: 10px !important;
+  color: #0a0425;
+}
+.ActiveClass {
+  font-family: "PlusJakartaSans-medium" !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 31px;
+  padding-left: 11px !important;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.PaddingAlignText {
+  padding-left: 25%;
+}
+.UnActiveClass {
+  font-family: "PlusJakartaSans-medium";
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 31px;
+  padding-left: 10px !important;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.FooterButtonBorder {
+  padding-left: 60px !important;
+  padding-right: 70px !important;
+  margin-left: -10px;
+  background-color: white !important;
+  color: black !important;
+}
+.marginBottomSlider {
+  margin-top: 5rem;
+}
+@media (max-width: 1200px) {
+  .MainTextFrequently {
+    width: 100%;
+    font-size: 30px;
+  }
+  .DisplayRightDiv {
+    display: none !important;
+  }
+}
+@media (max-width: 500px) {
+  .BorderButton {
+    border: 1px solid #30d5c8 !important;
+    height: 40px !important;
+    margin-left: 1rem !important;
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+    width: 190px !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+  }
+  .ColoredButton {
+    height: 40px !important;
+    font-size: 13px !important;
+    width: 125px !important;
+
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+  .RecoveryCode1 {
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .NewPasswordSecondHeading {
+    -webkit-text-stroke-width: 95%;
+  }
+  .RecoverySmallHeading {
+    width: 95% !important;
+  }
+  .FourInputs {
+    width: 100%;
+  }
+  .ResPasPadding {
+    padding-left: 0px !important;
+  }
+  .InputFieldsResetPassword {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #5e6470;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 1202px) {
+  .FourInputs {
+    width: 74% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 800px) {
+  .BookingDiv {
+    background-color: rgb(246, 246, 246) !important;
+  }
+  .InputFieldsResetPassword {
+    width: 80%;
+    height: 50px;
+  }
+}
+.BackColor {
+  background-color: #0a0425 !important;
+}
+.AcordianColor {
+  background-color: #0a0425 !important;
+}
+@media (max-width: 600px) {
+  .FlexContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .PaddingAlignText {
+    padding-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .BlueCardHead {
+    font-weight: 600;
+    font-size: 27px;
+  }
+  .BlueCardText {
+    font-size: 12px !important;
+  }
+  .SliderImage {
+    position: absolute !important;
+    width: 420px !important;
+    height: 330px !important;
+    top: 30rem !important;
+    left: 1.4rem !important;
+    z-index: 2;
+  }
+}
+/* @media (max-width: 1275px) {
+  .Arrows {
+    top: 4.7rem;
+    right: 40rem;
+  }
+} */
+@media (max-width: 1240px) {
+  .CommonClass {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .SliderHeading {
+    font-size: 27px !important;
+    line-height: 120%;
+    letter-spacing: 0px !important;
+    margin-left: 0px;
+  }
+  .BackgroundColorSmall {
+    display: none;
+  }
+}
+@media (max-width: 710px) {
+  .BlueCardAddress {
+    margin-left: -100px !important;
+  }
+  .HeadLocation {
+    font-size: 15px;
+  }
+}
+@media (max-width: 665px) {
+  .SliderHeading {
+    font-size: 27px !important;
+    line-height: 120%;
+    letter-spacing: 0px !important;
+    margin-left: -21px;
+  }
+  .BlueCardAddress {
+    margin-left: -50px !important;
+  }
+  .HeadLocation {
+    font-size: 15px;
+  }
+  .Card {
+    margin-top: -14px !important;
+  }
+  .Card1 {
+    margin-top: 13px !important;
+  }
+  .CardPaddingDiv {
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 30px;
+  }
+  .ActiveCard {
+    margin-top: 13px !important;
+  }
+}
+@media only screen and (min-width: 998px) and (max-width: 1200px) {
+  .CardPaddingDiv {
+    padding-top: 15px !important;
+    padding-right: 0px !important;
+    padding-left: 11px !important;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+  .CardPaddingDiv {
+    padding-top: 38px !important;
+    padding-right: 15px !important;
+    padding-left: 30px !important;
+  }
+}
+@media (max-width: 576px) {
+  .BlueCardAddress {
+    margin-left: -20px !important;
+  }
+  .HeadLocation {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #faf7f3;
+    letter-spacing: 0.01em;
+    text-align: left;
+    font-family: "PlusJakartaSans-Medium";
+  }
+}
+@media (max-width: 455px) {
+  .BlueCardAddress {
+    margin-left: -38px !important;
+  }
+  .HeadLocation {
+    font-size: 11px !important;
+    margin-left: -20px;
+    line-height: 18px;
+  }
+  .ContactSize {
+    width: 24px !important;
+    margin-left: 12px;
+  }
+  .ContactSizephone {
+    width: 17px !important;
+    margin-left: 14px;
+  }
+  .ContactSizeEmail {
+    width: 20px !important;
+    margin-top: -6px !important;
+    margin-left: 14px;
+  }
+  .AddresText {
+    font-size: 13px !important;
+    margin-left: -22px !important;
+  }
+}
+@media (max-width: 450px) {
+  .Main3Text {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1000px) {
+  .LEftPad {
+    padding-left: 10px !important;
+  }
+  .LEftPadLogin {
+    padding-left: 10px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .Card {
+    margin-left: 0px;
+  }
+  .Card1 {
+    margin-left: 0px;
+  }
+  .SliderText {
+    width: 99% !important;
+  }
+  /* .SlideOneContainer {
+    height: 42rem;
+    width: 100% !important;
+  } */
+  .ResponsiveBackDiv {
+    position: absolute;
+    height: 500px;
+    width: 58% !important;
+    left: 43%;
+    top: 90%;
+    background-color: #30d5c8;
+    border-bottom: 15px solid black;
+    z-index: 1;
+  }
+  .SliderImage {
+    position: absolute !important;
+    width: 56% !important;
+    height: 418px !important;
+    top: 94% !important;
+    left: 1.4rem !important;
+    z-index: 2;
+  }
+  .ColorDivSlider {
+    display: none !important;
+  }
+  .Arrows {
+    display: none !important;
+  }
+  /* .ArrowOne {
+    display: none !important;
+  } */
+  .QuestionsPadding {
+    padding: 80px 60px 0rem 110px;
+  }
+  .LeftMargin {
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 790px) {
+  .SlideOneContainer {
+    height: 25rem !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 791px) and (max-width: 1000px) {
+  .SlideOneContainer {
+    height: 26rem !important;
+    width: 100% !important;
+  }
+}
+/* @media only screen and (min-width: 771px) and (max-width: 810px) {
+  .SlideOneContainer {
+    height: 27rem !important;
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 811px) and (max-width: 1000px) {
+  .SlideOneContainer {
+    height: 26rem !important;
+    width: 100% !important;
+  }
+} */
+@media (max-width: 600px) {
+  .Arrows {
+    top: 7.7rem;
+    right: 3rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+  .Arrows {
+    position: absolute !important;
+    width: 7rem;
+    height: 60px;
+    top: 6.3rem;
+    right: 13rem;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+  .Arrows {
+    position: absolute !important;
+    width: 7rem;
+    height: 60px;
+    top: 8.3rem;
+    right: 13rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 43.4% !important;
+    height: 360px !important;
+    top: 105% !important;
+    left: 12rem !important;
+    z-index: 2;
+  }
+}
+@media (max-width: 600px) {
+  .marginBottomSlider {
+    margin-top: 1rem;
+  }
+  .ResponsiveBackDiv {
+    position: absolute;
+    height: 550px;
+    width: 50% !important;
+    left: 43%;
+    top: 56%;
+    background-color: #30d5c8;
+    border-bottom: 15px solid black;
+    z-index: 1;
+    border-radius: 5px !important;
+  }
+}
+
+@media (max-width: 424px) {
+  .ResponsiveBackDiv {
+    position: absolute;
+    height: 408px;
+    width: 50% !important;
+    left: 43%;
+    border-radius: 5px !important;
+    top: 75%;
+    background-color: #30d5c8;
+    border-bottom: 15px solid black;
+    z-index: 1;
+  }
+}
+@media (max-width: 550px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 74.4% !important;
+    height: 300px !important;
+    top: 120% !important;
+    left: 2rem !important;
+    z-index: 2;
+  }
+}
+@media (max-width: 420px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 74.4% !important;
+    height: 300px !important;
+    top: 150% !important;
+    left: 2rem !important;
+    z-index: 2;
+  }
+}
+@media (max-width: 360px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 72.4% !important;
+    height: 270px !important;
+    top: 160% !important;
+    left: 2rem !important;
+    z-index: 2;
+  }
+}
+@media (min-width: 1030px) and (max-width: 1270px) {
+  .Arrows {
+    right: 26rem;
+    top: 6rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1030px) {
+  .SliderHeading {
+    font-size: 38px;
+  }
+  .Arrows {
+    right: 25rem;
+    top: 6rem;
+  }
+}
+@media (max-width: 770px) {
+  .LEftPad {
+    padding-left: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .DisplayDivZoulu {
+    padding-top: 30px !important;
+    margin-top: -17px;
+  }
+  .LEftPad {
+    padding-left: 10px !important;
+  }
+  .LEftPadLogin {
+    padding-left: 10px !important;
+  }
+  .RightPicSecond {
+    width: 35% !important;
+    margin-top: 1rem !important;
+    margin-left: 54% !important;
+    height: 14rem !important;
+  }
+  .GooglePic {
+    margin-left: -11px !important;
+    margin-top: 74px !important;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2600px) {
+  .RightPicSecond {
+    width: 40% !important;
+  }
+}
+@media only screen and (min-width: 750) and (max-width: 992px) {
+  .RightPicSecond {
+    width: 100% !important;
+    margin-left: 49% !important;
+    height: 18rem !important;
+  }
+  .GooglePic {
+    margin-left: -32px !important;
+  }
+}
+@media (max-width: 340px) {
+  .ColoredButton {
+    font-size: 12px !important;
+
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2600px) {
+  .ColoredButton {
+    font-size: 16px !important;
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+}
+.BorderButton {
+  font-size: 16px !important;
+  font-family: "Plus Jakarta Sans" !important;
+  font-style: normal !important;
+}
+@media (max-width: 565px) {
+  .Main3Text {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
+  .HowItWorkText {
+    padding-left: 10px;
+  }
+  .HowItWorkTextwork {
+    padding-left: 10px;
+  }
+  .SlideOneContainer {
+    padding-left: 10px;
+  }
+  .QuestionsPadding {
+    padding: 80px 60px 70px 1px;
+  }
+  .RightPicSecond {
+    width: 35% !important;
+    margin-top: -7rem !important;
+    height: 12rem !important;
+  }
+  .CommonClass {
+    width: 100% !important;
+  }
+}
+@media (max-width: 400px) and (min-width: 564px) {
+  .RightPicSecond {
+    width: 25% !important;
+    height: 9rem !important;
+  }
+}
+@media (max-width: 400px) {
+  .RecoveryCode1 {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .RightPicSecond {
+    width: 90% !important;
+    margin-top: 0px !important;
+    height: auto !important;
+    margin-left: 0px !important;
+  }
+  .GooglePic {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+  }
+  .WidthPeragraph {
+    width: 100% !important;
+  }
+}
+@media (max-width: 992px) {
+  .InputFieldsResetPassword {
+    width: 70%;
+  }
+  .ResPasPadding {
+    padding-left: 50px;
+  }
+  .RecoveryQuestion {
+    margin-left: 8%;
+  }
+  .RightPicSecond {
+    height: 16rem;
+  }
+  .LoginRightPic {
+    width: 80% !important;
+    height: 15rem !important;
+    margin-top: 20px !important;
+    margin-left: 50px;
+  }
+  .WidthPeragraph {
+    width: 90% !important;
+  }
+  .GooglePic {
+    margin-left: -20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .GooglePic {
+    margin-left: -109% !important;
+  }
+}
+@media (max-width: 455px) {
+  .LoginRightPic {
+    width: 90% !important;
+    height: 12rem !important;
+    margin-top: 20px !important;
+    margin-left: 30px !important;
+  }
+}
+@media (max-width: 992px) {
+  .ModelForm {
+    margin: auto;
+    width: 100%;
+  }
+  .InputFields {
+    width: 100% !important;
+    height: 55px !important;
+    padding: 5px 5px 5px 20px;
+    border: 1px solid #5e6470;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  .BorderBottom {
+    border-bottom: 2px solid #3a354f;
+    width: 100%;
+    color: #5e6470;
+  }
+  .FaceookContainer {
+    width: 100% !important;
+    height: 55px;
+    box-shadow: 1px 3px 17px 0px #b6b4cc;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* background-color: white !important; */
+  }
+  .LoginModalBtn {
+    width: 100%;
+    padding: 10px 17px 10px 17px !important;
+    border-radius: 8px !important;
+  }
+}
+@media only screen and (min-width: 370px) and (max-width: 470px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 72.4% !important;
+    height: 270px !important;
+    top: 129% !important;
+    left: 2.9rem !important;
+    z-index: 2;
+  }
+}
+@media only screen and (min-width: 330px) and (max-width: 370px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 72.4% !important;
+    height: 270px !important;
+    top: 145% !important;
+    left: 2.7rem !important;
+    z-index: 2;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 330px) {
+  .SliderImage {
+    position: absolute !important;
+    width: 72.4% !important;
+    height: 270px !important;
+    top: 148% !important;
+    left: 2rem !important;
+    z-index: 2;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 470px) {
+  .SliderText {
+    font-family: "PlusJakartaSans-regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 153%;
+    letter-spacing: -0.03em;
+    width: 90% !important;
+  }
+}
+@media (max-width: 992px) {
+  .SmallMarginTop {
+    margin-top: -20px;
+  }
+  .ModalSecondHeading {
+    display: none !important;
+  }
+  .ModelForm > .ModalHeading {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .InputName {
+    display: none !important;
+  }
+}
+@media (max-width: 500px) {
+  .ZouluButton {
+    font-size: 14px !important;
+  }
+  .ForgetText {
+    font-size: 18px !important;
+    text-align: center !important;
+    cursor: pointer;
+  }
+}
+@media (max-width: 768px) {
+  .RecoveryCode1 {
+    left: 73px;
+    top: 199px;
+    width: 72px;
+    height: 70px;
+  }
+  .RecoveryQuestion {
+    margin-left: 4%;
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 970px) and (max-width: 1034px) {
+  .ColoredButton {
+    font-size: 12px !important;
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: -77.5rem !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .CircleContainer {
+    margin-left: 0.7% !important;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1450px) {
+  .CircleContainer {
+    margin-left: 0.3% !important;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1630px) {
+  .CircleContainer {
+    margin-left: -0.2% !important;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    right: 40rem !important;
+    left: -45.5rem !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26.5rem !important;
+    right: 40rem !important;
+    left: -13rem !important;
+  }
+  .QuestionsPadding {
+    padding: 80px 60px 0rem 60px;
+  }
+  .SliderWidth {
+    width: 91%;
+  }
+  .ColorDivSlider {
+    width: 7% !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+}
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+  .CircleContainer {
+    margin-left: 1.5% !important;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .CircleContainer {
+    margin-left: 1.1% !important;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem !important;
+    left: 20rem !important;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1000px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 29rem !important;
+    left: -52rem !important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 850px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 29rem !important;
+    left: -45rem !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 800px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 16rem !important;
+    left: -43rem !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .SliderWidth {
+    margin-left: 13px !important;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 15.9rem !important;
+    left: -37.24rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 15.9rem !important;
+    left: -29.24rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -7px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 15.9rem !important;
+    left: -24.24rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -7px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 450px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 16.9rem !important;
+    left: -22rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -8px;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 425px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 20.9rem !important;
+    left: -19rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -8px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 370px) {
+  .ForgetText {
+    font-size: 14px !important;
+  }
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -7px;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 20.9rem !important;
+    left: -15rem !important;
+  }
+  .imgmarginleft {
+    margin-left: 1px !important;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .GoogleImageFooter {
+    width: 82.37px !important;
+    height: 24.4px !important;
+    margin-left: -13px;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 20.9rem !important;
+    left: -12rem !important;
+  }
+}
+@media (max-width: 310px) {
+  .ColoredButton {
+    font-size: 9px !important;
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+  .BorderButton {
+    height: 40px !important;
+    font-size: 10px !important;
+    font-family: "Plus Jakarta Sans" !important;
+    font-style: normal !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 2600px) {
+  .ManageFooterNews {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+.ManageFooter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .VerificationModel {
+    width: 80% !important;
+  }
+}
+@media (max-width: 992px) {
+  .ForgetText {
+    width: 100%;
+  }
+  .NewPasswordSecondHeading {
+    width: 85%;
+  }
+  .RecoverySmallHeading {
+    width: 85%;
+  }
+  .ManageFooter {
+    display: flex;
+    display: block;
+    flex-direction: column;
+  }
+  .ManageFooterCenter {
+    display: flex;
+    display: block;
+    flex-direction: column;
+  }
+  .FooterImage {
+    width: 200px !important;
+    height: 100px !important;
+    margin-left: -14px;
+  }
+  .FooterImagegoogle {
+    width: 200px !important;
+    height: 100px !important;
+  }
+  .FourInputs {
+    width: 88%;
+  }
+}
+@media only screen and (min-width: 1630px) and (max-width: 1750px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -49rem !important;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2600px) {
+  .BlueCardDiv {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .ActiveClass {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    padding-left: 10px !important;
+    font-family: "PlusJakartaSans-medium" !important;
+  }
+  .PaddingLeftPhone {
+    padding: 10px 145px 20px 20px;
+  }
+}
+@media only screen and (min-width: 1750px) and (max-width: 1850px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -58rem !important;
+  }
+}
+@media only screen and (min-width: 1850px) and (max-width: 1950px) {
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -67rem !important;
+  }
+}
+@media only screen and (min-width: 1630px) and (max-width: 1700px) {
+  .CircleContainer {
+    margin-left: -0.5% !important;
+  }
+  .SlideOneContainer {
+    width: 85% !important;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 1800px) {
+  .CircleContainer {
+    margin-left: -0.8% !important;
+  }
+  .SlideOneContainer {
+    width: 85% !important;
+  }
+}
+@media only screen and (min-width: 1800px) and (max-width: 1950px) {
+  .CircleContainer {
+    margin-left: -1% !important;
+  }
+  .SlideOneContainer {
+    width: 85% !important;
+  }
+}
+@media only screen and (min-width: 1950px) and (max-width: 2250px) {
+  .SlideOneContainer {
+    width: 85% !important;
+  }
+}
+@media only screen and (min-width: 1950px) and (max-width: 2120px) {
+  .CircleContainer {
+    margin-left: -1.2% !important;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -73rem !important;
+  }
+}
+@media only screen and (min-width: 2120px) and (max-width: 2250px) {
+  .CircleContainer {
+    margin-left: -1.3% !important;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -84rem !important;
+  }
+}
+@media only screen and (min-width: 2250px) and (max-width: 2350px) {
+  .CircleContainer {
+    margin-left: -1.5% !important;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -88rem !important;
+  }
+}
+@media only screen and (min-width: 2350px) and (max-width: 2600px) {
+  .CircleContainer {
+    margin-left: -1.5% !important;
+  }
+  .CircleParant {
+    position: absolute !important;
+    top: 26rem;
+    left: 29rem;
+    right: 40rem !important;
+    left: -94rem !important;
+  }
+}
+@media only screen and (min-width: 2250px) and (max-width: 2650px) {
+  .SlideOneContainer {
+    width: 87% !important;
+  }
+}
+.HomeText {
+  color: #0a0425 !important;
+}
+@media only screen and (min-width: 260px) and (max-width: 340px) {
+  .SlideOneContainer {
+    width: 100% !important;
+    position: relative;
+    height: 440px;
+    border-radius: 0px !important;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-bottom: -50px !important;
+  }
+}
+@media only screen and (min-width: 341px) and (max-width: 351px) {
+  .SlideOneContainer {
+    width: 100% !important;
+    position: relative;
+    height: 450px;
+    border-radius: 0px !important;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-bottom: -50px !important;
+  }
+}
+@media only screen and (min-width: 352px) and (max-width: 362px) {
+  .SlideOneContainer {
+    width: 100% !important;
+    position: relative;
+    height: 420px;
+    border-radius: 0px !important;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-bottom: -50px !important;
+  }
+}
+@media only screen and (min-width: 363px) and (max-width: 391px) {
+  .SlideOneContainer {
+    width: 100% !important;
+    position: relative;
+    height: 450px;
+    border-radius: 0px !important;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-bottom: -50px !important;
+  }
+}
+@media only screen and (min-width: 392px) and (max-width: 768px) {
+  .SlideOneContainer {
+    width: 100% !important;
+    position: relative;
+    height: 420px;
+    border-radius: 0px !important;
+    background-color: transparent;
+    padding-top: 30px;
+    margin-bottom: -50px !important;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 768px) {
+  .AddressButtonbook {
+    font-size: 13px !important;
+    height: 44px !important;
+  }
+  ._Main3Text {
+    font-size: 42px !important;
+  }
+  .VerificationAllText {
+    text-align: center !important;
+  }
+  .RecoveryUnderlineText {
+    text-decoration-line: none !important;
+    color: black !important;
+    font-weight: 600;
+    margin-left: 0 !important;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .RecoveryModalBtn {
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+  }
+  .VerificationText {
+    display: none !important;
+  }
+  .ModalHeading {
+    font-size: 18px;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .RecoverySecondHeading {
+    font-size: 12px !important;
+    font-family: PlusJakartaSans-Regular;
+    margin-top: 0 !important;
+  }
+  .InputModelVerification {
+    width: 80% !important;
+    margin: auto !important;
+  }
+  .VerificationModelHeader {
+    border-bottom: 1px solid #ebebeb !important;
+  }
+  .VerificationModeltitle {
+    font-size: 18px;
+    font-family: PlusJakartaSans-Bold;
+  }
+  .VerificationModel {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .HomeText {
+    color: #30d5c8 !important;
+  }
+  .UnActiveClass {
+    font-size: 14px !important;
+    font-family: "PlusJakartaSans-medium" !important;
+    font-style: normal !important;
+    padding-left: 0px !important;
+  }
+  .ActiveClass {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-family: "PlusJakartaSans-medium" !important;
+    font-style: normal !important;
+    padding-left: 0px !important;
+  }
+  .FooterImage {
+    width: 120px !important;
+    height: 67px !important;
+    float: left !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    margin-left: 4px;
+  }
+  .FooterInputs {
+    margin-left: 0px !important;
+  }
+  .FooterImagegoogle {
+    width: 200px !important;
+    height: 100px !important;
+    margin-left: -10px;
+  }
+  .FooterHeadingnews {
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .ColorDiv {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-top: -60px !important;
+  }
+  .PaddingLeftPhone {
+    padding: 80px 20px 5px 10px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: right;
+  }
+  .LeftMargin {
+    margin-top: -22px !important;
+    padding-left: 7px !important;
+  }
+  .ActiveClass {
+    font-size: 15px;
+    font-family: "PlusJakartaSans-medium" !important;
+    padding-left: 0px !important;
+  }
+  .PaddingHomeScreen {
+    padding-left: 26px !important;
+    padding-right: 15px !important;
+  }
+  .PaddingHomeScreenMain {
+    padding-left: 26px !important;
+    padding-right: 15px !important;
+  }
+  .QuestionsPadding {
+    padding: 0px !important;
+  }
+  .MainTextFrequently {
+    font-size: 29px;
+    margin-top: 30px;
+    text-align: center !important;
+    width: 100%;
+    line-height: 130%;
+    font-family: "PlusJakartaSans-bold" !important;
+    font-style: normal;
+  }
+  .BlueCardHead {
+    font-weight: 600;
+    font-size: 23px;
+  }
+  .BlueCardDiv {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .CommonPeragraph {
+    font-family: "PlusJakartaSans-medium" !important;
+    font-style: normal;
+    font-size: 14px !important;
+    padding-top: 5px !important;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: normal;
+    height: 50px;
+    width: 100% !important;
+    letter-spacing: -0.01em;
+    color: rgba(19, 27, 56, 0.9);
+  }
+  .CommonPeragraphFrequently {
+    font-family: "Roboto" !important;
+    font-style: normal !important;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: normal;
+    height: 50px;
+    text-align: center !important;
+    width: 100% !important;
+    letter-spacing: -0.01em;
+    color: rgba(19, 27, 56, 0.9);
+  }
+  .PaddingfooterScreen {
+    padding-left: 23px !important;
+    padding-right: 15px !important;
+  }
+  .PaddingWorkCards {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .WidthPeragraph {
+    width: 100% !important;
+  }
+  .HowItWorkText {
+    font-family: "PlusJakartaSans-bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /* line-height: 130%; */
+  }
+  /* .HowItWorkText {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 130%;
+  } */
+  .HowItWorkTextwork {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 130%;
+    margin-top: -102px !important;
+  }
+
+  .CommonPeragraphwidth {
+    font-family: "Roboto" !important;
+    font-style: normal;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: normal;
+    height: 50px;
+    text-align: left;
+    letter-spacing: -0.01em;
+    color: rgba(19, 27, 56, 0.9);
+  }
+}
+@media only screen and (min-width: 1600px) and (max-width: 2600px) {
+  .PaddingfooterScreen {
+    padding-left: 93px !important;
+    padding-right: 90px !important;
+  }
+  .LeftMargin {
+    margin-right: 85px !important;
+    padding-top: 90px !important;
+  }
+  .DisplayDivReady {
+    display: contents !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .QuestionsPadding {
+    padding: 87px 60px 10rem 92px;
+  }
+  .PaddingHomeScreen {
+    padding-left: 105px !important;
+    padding-right: 62px !important;
+  }
+  .PaddingHomeScreenMain {
+    padding-left: 105px !important;
+    padding-right: 62px !important;
+  }
+  .PaddingfooterScreen {
+    padding-left: 105px !important;
+    padding-right: 100px !important;
+  }
+
+  .ColorDivSlider {
+    width: 112px !important;
+    height: 290px;
+    margin-top: 170px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .PaddingWorkCards {
+    padding-left: 210px !important;
+    padding-right: 210px !important;
+  }
+}
+@media only screen and (min-width: 1010px) and (max-width: 1100px) {
+  .SlideOneContainer {
+    width: 75% !important;
+  }
+  .LeftMargin {
+    margin-right: 60px !important;
+    padding-top: 89px !important;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+  .SlideOneContainer {
+    width: 84% !important;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+  .SlideOneContainer {
+    width: 83% !important;
+  }
+  .LeftMargin {
+    margin-right: 60px !important;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 1300px) {
+  .PaddingHomeScreen {
+    padding-left: 70px !important;
+    padding-right: 50px !important;
+  }
+  .PaddingHomeScreenMain {
+    padding-left: 70px !important;
+    padding-right: 50px !important;
+  }
+  .PaddingfooterScreen {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+  .PaddingWorkCards {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .CommonClass {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .Card {
+    height: 350px !important;
+  }
+  .ActiveCard {
+    height: 350px !important;
+  }
+  .Card1 {
+    height: 350px !important;
+  }
+}

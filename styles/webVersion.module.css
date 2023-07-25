@@ -1,0 +1,1118 @@
+.BookingDiv {
+  background-color: #f9f9f9 !important;
+  /* padding-top: 20px; */
+}
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  .BookingDiv {
+    background-color: #ffffff !important;
+    /* padding-top: 20px; */
+  }
+}
+.PaddingLeft {
+  padding: 75px 0px 15px 0px;
+}
+.RightPicimg {
+  /* margin-top: 10px; */
+  width: 86%;
+  margin-right: -12px;
+  float: right !important;
+  height: 692px !important;
+}
+.RightPic {
+  margin-top: 82px;
+  width: 90%;
+  height: 60%;
+}
+.MainText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 73px;
+}
+.MainTextWebVersion {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 45px;
+  font-weight: 600;
+  width: 100%;
+  line-height: 80px;
+  margin-top: 65px;
+}
+.ExpertsSlideText {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  color: #4e5771 !important;
+}
+.CommonPeragraph {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4e5771 !important;
+}
+.HowWorkPeragraph {
+  font-family: "PlusJakartaSans-Medium " !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #4e5771 !important;
+  font-family: "Inter";
+  height: 50px;
+  width: 37%;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+}
+.SpaCardText {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  /* height: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #4e5771 !important;
+  font-family: "Inter";
+}
+.SpaBtn {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  letter-spacing: 0.06em !important;
+  background-color: #007fff !important;
+}
+.BookNow {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-style: normal !important;
+  margin-top: 20px !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.02em !important;
+  padding: 8px 28px 8px 28px !important;
+  background-color: #007fff !important;
+}
+.HowItWorkText {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  margin-top: 2.7rem;
+  margin-bottom: 1rem;
+  font-family: "PlusJakartaSans-Medium";
+}
+.DisplayDivWrk {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: column;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.DisplayDiv {
+  margin-top: 3rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CardContainer {
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 20px;
+}
+.CardPicture {
+  width: 100%;
+  height: 220px;
+  object-fit: fill;
+}
+.CardHeading {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #0a0425;
+}
+.RowWidth {
+  width: 92%;
+  margin-left: 4%;
+}
+.ProviderText {
+  font-family: "PlusJakartaSans-Medium" !important;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  color: #0a0425;
+  margin-bottom: 4rem;
+}
+.OurBgDiv {
+  margin: 0px;
+  padding: 0px;
+  height: 26rem !important;
+  background-color: #f9f9f9;
+  margin-top: -25rem !important;
+}
+.TextAlign {
+  text-align: center !important;
+  margin-top: 6rem !important;
+}
+.WhiteCardText {
+  margin-top: 1rem;
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e5771;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.ColorDiv {
+  max-height: 400px;
+  height: 330px;
+  margin-top: -15rem;
+  background-color: #f9f9f9 !important;
+}
+.ColorDivSecond {
+  height: 330px;
+  margin-top: -22rem;
+  background-color: #f9f9f9 !important;
+}
+.WhiteCardContainer {
+  border-radius: 13px;
+  background-color: white;
+  padding: 50px 12px 50px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 22rem;
+}
+.btnCardWhite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.WhiteCardContainer1 {
+  border-radius: 13px;
+  background-color: white;
+  padding: 50px 12px 50px 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 22rem;
+  margin-top: 7px !important;
+}
+.WhiteCardHeading {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  color: #007fff;
+  text-align: center;
+  height: 80px;
+}
+.ProsHeadingText {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425;
+}
+.ColorText {
+  color: #30d5c8 !important;
+}
+.WhiteCardBtnattend {
+  margin-top: 9rem !important;
+  font-size: 16px !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 90%;
+  padding: 10px 5px 10px 5px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  background-color: #007fff !important;
+}
+.WhiteCardBtnaccept {
+  font-size: 16px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #007fff !important;
+  width: 88%;
+  padding: 10px 5px 10px 5px !important;
+}
+.WhiteCardBtn {
+  font-size: 16px !important;
+  font-family: "PlusJakartaSans-Medium" !important;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #007fff !important;
+  width: 88%;
+  padding: 10px 5px 10px 5px !important;
+}
+@media only screen and (min-width: 1800px) and (max-width: 2600px) {
+  .WhiteCardBtnattend {
+    margin-top: 10rem !important;
+  }
+  .MarginTop {
+    margin-bottom: 0px !important;
+  }
+}
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+  .MainTextWebVersion {
+    font-size: 36px;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 8rem !important;
+  }
+}
+.MarginLeft {
+  margin-left: 2rem !important;
+}
+.MarginTop {
+  margin-bottom: 25px !important;
+}
+.ProfileContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid;
+}
+.ProfileSliderContainer {
+  height: 500px;
+  background-color: darkgray;
+}
+.SliderHeight {
+  background-color: white;
+  height: 430px;
+  overflow: auto;
+  width: 98% !important;
+  border-radius: 10px !important;
+  /* border-bottom: 7px solid #007FFF; */
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.SliderHeight:hover {
+  border-bottom: 7px solid #007fff !important;
+}
+
+.SliderProfileStyle {
+  margin-top: 35px;
+  margin-bottom: 17px;
+  padding-left: 35px;
+  display: flex;
+}
+.SwiperContainer {
+  width: 89.9% !important;
+  height: 550px !important;
+  right: 0 !important;
+  margin-right: 100px !important;
+  margin-left: 68px !important;
+}
+.swiperWrapper {
+  height: 400px !important;
+}
+.ProfileSliderImage {
+  width: 62px !important;
+  height: 62px !important;
+  margin-top: -5rem;
+  border-radius: 50%;
+}
+.ProfileSliderHeading {
+  /* font-family: "Plus Jakarta Sans"; */
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #1d2b4f;
+  margin-top: 4px;
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
+}
+.ProfileSlider2ndHeading {
+  /* font-family: "Plus Jakarta Sans"; */
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #728197;
+  margin-top: 3px;
+
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
+}
+.ProfileSliderText {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 95%;
+  margin-top: 10px;
+  color: #5f6c7f;
+}
+.WorldText {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5f6c7f;
+  margin-top: -2rem;
+  padding-bottom: 3rem;
+}
+.LearnMoreText {
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0425;
+  padding-top: 20px;
+  padding-bottom: 52px;
+}
+.LearnMoreCard {
+  background-color: #f9f9f9;
+  border-radius: 13px;
+  height: auto;
+  padding-bottom: 30px;
+}
+.LearnMoreCardImage {
+  width: 100%;
+  height: 300px;
+}
+.SupportLearnMore {
+  font-family: "Playfair Display";
+  text-decoration: none;
+  border-bottom: none !important;
+  color: #30d5c8 !important;
+  padding-top: 20px !important;
+  padding-left: 25px;
+  text-decoration: none !important;
+}
+.SupportText {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+.SupportMoreIcon {
+  font-size: 20px !important;
+  margin-left: 5px;
+}
+.VideoContainer {
+  border-radius: 10px !important;
+  object-fit: cover;
+  width: 100% !important;
+  height: 400px !important;
+}
+.DisplayDivReady {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+  background-color: #faf7f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ColorDiv3 {
+  height: 40rem !important;
+  margin-top: -46rem;
+  background-color: #f9f9f9 !important;
+}
+.ColorDivBlackweb {
+  background-color: #0a0425;
+}
+.DivForMargin {
+  margin-top: 7rem !important;
+}
+.CommonPeragraphWeb {
+  font-family: "PlusJakartaSans-Medium";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  height: 50px;
+  width: 70%;
+  color: rgba(10, 4, 37, 0.8);
+}
+.webVersion_headSwiperContainer__ge-5r5.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #30d5c8 !important;
+  border-radius: 40px !important;
+}
+.BlueCardAddressWev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+@media screen and (min-width: 200px) and (max-width: 850px) {
+  /* .AddBg {
+    background-color: #faf7f3 !important;
+  } */
+  .CommonPeragraph {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 740px) {
+  .PaddingLeft {
+    padding: 0px;
+  }
+  .HowItWorkText {
+    font-size: 24px;
+  }
+  .ProviderText {
+    font-family: "PlusJakartaSans-Medium";
+    font-size: 21px !important;
+    line-height: 26px;
+    text-align: center;
+    margin-top: -100px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 2rem !important;
+    font-size: 16px;
+    width: 90% !important;
+    height: 40px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    display: flex !important;
+  }
+  .WhiteCardBtn {
+    font-size: 16px;
+    width: 90% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    display: flex !important;
+    height: 40px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 16px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    display: flex !important;
+    width: 90% !important;
+    height: 40px !important;
+  }
+  .TextAlign {
+    text-align: center !important;
+    margin-top: 1rem !important;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 555px) {
+  .WhiteCardContainer {
+    margin-top: 20px !important;
+  }
+  .WhiteCardHeading {
+    font-size: 23px;
+  }
+  .MainTextWebVersion {
+    font-size: 23px;
+    line-height: 27px;
+  }
+  .CommonPeragraphWeb {
+    font-family: "Roboto";
+    height: 50px;
+    width: 100%;
+  }
+  .WhiteCardBtn {
+    font-size: 12px;
+    font-size: 400 !important;
+    width: 90% !important;
+    display: flex !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .SwiperContainer {
+    width: 90% !important;
+    height: 500px !important;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    margin-bottom: 30px !important;
+  }
+}
+@media screen and (min-width: 555px) and (max-width: 768px) {
+  .SwiperContainer {
+    width: 94% !important;
+    height: 500px !important;
+    margin-right: 40px !important;
+    margin-left: 30px !important;
+    margin-bottom: 30px !important;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .RightPicimg {
+    /* margin-top: 20px; */
+    margin-left: 105px;
+    width: 75%;
+  }
+  .BookNow {
+    margin-top: 20px !important;
+    font-size: 16px !important;
+    padding: 8px 30px 8px 30px !important;
+  }
+  .MainText {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 66px;
+  }
+  .PaddingLeft {
+    padding: 50px 0px 70px 0px;
+  }
+  .ExpertsSlideText {
+    font-size: 16px;
+    font-family: "PlusJakartaSans-Medium" !important;
+
+    line-height: 22px;
+  }
+
+  .HowItWorkText {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+  .HowWorkPeragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .SpaBtn {
+    font-weight: 400 !important;
+    font-size: 13px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    letter-spacing: 0.06em !important;
+  }
+  .PaddingLeft {
+    padding: 50px 0px 70px 0px;
+  }
+  .RightPicimg {
+    margin-top: 0px !important;
+    height: 500px !important;
+  }
+  .BookNow {
+    font-size: 13px !important;
+    padding: 12px 28px 12px 28px !important;
+  }
+  .MainText {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .ExpertsSlideText {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .CardHeading {
+    font-size: 17px;
+  }
+  .SpaCardText {
+    font-size: 15px;
+  }
+  .WhiteCardHeading {
+    font-size: 23px;
+    line-height: 38px;
+  }
+  .WhiteCardText {
+    font-size: 13px;
+  }
+  .WhiteCardBtn {
+    font-size: 16px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 7rem !important;
+    font-size: 14px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .PaddingLeft {
+    padding: 0px 0px 20px 0px;
+  }
+  .RightPicimg {
+    margin-top: 0px !important;
+    margin-left: 0px;
+    width: 100%;
+    height: auto !important;
+  }
+  .MainText {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 46px;
+  }
+  .ExpertsSlideText {
+    font-size: 9px;
+    line-height: 14px;
+  }
+  .HowItWorkText {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-top: 1rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .HowWorkPeragraph {
+    width: 90%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    height: 26px;
+  }
+  .WhiteCardHeading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .ProviderText {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 5px;
+    text-align: center;
+    padding-top: 40px !important;
+    margin-bottom: 2.3rem !important;
+  }
+  .SupportText {
+    font-size: 17px;
+    line-height: 29px;
+    padding-top: 20px;
+    padding-bottom: 7px;
+  }
+  .LearnMoreCardImage {
+    width: 100%;
+    height: 285px;
+  }
+  .MainTextWebVersion {
+    font-size: 23px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .CommonPeragraphWeb {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    height: 0px;
+    width: 90%;
+  }
+  .WhiteCardBtn {
+    font-size: 10px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 8rem !important;
+    font-size: 10px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .SpaBtnDisplyNone {
+    display: none !important;
+  }
+  .PaddingLeft {
+    padding: 0px 0px 35px 0px;
+  }
+  .MainText {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+    text-align: center;
+  }
+  .ExpertsSlideText {
+    font-size: 15px;
+    line-height: 21px;
+    padding: 3px 7px;
+    text-align: center;
+  }
+  .HowItWorkText {
+    font-size: 26px;
+    line-height: 25px;
+  }
+  .DisplayDiv {
+    margin-top: 5rem !important;
+  }
+  .HowWorkPeragraph {
+    font-size: 15px;
+    line-height: 21px;
+    width: 80%;
+  }
+  .CardHeading {
+    font-size: 16px;
+  }
+  .SpaCardText {
+    font-size: 14px;
+  }
+  .ProviderText {
+    font-size: 28px !important;
+    line-height: 40px;
+  }
+  .WhiteCardHeading {
+    font-size: 35px;
+    line-height: 38px;
+    margin-top: 0px;
+    margin-bottom: 33px;
+  }
+  .WhiteCardText {
+    font-size: 17px;
+  }
+  .WhiteCardBtn {
+    font-size: 18px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 8rem !important;
+    font-size: 18px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 18px !important;
+  }
+  .VideoContainer {
+    width: 100% !important;
+    height: 320px !important;
+  }
+  .SupportText {
+    font-size: 25px;
+  }
+  .MainTextWebVersion {
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .CommonPeragraphWeb {
+    font-size: 15px;
+    line-height: 23px;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .WorldText {
+    font-size: 15px;
+    width: 75%;
+    text-align: center;
+    margin-left: 45px;
+    line-height: 22px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .PaddingLeft {
+    padding: 0px 0px 35px 0px;
+  }
+  .MainText {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .ExpertsSlideText {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .HowItWorkText {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  .DisplayDiv {
+    margin-top: 5rem !important;
+  }
+  .HowWorkPeragraph {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .CardHeading {
+    font-size: 13px;
+  }
+  .SpaCardText {
+    font-size: 13px;
+  }
+  .ProviderText {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .WhiteCardHeading {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .WhiteCardText {
+    font-size: 14px;
+  }
+  .WhiteCardBtn {
+    font-size: 18px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 8rem !important;
+    font-size: 18px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 18px !important;
+  }
+  .VideoContainer {
+    width: 100% !important;
+    height: 320px !important;
+  }
+  .SupportText {
+    font-size: 25px;
+  }
+  .MainTextWebVersion {
+    font-size: 29px;
+    line-height: 33px;
+    text-align: center;
+  }
+  .CommonPeragraphWeb {
+    font-size: 13px;
+  }
+  .WorldText {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .PaddingLeft {
+    padding: 0px 0px 35px 0px;
+  }
+  .MainText {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .ExpertsSlideText {
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .HowItWorkText {
+    font-size: 17px;
+    margin-top: -24px;
+  }
+  .DisplayDiv {
+    margin-top: 5rem !important;
+  }
+  .HowWorkPeragraph {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .CardHeading {
+    font-size: 11px;
+  }
+  .SpaCardText {
+    font-size: 12px;
+  }
+  .ProviderText {
+    font-size: 23px;
+    line-height: 29px;
+  }
+  .WhiteCardHeading {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+  .WhiteCardText {
+    font-size: 14px;
+  }
+  .WhiteCardBtn {
+    font-size: 15px !important;
+  }
+  .WhiteCardBtnattend {
+    margin-top: 8rem !important;
+    font-size: 15px !important;
+  }
+  .WhiteCardBtnaccept {
+    font-size: 15px !important;
+  }
+  .VideoContainer {
+    width: 100% !important;
+    height: 320px !important;
+  }
+  .SupportText {
+    font-size: 25px;
+  }
+  .MainTextWebVersion {
+    font-size: 27px;
+    line-height: 29px;
+  }
+  .CommonPeragraphWeb {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .WorldText {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+.PaddingHomeScreen {
+  padding-left: 86px !important;
+}
+.PaddingfooterScreen {
+  padding-left: 93px !important;
+  padding-right: 90px !important;
+}
+.PaddingWorkCards {
+  padding-left: 93px !important;
+  padding-right: 110px !important;
+}
+.PaddingHomeSilder {
+  padding-right: 70px !important;
+}
+@media only screen and (min-width: 260px) and (max-width: 768px) {
+  .PaddingHomeScreen {
+    padding-left: 12px !important;
+  }
+  .PaddingfooterScreen {
+    padding-left: 23px !important;
+    padding-right: 15px !important;
+  }
+  .PaddingWorkCards {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-top: -17px;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2260px) {
+  .SwiperContainer {
+    width: 91.2% !important;
+    height: 550px !important;
+    right: 0 !important;
+    margin-right: 100px !important;
+    margin-left: 75px !important;
+  }
+}
+@media only screen and (min-width: 2250px) and (max-width: 2600px) {
+  .SwiperContainer {
+    width: 94.3% !important;
+    height: 550px !important;
+    right: 0 !important;
+    margin-right: 100px !important;
+    margin-left: 87px !important;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2600px) {
+  .PaddingHomeScreen {
+    padding-left: 93px !important;
+  }
+  .LearnMoreCardImage {
+    width: 100%;
+    height: 410px;
+  }
+  .VideoContainer {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  .CardPicture {
+    width: 100%;
+    height: 310px;
+  }
+  .PaddingWorkCards {
+    padding-left: 102px !important;
+    padding-right: 102px !important;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1700px) {
+  .PaddingHomeScreen {
+    padding-left: 82px !important;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 1300px) {
+  .PaddingHomeScreen {
+    padding-left: 58px !important;
+  }
+  .PaddingfooterScreen {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+  .PaddingWorkCards {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+  .SwiperContainer {
+    width: 88.5% !important;
+    height: 550px !important;
+    right: 0 !important;
+    margin-right: 100px !important;
+    margin-left: 46px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .WhiteCardContainer1 {
+    padding: 35px 12px 30px 12px;
+    min-height: 19rem;
+  }
+  .WhiteCardContainer {
+    padding: 35px 12px 35px 12px;
+    min-height: 19rem;
+  }
+  .WhiteCardHeading {
+    height: 50px;
+  }
+  .marginBottomHeading {
+    margin-bottom: -25px !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 550px) {
+  .WhiteCardContainer1 {
+    padding: 35px 12px 30px 12px;
+    min-height: 16rem !important;
+  }
+  .WhiteCardContainer {
+    padding: 35px 12px 35px 12px;
+    min-height: 16rem !important;
+  }
+  .WhiteCardHeading {
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .MainText {
+    text-align: center;
+  }
+  .ExpertsSlideText {
+    text-align: center;
+    font-size: 13px;
+  }
+  .flexCenterbutton {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .SliderHeight {
+    width: 100% !important;
+  }
+  .SliderHeight:hover {
+    border-bottom: 7px solid #007fff !important;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 2400px) {
+  .SliderHeight {
+    width: 94% !important;
+  }
+  .SliderHeight:hover {
+    border-bottom: 7px solid #007fff !important;
+  }
+}

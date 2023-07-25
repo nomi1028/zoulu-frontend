@@ -1,0 +1,234 @@
+.ChatHeading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-left: 20px;
+  letter-spacing: 0.075em;
+  color: #0a0425;
+}
+.ChatLeftPadding {
+  padding: 25px 15px 30px 15px;
+}
+.DisplaSpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.PersonName {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #30d5c8;
+}
+.PersonNameUnactiveUnactive {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: black;
+}
+.ChatDate {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  color: #90a0b7;
+}
+.LastMessage {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #90a0b7;
+}
+.NotificationDiv {
+  background-color: #30d5c8;
+  padding: 0px 8px 1px 8px;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.ProfileLeftImage {
+  width: 30px;
+  height: 30px;
+}
+.WidthLeft {
+  width: 10%;
+}
+.DashSearch {
+  margin-top: 20px !important;
+  width: 400px !important;
+  border-bottom: none !important;
+  background-color: white !important;
+}
+.WidthRight {
+  width: 87%;
+}
+.Devider {
+  height: 2px;
+  border-bottom: 2px solid #ebeff2;
+  width: 100%;
+}
+.ChatLeftCard {
+  overflow-y: scroll;
+  max-height: 580px;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+}
+.ProfilePicture {
+  width: 50px;
+  height: 50px;
+}
+.ChatHeader {
+  padding: 15px;
+}
+.MessageWholePadding {
+  padding: 10px 60px 0px 24px;
+}
+.ChatPersonName {
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #30d5c8;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.ActiveStatus {
+  font-family: Playfair Display;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.075em;
+  color: #8c949f;
+  padding-top: 7px;
+}
+.MessageDiv {
+  background-color: #dff5f4;
+  border: 1px solid transparent;
+  padding: 10px 20px 15px 10px;
+  width: 30rem;
+  margin-left: 40px;
+  margin-top: -24px;
+}
+.RightMessageDiv {
+  background-color: #fdfaf4;
+  border: 1px solid transparent;
+  padding: 10px 20px 15px 10px;
+  width: 30rem;
+  margin-right: 40px;
+  margin-top: -24px;
+}
+.PlayArrowRight {
+  transform: rotate(238deg);
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  color: #fdfaf4;
+  font-size: 50px;
+}
+.SetPosition {
+  position: relative;
+}
+.PlayArrow {
+  transform: rotate(56deg);
+  position: absolute;
+  left: 8px;
+  top: 3px;
+  color: #dff5f4;
+  font-size: 50px;
+}
+.MessageTime {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0em;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ActiveDiv {
+  width: 11px;
+  position: absolute;
+  height: 11px;
+  top: 3px;
+  left: 40px;
+  background-color: #2ed47a;
+  border-radius: 10px;
+}
+.Revese {
+  flex-direction: row-reverse;
+}
+.ChatScroller {
+  max-height: 400px !important;
+  min-height: 400px;
+  overflow-y: scroll;
+  padding-bottom: 8rem;
+}
+.ChatCard {
+  background-color: white !important;
+  padding: 10px;
+  box-shadow: 1px 3px 17px 0px #b6b4cc;
+  border-radius: 10px;
+}
+.WidthSendDiv {
+  padding-right: 30px;
+  width: 30%;
+}
+.RutateSend {
+  transform: rotate(-40deg);
+  margin-top: -4px;
+}
+.SendButton {
+  background-color: #30d5c8 !important;
+  color: white;
+  width: 100px;
+}
+.RutateRemove {
+  transform: rotate(90deg);
+  font-size: 41px;
+  font-weight: 200 !important;
+  color: #8c949f !important;
+}
+.TypeMEssage {
+  border: none !important;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #8c949f;
+  padding: 10px !important;
+}
+.BorderTop {
+  border-top: 2px solid rgb(175, 175, 175);
+}
+@media (max-width: 1199px) {
+  .ChatCard {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .WidthSendDiv {
+    padding-right: 0px;
+  }
+  .DashSearch {
+    width: 200px;
+  }
+}
+.MessageInput {
+  padding-left: 20px !important;
+  padding-bottom: 10px;
+}
+.ColorSend {
+  color: #8c949f !important;
+}
